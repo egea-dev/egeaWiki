@@ -10,6 +10,12 @@ editor: markdown
 
 Cada manual es independiente. Se publican en el orden de trabajo, pero sus rutas no cambian cuando se añadan manuales nuevos.
 
+### Consulta de terceros y documentación asociada
+
+[Consultar terceros y documentación asociada](/simgest/operativa/gestion-terceros-clientes-proveedores)
+
+Manual visual para localizar terceros, revisar sus fichas, direcciones y documentación asociada.
+
 ### Presupuestos y ofertas
 
 [Crear un presupuesto en SIMGEST](/simgest/operativa/presupuestos)

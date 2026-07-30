@@ -89,4 +89,4 @@ El pedido a proveedor se genera cuando el sistema detecta necesidades de materia
 
 ---
 
-[← 8. Trabajar con tarifas de proveedor](/assets/simgest/operativa/08-tarifas-proveedor) · [Índice](/simgest) · [10. Recibir mercancía de proveedor →](/assets/simgest/operativa/10-recepcion-mercancia)
+[← 8. Trabajar con tarifas de proveedor](/simgest/operativa/08-tarifas-proveedor) · [Índice](/simgest) · [10. Recibir mercancía de proveedor →](/simgest/operativa/10-recepcion-mercancia)

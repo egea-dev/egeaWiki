@@ -59,4 +59,4 @@ Algunos productos no son una simple línea de compra. Pueden tener medidas, vari
 
 ---
 
-[← 5. Generar el PDF del presupuesto](/assets/simgest/operativa/05-generar-pdf) · [Índice](/simgest) · [7. Revisar ficha de artículo y escandallo →](/assets/simgest/operativa/07-ficha-articulo-escandallo)
+[← 5. Generar el PDF del presupuesto](/simgest/operativa/05-generar-pdf) · [Índice](/simgest) · [7. Revisar ficha de artículo y escandallo →](/simgest/operativa/07-ficha-articulo-escandallo)

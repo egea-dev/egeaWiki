@@ -121,4 +121,4 @@ Cuando se duplica un artículo, el sistema puede preguntar si se desea duplicar 
 
 ---
 
-[← 7. Revisar ficha de artículo y escandallo](/assets/simgest/operativa/07-ficha-articulo-escandallo) · [Índice](/simgest) · [9. Generar pedidos a proveedor →](/assets/simgest/operativa/09-pedidos-proveedor)
+[← 7. Revisar ficha de artículo y escandallo](/simgest/operativa/07-ficha-articulo-escandallo) · [Índice](/simgest) · [9. Generar pedidos a proveedor →](/simgest/operativa/09-pedidos-proveedor)

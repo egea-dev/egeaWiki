@@ -2,22 +2,22 @@ title: Manual SIMGEST
 path: /simgest
 children:
   - title: Migración de Factusol a SIMGEST
-    path: /simgest/00-migracion-factusol
+    path: /simgest/migracion
     children:
       - title: "1. Cuentas Contables: Configuración Inicial"
-        path: /simgest/00-migracion-factusol/01-cuentas-contables
+        path: /simgest/migracion/01-cuentas-contables
       - title: "2. Mapeo de Formas de Pago"
-        path: /simgest/00-migracion-factusol/02-mapeo-formas-pago
+        path: /simgest/migracion/02-mapeo-formas-pago
       - title: "3. Mapeo de Localidades (El proceso más complejo)"
-        path: /simgest/00-migracion-factusol/03-mapeo-localidades
+        path: /simgest/migracion/03-mapeo-localidades
       - title: "4. Creación de una Nueva Localidad en Simgest (Paso a paso)"
-        path: /simgest/00-migracion-factusol/04-crear-localidad
-      - title: "5. Procedimiento de Fallback: Localidad "Desconocida""
-        path: /simgest/00-migracion-factusol/05-localidad-desconocida
+        path: /simgest/migracion/04-crear-localidad
+      - title: '5. Procedimiento de Fallback: Localidad "Desconocida"'
+        path: /simgest/migracion/05-localidad-desconocida
       - title: "6. Proceso de Revisión Post-Migración"
-        path: /simgest/00-migracion-factusol/06-revision-post-migracion
+        path: /simgest/migracion/06-revision-post-migracion
       - title: "7. Notas y Advertencias Importantes"
-        path: /simgest/00-migracion-factusol/07-notas-advertencias
+        path: /simgest/migracion/07-notas-advertencias
   - title: Operativa SIMGEST
     path: /simgest/operativa
     children:

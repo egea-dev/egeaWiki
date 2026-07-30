@@ -30,4 +30,4 @@ Segmento de referencia: minutos 12:00 a 34:00
 
 ---
 
-[← 6. Proceso de Revisión Post-Migración](/simgest/00-migracion-factusol/06-revision-post-migracion) · [Índice](/simgest) · [Inicio →](/simgest)
+[← 6. Proceso de Revisión Post-Migración](/simgest/migracion/06-revision-post-migracion) · [Índice](/simgest) · [Inicio →](/simgest)

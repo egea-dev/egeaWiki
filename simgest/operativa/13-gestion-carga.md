@@ -52,4 +52,4 @@ La gestión de carga ayuda a preparar expediciones, bultos, peso, palés, import
 
 ---
 
-[← 12. Configurar columnas visibles](/assets/simgest/operativa/12-columnas-visibles) · [Índice](/simgest) · [14. Checklist final para trabajadores →](/assets/simgest/operativa/14-checklists)
+[← 12. Configurar columnas visibles](/simgest/operativa/12-columnas-visibles) · [Índice](/simgest) · [14. Checklist final para trabajadores →](/simgest/operativa/14-checklists)

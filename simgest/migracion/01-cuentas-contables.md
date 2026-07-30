@@ -129,4 +129,4 @@ editor: markdown
 
 ---
 
-[← 15. Errores habituales y cómo evitarlos](/assets/simgest/operativa/15-errores-habituales) · [Índice](/simgest) · [2. Mapeo de Formas de Pago →](/simgest/00-migracion-factusol/02-mapeo-formas-pago)
+[← 15. Errores habituales y cómo evitarlos](/simgest/operativa/15-errores-habituales) · [Índice](/simgest) · [2. Mapeo de Formas de Pago →](/simgest/migracion/02-mapeo-formas-pago)

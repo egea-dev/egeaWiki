@@ -64,4 +64,4 @@ Después de revisar la oferta, se genera el presupuesto en PDF. El PDF es el doc
 
 ---
 
-[← 4. Revisar el presupuesto antes de emitirlo](/assets/simgest/operativa/04-revision-presupuesto) · [Índice](/simgest) · [6. Configurar artículos, variantes y escandallos →](/assets/simgest/operativa/06-articulos-variantes-escandallos)
+[← 4. Revisar el presupuesto antes de emitirlo](/simgest/operativa/04-revision-presupuesto) · [Índice](/simgest) · [6. Configurar artículos, variantes y escandallos →](/simgest/operativa/06-articulos-variantes-escandallos)

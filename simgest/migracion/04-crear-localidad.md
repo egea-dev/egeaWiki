@@ -219,4 +219,4 @@ Procedimiento:
 
 ---
 
-[← 3. Mapeo de Localidades (El proceso más complejo)](/simgest/00-migracion-factusol/03-mapeo-localidades) · [Índice](/simgest) · [5. Procedimiento de Fallback: Localidad "Desconocida" →](/simgest/00-migracion-factusol/05-localidad-desconocida)
+[← 3. Mapeo de Localidades (El proceso más complejo)](/simgest/migracion/03-mapeo-localidades) · [Índice](/simgest) · [5. Procedimiento de Fallback: Localidad "Desconocida" →](/simgest/migracion/05-localidad-desconocida)

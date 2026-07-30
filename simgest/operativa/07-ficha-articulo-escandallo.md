@@ -98,4 +98,4 @@ En la pantalla de composición se revisa cómo se descompone el semielaborado. E
 
 ---
 
-[← 6. Configurar artículos, variantes y escandallos](/assets/simgest/operativa/06-articulos-variantes-escandallos) · [Índice](/simgest) · [8. Trabajar con tarifas de proveedor →](/assets/simgest/operativa/08-tarifas-proveedor)
+[← 6. Configurar artículos, variantes y escandallos](/simgest/operativa/06-articulos-variantes-escandallos) · [Índice](/simgest) · [8. Trabajar con tarifas de proveedor →](/simgest/operativa/08-tarifas-proveedor)

@@ -168,4 +168,4 @@ editor: markdown
 
 ---
 
-[← 2. Mapeo de Formas de Pago](/simgest/00-migracion-factusol/02-mapeo-formas-pago) · [Índice](/simgest) · [4. Creación de una Nueva Localidad en Simgest (Paso a paso) →](/simgest/00-migracion-factusol/04-crear-localidad)
+[← 2. Mapeo de Formas de Pago](/simgest/migracion/02-mapeo-formas-pago) · [Índice](/simgest) · [4. Creación de una Nueva Localidad en Simgest (Paso a paso) →](/simgest/migracion/04-crear-localidad)

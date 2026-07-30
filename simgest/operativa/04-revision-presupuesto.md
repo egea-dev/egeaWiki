@@ -109,4 +109,4 @@ Antes de generar el PDF o confirmar una oferta, se debe hacer una revisión comp
 
 ---
 
-[← 3. Seleccionar condiciones y forma de pago](/assets/simgest/operativa/03-formas-de-pago) · [Índice](/simgest) · [5. Generar el PDF del presupuesto →](/assets/simgest/operativa/05-generar-pdf)
+[← 3. Seleccionar condiciones y forma de pago](/simgest/operativa/03-formas-de-pago) · [Índice](/simgest) · [5. Generar el PDF del presupuesto →](/simgest/operativa/05-generar-pdf)

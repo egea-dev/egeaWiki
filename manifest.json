@@ -85,37 +85,37 @@
       "group": "Operativa"
     },
     {
-      "route": "/simgest/00-migracion-factusol/01-cuentas-contables",
+      "route": "/simgest/migracion/01-cuentas-contables",
       "title": "1. Cuentas Contables: Configuración Inicial",
       "group": "Migración"
     },
     {
-      "route": "/simgest/00-migracion-factusol/02-mapeo-formas-pago",
+      "route": "/simgest/migracion/02-mapeo-formas-pago",
       "title": "2. Mapeo de Formas de Pago",
       "group": "Migración"
     },
     {
-      "route": "/simgest/00-migracion-factusol/03-mapeo-localidades",
+      "route": "/simgest/migracion/03-mapeo-localidades",
       "title": "3. Mapeo de Localidades (El proceso más complejo)",
       "group": "Migración"
     },
     {
-      "route": "/simgest/00-migracion-factusol/04-crear-localidad",
+      "route": "/simgest/migracion/04-crear-localidad",
       "title": "4. Creación de una Nueva Localidad en Simgest (Paso a paso)",
       "group": "Migración"
     },
     {
-      "route": "/simgest/00-migracion-factusol/05-localidad-desconocida",
+      "route": "/simgest/migracion/05-localidad-desconocida",
       "title": "5. Procedimiento de Fallback: Localidad \"Desconocida\"",
       "group": "Migración"
     },
     {
-      "route": "/simgest/00-migracion-factusol/06-revision-post-migracion",
+      "route": "/simgest/migracion/06-revision-post-migracion",
       "title": "6. Proceso de Revisión Post-Migración",
       "group": "Migración"
     },
     {
-      "route": "/simgest/00-migracion-factusol/07-notas-advertencias",
+      "route": "/simgest/migracion/07-notas-advertencias",
       "title": "7. Notas y Advertencias Importantes",
       "group": "Migración"
     }

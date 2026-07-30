@@ -152,4 +152,4 @@ Una vez completada la migración, el equipo de Productivity Egea será responsab
 
 ---
 
-[← 5. Procedimiento de Fallback: Localidad "Desconocida"](/simgest/00-migracion-factusol/05-localidad-desconocida) · [Índice](/simgest) · [7. Notas y Advertencias Importantes →](/simgest/00-migracion-factusol/07-notas-advertencias)
+[← 5. Procedimiento de Fallback: Localidad "Desconocida"](/simgest/migracion/05-localidad-desconocida) · [Índice](/simgest) · [7. Notas y Advertencias Importantes →](/simgest/migracion/07-notas-advertencias)

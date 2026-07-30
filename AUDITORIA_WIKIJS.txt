@@ -11,6 +11,7 @@ El repositorio contenía 25 páginas Markdown bajo `simgest/`, 39 capturas PNG b
 - Se corrigieron los enlaces de páginas operativas a `/simgest/operativa/...`.
 - Se conservaron el front matter YAML y los marcadores HTML editoriales: son comentarios invisibles en Markdown y no alteran la vista de Wiki.js.
 - Se añadieron validadores de contenido, enlaces y assets, un workflow de PR, `.gitattributes` y un manifiesto regenerable.
+- Los documentos de soporte de la raíz se entregan como `.txt`, no como Markdown, porque Wiki.js importa todos los archivos Markdown del repositorio durante **Import Everything** y no permite restringir la sincronización a una subcarpeta.
 
 ## Validación realizada
 
@@ -19,5 +20,5 @@ Los validadores locales comprueban UTF-8, un H1 por página, jerarquía de encab
 ## Riesgos y decisiones pendientes
 
 - La configuración exacta de almacenamiento y credenciales debe realizarla el administrador de Wiki.js; este cambio no actúa sobre el servidor.
-- Wiki.js puede interpretar Markdown fuera de `simgest/` según su configuración de sincronización. Configure el destino del almacenamiento para publicar únicamente el árbol de contenido indicado y confirme el resultado con una importación de prueba.
+- Wiki.js procesa el repositorio completo; por ello, `simgest/` es el único árbol con Markdown. Los documentos de soporte no se importan porque usan extensión `.txt`.
 - Los procedimientos describen el ERP tal como se entregaron. Las afirmaciones funcionales, permisos, menús y resultados operativos deben ser validados por Hacchi antes del merge.

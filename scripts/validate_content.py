@@ -17,6 +17,13 @@ def issue(path: Path, line: int, message: str) -> None:
 
 def main() -> int:
     errors = 0
+    # Wiki.js Git importa el repositorio completo y no admite limitarlo a una
+    # subcarpeta. Solo el manual puede conservar extensión Markdown.
+    for path in sorted(ROOT.rglob("*.md")):
+        if path == ROOT / "PROMPT_CODEX_EGEAWIKI.md" or PAGES in path.parents:
+            continue
+        issue(path, 1, "Markdown fuera de simgest/ se importaría como página de Wiki.js")
+        errors += 1
     for path in sorted(PAGES.rglob("*.md")):
         try:
             text = path.read_text(encoding="utf-8")

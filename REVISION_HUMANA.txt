@@ -4,5 +4,5 @@
 - Revisar especialmente introducción, presupuestos, tarifas/compras y recepción contra una instalación real.
 - Confirmar que la secuencia de migración Factusol → SIMGEST aplica a los datos de Proyecto Catorce.
 - Revisar cada captura para verificar que no contiene datos personales, comerciales o credenciales que no deban publicarse.
-- Tras la importación de prueba, confirmar que Wiki.js no publica documentos de soporte situados fuera de `simgest/`.
+- Tras la importación de prueba, confirmar que Wiki.js publica exclusivamente las 25 páginas Markdown de `simgest/`.
 - Confirmar con el administrador si la sincronización debe ser bidireccional y quién custodia la clave o token de escritura.

@@ -6,6 +6,6 @@ Paquete preparado para el repositorio:
 
 El contenido publicable está en `simgest/` y sus capturas en `assets/simgest/`.
 
-Consulta [README_DEPLOY_WIKIJS.md](README_DEPLOY_WIKIJS.md) para configurar, importar, sincronizar y recuperar el contenido en Wiki.js 2.x.
+Consulta README_DEPLOY_WIKIJS.txt para configurar, importar, sincronizar y recuperar el contenido en Wiki.js 2.x.
 
 Antes de publicar cambios, ejecuta los validadores de `scripts/`.

@@ -1,5 +1,6 @@
 # Revisión humana antes del merge
 
+- Comprobar en Wiki.js que el título visible se muestra una sola vez y que el cuerpo comienza directamente por su primer apartado.
 - Confirmar en SIMGEST que los nombres de menús, campos y pasos siguen vigentes.
 - Revisar especialmente introducción, presupuestos, tarifas/compras y recepción contra una instalación real.
 - Confirmar que la secuencia de migración Factusol → SIMGEST aplica a los datos de Proyecto Catorce.

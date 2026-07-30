@@ -1,25 +1,26 @@
 ---
-title: 4. Creación de una Nueva Localidad en Simgest (Paso a paso)
-description: Migración Factusol a SIMGEST: 4. Creación de una Nueva Localidad en Simgest (Paso a paso)
+title: "4. Creación de una Nueva Localidad en Simgest (Paso a paso)"
+description: "Migración Factusol a SIMGEST: 4. Creación de una Nueva Localidad en Simgest (Paso a paso)"
 published: true
-tags: simgest, migracion, factusol
+tags:
+  - simgest
+  - migracion
+  - factusol
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 4. Creación de una Nueva Localidad en Simgest (Paso a paso)
 
-[![Tabla de provincias y asignación de país](/assets/simgest/migracion/mig_05_tabla_provincias.png)](/assets/simgest/migracion/mig_05_tabla_provincias.png)
+<a href="/assets/simgest/migracion/mig_05_tabla_provincias.png"><img src="/assets/simgest/migracion/mig_05_tabla_provincias.png" alt="Tabla de provincias y asignación de país" style="width: 80%; height: auto;" /></a>
 
 *Tabla de provincias y asignación de país. Pulsa la imagen para abrirla a tamaño completo.*
 
-[![Ficha para crear una nueva localidad](/assets/simgest/migracion/mig_06_ficha_localidad.png)](/assets/simgest/migracion/mig_06_ficha_localidad.png)
+<a href="/assets/simgest/migracion/mig_06_ficha_localidad.png"><img src="/assets/simgest/migracion/mig_06_ficha_localidad.png" alt="Ficha para crear una nueva localidad" style="width: 80%; height: auto;" /></a>
 
 *Ficha para crear una nueva localidad. Pulsa la imagen para abrirla a tamaño completo.*
 
-[![Asignación de localidad, provincia y país al tercero](/assets/simgest/migracion/mig_07_asignar_localidad_tercero.png)](/assets/simgest/migracion/mig_07_asignar_localidad_tercero.png)
+<a href="/assets/simgest/migracion/mig_07_asignar_localidad_tercero.png"><img src="/assets/simgest/migracion/mig_07_asignar_localidad_tercero.png" alt="Asignación de localidad, provincia y país al tercero" style="width: 80%; height: auto;" /></a>
 
 *Asignación de localidad, provincia y país al tercero. Pulsa la imagen para abrirla a tamaño completo.*
 

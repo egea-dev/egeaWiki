@@ -1,17 +1,18 @@
 ---
-title: 5. Procedimiento de Fallback: Localidad "Desconocida"
-description: Migración Factusol a SIMGEST: 5. Procedimiento de Fallback: Localidad "Desconocida"
+title: "5. Procedimiento de Fallback: Localidad \"Desconocida"
+description: "Migración Factusol a SIMGEST: 5. Procedimiento de Fallback: Localidad \"Desconocida"
 published: true
-tags: simgest, migracion, factusol
+tags:
+  - simgest
+  - migracion
+  - factusol
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 5. Procedimiento de Fallback: Localidad "Desconocida"
 
-[![Selección de la localidad DESCONOCIDA como solución temporal](/assets/simgest/migracion/mig_08_localidad_desconocida.png)](/assets/simgest/migracion/mig_08_localidad_desconocida.png)
+<a href="/assets/simgest/migracion/mig_08_localidad_desconocida.png"><img src="/assets/simgest/migracion/mig_08_localidad_desconocida.png" alt="Selección de la localidad DESCONOCIDA como solución temporal" style="width: 80%; height: auto;" /></a>
 
 *Selección de la localidad DESCONOCIDA como solución temporal. Pulsa la imagen para abrirla a tamaño completo.*
 

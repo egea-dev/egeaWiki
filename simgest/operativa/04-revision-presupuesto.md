@@ -1,19 +1,20 @@
 ---
-title: 4. Revisar el presupuesto antes de emitirlo
-description: Manual operativo SIMGEST: 4. Revisar el presupuesto antes de emitirlo
+title: "4. Revisar el presupuesto antes de emitirlo"
+description: "Manual operativo SIMGEST: 4. Revisar el presupuesto antes de emitirlo"
 published: true
-tags: simgest, manual, operativa
+tags:
+  - simgest
+  - manual
+  - operativa
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 4. Revisar el presupuesto antes de emitirlo
 
 Antes de generar el PDF o confirmar una oferta, se debe hacer una revisión completa. Esta revisión evita errores de cliente, precio, unidades, IVA o artículos.
 
-[![Revisión de datos del cliente, proyecto, fechas y tabla inferior](/assets/simgest/operativa/cap_03_revision_presupuesto.png)](/assets/simgest/operativa/cap_03_revision_presupuesto.png)
+<a href="/assets/simgest/operativa/cap_03_revision_presupuesto.png"><img src="/assets/simgest/operativa/cap_03_revision_presupuesto.png" alt="Revisión de datos del cliente, proyecto, fechas y tabla inferior" style="width: 80%; height: auto;" /></a>
 
 *Revisión de datos del cliente, proyecto, fechas y tabla inferior. Pulsa la imagen para abrirla a tamaño completo.*
 

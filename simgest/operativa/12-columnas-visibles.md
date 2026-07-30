@@ -1,19 +1,20 @@
 ---
-title: 12. Configurar columnas visibles
-description: Manual operativo SIMGEST: 12. Configurar columnas visibles
+title: "12. Configurar columnas visibles"
+description: "Manual operativo SIMGEST: 12. Configurar columnas visibles"
 published: true
-tags: simgest, manual, operativa
+tags:
+  - simgest
+  - manual
+  - operativa
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 12. Configurar columnas visibles
 
 El sistema permite mostrar u ocultar columnas. Esto es útil cuando no se ve un dato necesario, por ejemplo precio, stock, IVA, descuento o entrega.
 
-[![Menú de columnas visibles](/assets/simgest/operativa/cap_23_columnas_visibles.png)](/assets/simgest/operativa/cap_23_columnas_visibles.png)
+<a href="/assets/simgest/operativa/cap_23_columnas_visibles.png"><img src="/assets/simgest/operativa/cap_23_columnas_visibles.png" alt="Menú de columnas visibles" style="width: 80%; height: auto;" /></a>
 
 *Menú de columnas visibles. Pulsa la imagen para abrirla a tamaño completo.*
 

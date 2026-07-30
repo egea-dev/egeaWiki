@@ -1,27 +1,28 @@
 ---
-title: 2. Crear un presupuesto / oferta de cliente desde cero
-description: Manual operativo SIMGEST: 2. Crear un presupuesto / oferta de cliente desde cero
+title: "2. Crear un presupuesto / oferta de cliente desde cero"
+description: "Manual operativo SIMGEST: 2. Crear un presupuesto / oferta de cliente desde cero"
 published: true
-tags: simgest, manual, operativa
+tags:
+  - simgest
+  - manual
+  - operativa
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 2. Crear un presupuesto / oferta de cliente desde cero
 
 ## Apoyo visual inicial
 
-[![Acceso y apertura de la pantalla de oferta/proforma](/assets/simgest/operativa/cap_s2_abrir_oferta.png)](/assets/simgest/operativa/cap_s2_abrir_oferta.png)
+<a href="/assets/simgest/operativa/cap_s2_abrir_oferta.png"><img src="/assets/simgest/operativa/cap_s2_abrir_oferta.png" alt="Acceso y apertura de la pantalla de oferta/proforma" style="width: 80%; height: auto;" /></a>
 
 *Acceso y apertura de la pantalla de oferta/proforma. Pulsa la imagen para abrirla a tamaño completo.*
 
-[![Detalle de la cabecera del presupuesto](/assets/simgest/operativa/cap_s2_cabecera_detalle.png)](/assets/simgest/operativa/cap_s2_cabecera_detalle.png)
+<a href="/assets/simgest/operativa/cap_s2_cabecera_detalle.png"><img src="/assets/simgest/operativa/cap_s2_cabecera_detalle.png" alt="Detalle de la cabecera del presupuesto" style="width: 80%; height: auto;" /></a>
 
 *Detalle de la cabecera del presupuesto. Pulsa la imagen para abrirla a tamaño completo.*
 
-[![Zona de notas y líneas del presupuesto](/assets/simgest/operativa/cap_s2_notas_lineas.png)](/assets/simgest/operativa/cap_s2_notas_lineas.png)
+<a href="/assets/simgest/operativa/cap_s2_notas_lineas.png"><img src="/assets/simgest/operativa/cap_s2_notas_lineas.png" alt="Zona de notas y líneas del presupuesto" style="width: 80%; height: auto;" /></a>
 
 *Zona de notas y líneas del presupuesto. Pulsa la imagen para abrirla a tamaño completo.*
 
@@ -29,7 +30,7 @@ editor: markdown
 
 En SIMGEST el presupuesto aparece como una “Oferta/Proforma de Cliente”. La pantalla se divide en tres zonas: cabecera de datos, panel de notas y tabla inferior de líneas de artículos.
 
-[![Pantalla principal de oferta/proforma con cabecera, notas y líneas](/assets/simgest/operativa/cap_01_oferta_proforma.png)](/assets/simgest/operativa/cap_01_oferta_proforma.png)
+<a href="/assets/simgest/operativa/cap_01_oferta_proforma.png"><img src="/assets/simgest/operativa/cap_01_oferta_proforma.png" alt="Pantalla principal de oferta/proforma con cabecera, notas y líneas" style="width: 80%; height: auto;" /></a>
 
 *Pantalla principal de oferta/proforma con cabecera, notas y líneas. Pulsa la imagen para abrirla a tamaño completo.*
 

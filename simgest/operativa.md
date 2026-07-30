@@ -1,12 +1,12 @@
 ---
-title: Operativa SIMGEST
-description: Índice de módulos operativos
+title: "Operativa SIMGEST"
+description: "Índice de módulos operativos"
 published: true
-tags: simgest, operativa
+tags:
+  - simgest
+  - operativa
 editor: markdown
 ---
-
-# Operativa SIMGEST
 
 Módulos operativos para presupuestos, artículos, compras, recepción y logística.
 

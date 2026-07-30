@@ -1,12 +1,12 @@
 ---
-title: Migración de Factusol a SIMGEST
-description: Índice de procedimientos de migración
+title: "Migración de Factusol a SIMGEST"
+description: "Índice de procedimientos de migración"
 published: true
-tags: simgest, migracion
+tags:
+  - simgest
+  - migracion
 editor: markdown
 ---
-
-# Migración de Factusol a SIMGEST
 
 Estos procedimientos deben realizarse antes de comenzar la operativa diaria en SIMGEST.
 

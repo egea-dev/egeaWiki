@@ -1,21 +1,22 @@
 ---
-title: 1. Cuentas Contables: Configuración Inicial
-description: Migración Factusol a SIMGEST: 1. Cuentas Contables: Configuración Inicial
+title: "1. Cuentas Contables: Configuración Inicial"
+description: "Migración Factusol a SIMGEST: 1. Cuentas Contables: Configuración Inicial"
 published: true
-tags: simgest, migracion, factusol
+tags:
+  - simgest
+  - migracion
+  - factusol
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 1. Cuentas Contables: Configuración Inicial
 
-[![Listado de terceros para revisar códigos y datos migrados](/assets/simgest/migracion/mig_01_listado_terceros.png)](/assets/simgest/migracion/mig_01_listado_terceros.png)
+<a href="/assets/simgest/migracion/mig_01_listado_terceros.png"><img src="/assets/simgest/migracion/mig_01_listado_terceros.png" alt="Listado de terceros para revisar códigos y datos migrados" style="width: 80%; height: auto;" /></a>
 
 *Listado de terceros para revisar códigos y datos migrados. Pulsa la imagen para abrirla a tamaño completo.*
 
-[![Identificación del tercero, códigos y cuenta contable](/assets/simgest/migracion/mig_02_cuentas_codigos.png)](/assets/simgest/migracion/mig_02_cuentas_codigos.png)
+<a href="/assets/simgest/migracion/mig_02_cuentas_codigos.png"><img src="/assets/simgest/migracion/mig_02_cuentas_codigos.png" alt="Identificación del tercero, códigos y cuenta contable" style="width: 80%; height: auto;" /></a>
 
 *Identificación del tercero, códigos y cuenta contable. Pulsa la imagen para abrirla a tamaño completo.*
 

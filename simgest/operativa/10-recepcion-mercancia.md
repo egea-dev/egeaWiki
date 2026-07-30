@@ -1,19 +1,20 @@
 ---
-title: 10. Recibir mercancía de proveedor
-description: Manual operativo SIMGEST: 10. Recibir mercancía de proveedor
+title: "10. Recibir mercancía de proveedor"
+description: "Manual operativo SIMGEST: 10. Recibir mercancía de proveedor"
 published: true
-tags: simgest, manual, operativa
+tags:
+  - simgest
+  - manual
+  - operativa
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 10. Recibir mercancía de proveedor
 
 Cuando llega mercancía, hay que registrar la recepción. Esta acción actualiza el estado de lo recibido y lo pendiente.
 
-[![Recepción de pedidos de proveedor](/assets/simgest/operativa/cap_17_recepcion_pedidos_proveedor.png)](/assets/simgest/operativa/cap_17_recepcion_pedidos_proveedor.png)
+<a href="/assets/simgest/operativa/cap_17_recepcion_pedidos_proveedor.png"><img src="/assets/simgest/operativa/cap_17_recepcion_pedidos_proveedor.png" alt="Recepción de pedidos de proveedor" style="width: 80%; height: auto;" /></a>
 
 *Recepción de pedidos de proveedor. Pulsa la imagen para abrirla a tamaño completo.*
 
@@ -72,23 +73,23 @@ Cuando llega mercancía, hay que registrar la recepción. Esta acción actualiza
 
 ## Apoyo visual ampliado
 
-[![Registro de cantidades reales en la columna Recibir](/assets/simgest/operativa/cap_18_introducir_recibir.png)](/assets/simgest/operativa/cap_18_introducir_recibir.png)
+<a href="/assets/simgest/operativa/cap_18_introducir_recibir.png"><img src="/assets/simgest/operativa/cap_18_introducir_recibir.png" alt="Registro de cantidades reales en la columna Recibir" style="width: 80%; height: auto;" /></a>
 
 *Registro de cantidades reales en la columna Recibir. Pulsa la imagen para abrirla a tamaño completo.*
 
-[![Recepción parcial: el resto queda pendiente](/assets/simgest/operativa/cap_19_recepcion_parcial.png)](/assets/simgest/operativa/cap_19_recepcion_parcial.png)
+<a href="/assets/simgest/operativa/cap_19_recepcion_parcial.png"><img src="/assets/simgest/operativa/cap_19_recepcion_parcial.png" alt="Recepción parcial: el resto queda pendiente" style="width: 80%; height: auto;" /></a>
 
 *Recepción parcial: el resto queda pendiente. Pulsa la imagen para abrirla a tamaño completo.*
 
-[![Reclamación de pedido fuera de plazo](/assets/simgest/operativa/cap_20_reclamacion_pedido.png)](/assets/simgest/operativa/cap_20_reclamacion_pedido.png)
+<a href="/assets/simgest/operativa/cap_20_reclamacion_pedido.png"><img src="/assets/simgest/operativa/cap_20_reclamacion_pedido.png" alt="Reclamación de pedido fuera de plazo" style="width: 80%; height: auto;" /></a>
 
 *Reclamación de pedido fuera de plazo. Pulsa la imagen para abrirla a tamaño completo.*
 
-[![Albarán generado con las líneas recibidas](/assets/simgest/operativa/cap_21_albaran_generado.png)](/assets/simgest/operativa/cap_21_albaran_generado.png)
+<a href="/assets/simgest/operativa/cap_21_albaran_generado.png"><img src="/assets/simgest/operativa/cap_21_albaran_generado.png" alt="Albarán generado con las líneas recibidas" style="width: 80%; height: auto;" /></a>
 
 *Albarán generado con las líneas recibidas. Pulsa la imagen para abrirla a tamaño completo.*
 
-[![Revisión final del albarán del proveedor](/assets/simgest/operativa/cap_22_revision_albaran.png)](/assets/simgest/operativa/cap_22_revision_albaran.png)
+<a href="/assets/simgest/operativa/cap_22_revision_albaran.png"><img src="/assets/simgest/operativa/cap_22_revision_albaran.png" alt="Revisión final del albarán del proveedor" style="width: 80%; height: auto;" /></a>
 
 *Revisión final del albarán del proveedor. Pulsa la imagen para abrirla a tamaño completo.*
 

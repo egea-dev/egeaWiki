@@ -1,19 +1,20 @@
 ---
-title: 11. Consultar pedidos de cliente
-description: Manual operativo SIMGEST: 11. Consultar pedidos de cliente
+title: "11. Consultar pedidos de cliente"
+description: "Manual operativo SIMGEST: 11. Consultar pedidos de cliente"
 published: true
-tags: simgest, manual, operativa
+tags:
+  - simgest
+  - manual
+  - operativa
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 11. Consultar pedidos de cliente
 
 La pantalla de pedido de cliente permite ver pedidos ya grabados y sus líneas. Sirve para comprobar qué se ha pedido, qué artículos contiene y qué importes o unidades se han registrado.
 
-[![Pedido de cliente y líneas inferiores](/assets/simgest/operativa/cap_16_pedido_cliente.png)](/assets/simgest/operativa/cap_16_pedido_cliente.png)
+<a href="/assets/simgest/operativa/cap_16_pedido_cliente.png"><img src="/assets/simgest/operativa/cap_16_pedido_cliente.png" alt="Pedido de cliente y líneas inferiores" style="width: 80%; height: auto;" /></a>
 
 *Pedido de cliente y líneas inferiores. Pulsa la imagen para abrirla a tamaño completo.*
 

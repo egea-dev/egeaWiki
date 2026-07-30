@@ -60,8 +60,8 @@ def main() -> int:
                 issue(path, number, "título duplicado en la misma página")
                 errors += 1
             headings.add(title)
-        if h1 != 1:
-            issue(path, 1, f"debe contener un único H1; se encontraron {h1}")
+        if h1 != 0:
+            issue(path, 1, f"no debe contener H1; se encontraron {h1}")
             errors += 1
         if fenced:
             issue(path, len(lines), "bloque de código sin cerrar")

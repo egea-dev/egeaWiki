@@ -1,17 +1,18 @@
 ---
-title: 3. Mapeo de Localidades (El proceso más complejo)
-description: Migración Factusol a SIMGEST: 3. Mapeo de Localidades (El proceso más complejo)
+title: "3. Mapeo de Localidades (El proceso más complejo)"
+description: "Migración Factusol a SIMGEST: 3. Mapeo de Localidades (El proceso más complejo)"
 published: true
-tags: simgest, migracion, factusol
+tags:
+  - simgest
+  - migracion
+  - factusol
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 3. Mapeo de Localidades (El proceso más complejo)
 
-[![Ruta de acceso a países, provincias y localidades](/assets/simgest/migracion/mig_04_ruta_tablas_auxiliares.png)](/assets/simgest/migracion/mig_04_ruta_tablas_auxiliares.png)
+<a href="/assets/simgest/migracion/mig_04_ruta_tablas_auxiliares.png"><img src="/assets/simgest/migracion/mig_04_ruta_tablas_auxiliares.png" alt="Ruta de acceso a países, provincias y localidades" style="width: 80%; height: auto;" /></a>
 
 *Ruta de acceso a países, provincias y localidades. Pulsa la imagen para abrirla a tamaño completo.*
 

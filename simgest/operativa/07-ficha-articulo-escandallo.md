@@ -1,19 +1,20 @@
 ---
-title: 7. Revisar ficha de artículo y escandallo
-description: Manual operativo SIMGEST: 7. Revisar ficha de artículo y escandallo
+title: "7. Revisar ficha de artículo y escandallo"
+description: "Manual operativo SIMGEST: 7. Revisar ficha de artículo y escandallo"
 published: true
-tags: simgest, manual, operativa
+tags:
+  - simgest
+  - manual
+  - operativa
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 7. Revisar ficha de artículo y escandallo
 
 La ficha de artículo contiene los datos generales de la referencia. El escandallo contiene los componentes necesarios para fabricar o completar ese artículo.
 
-[![Ficha de artículo y componentes del escandallo](/assets/simgest/operativa/cap_06_ficha_escandallo.png)](/assets/simgest/operativa/cap_06_ficha_escandallo.png)
+<a href="/assets/simgest/operativa/cap_06_ficha_escandallo.png"><img src="/assets/simgest/operativa/cap_06_ficha_escandallo.png" alt="Ficha de artículo y componentes del escandallo" style="width: 80%; height: auto;" /></a>
 
 *Ficha de artículo y componentes del escandallo. Pulsa la imagen para abrirla a tamaño completo.*
 
@@ -57,7 +58,7 @@ La ficha de artículo contiene los datos generales de la referencia. El escandal
 
 <!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_8 -->
 
-[![Composición del semielaborado y variantes relacionadas](/assets/simgest/operativa/cap_07_semielaborado.png)](/assets/simgest/operativa/cap_07_semielaborado.png)
+<a href="/assets/simgest/operativa/cap_07_semielaborado.png"><img src="/assets/simgest/operativa/cap_07_semielaborado.png" alt="Composición del semielaborado y variantes relacionadas" style="width: 80%; height: auto;" /></a>
 
 *Composición del semielaborado y variantes relacionadas. Pulsa la imagen para abrirla a tamaño completo.*
 

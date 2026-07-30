@@ -1,19 +1,20 @@
 ---
-title: 6. Configurar artículos, variantes y escandallos
-description: Manual operativo SIMGEST: 6. Configurar artículos, variantes y escandallos
+title: "6. Configurar artículos, variantes y escandallos"
+description: "Manual operativo SIMGEST: 6. Configurar artículos, variantes y escandallos"
 published: true
-tags: simgest, manual, operativa
+tags:
+  - simgest
+  - manual
+  - operativa
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 6. Configurar artículos, variantes y escandallos
 
 Algunos productos no son una simple línea de compra. Pueden tener medidas, variantes, partes tapizables, telas, acabados y componentes. Esta parte la deben tocar solo usuarios autorizados o personas formadas.
 
-[![Partes tapizables y variantes del modelo](/assets/simgest/operativa/cap_05_partes_tapizables.png)](/assets/simgest/operativa/cap_05_partes_tapizables.png)
+<a href="/assets/simgest/operativa/cap_05_partes_tapizables.png"><img src="/assets/simgest/operativa/cap_05_partes_tapizables.png" alt="Partes tapizables y variantes del modelo" style="width: 80%; height: auto;" /></a>
 
 *Partes tapizables y variantes del modelo. Pulsa la imagen para abrirla a tamaño completo.*
 

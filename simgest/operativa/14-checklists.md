@@ -136,4 +136,4 @@ editor: markdown
 
 ---
 
-[← 13. Revisar gestión de carga y bultos](/assets/simgest/operativa/13-gestion-carga) · [Índice](/simgest) · [15. Errores habituales y cómo evitarlos →](/assets/simgest/operativa/15-errores-habituales)
+[← 13. Revisar gestión de carga y bultos](/simgest/operativa/13-gestion-carga) · [Índice](/simgest) · [15. Errores habituales y cómo evitarlos →](/simgest/operativa/15-errores-habituales)

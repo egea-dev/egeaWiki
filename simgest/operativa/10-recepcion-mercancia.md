@@ -97,4 +97,4 @@ Cuando llega mercancía, hay que registrar la recepción. Esta acción actualiza
 
 ---
 
-[← 9. Generar pedidos a proveedor](/assets/simgest/operativa/09-pedidos-proveedor) · [Índice](/simgest) · [11. Consultar pedidos de cliente →](/assets/simgest/operativa/11-pedidos-cliente)
+[← 9. Generar pedidos a proveedor](/simgest/operativa/09-pedidos-proveedor) · [Índice](/simgest) · [11. Consultar pedidos de cliente →](/simgest/operativa/11-pedidos-cliente)

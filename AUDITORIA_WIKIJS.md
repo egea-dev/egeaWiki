@@ -1,0 +1,23 @@
+# Auditoría Wiki.js — Manual SIMGEST
+
+## Estado encontrado
+
+El repositorio contenía 25 páginas Markdown bajo `simgest/`, 39 capturas PNG bajo `assets/simgest/` y front matter YAML homogéneo. La estructura era modular y ya tenía páginas índice, pero la ruta pública de migración era técnica (`00-migracion-factusol`) y los enlaces de la operativa apuntaban por error a `/assets/simgest/operativa/...`, una ruta de imágenes inexistente como página.
+
+## Cambios realizados
+
+- Se renombró `simgest/00-migracion-factusol` a `simgest/migracion`; no se eliminó contenido.
+- Se actualizaron navegación, manifestación previa y enlaces de migración a `/simgest/migracion/...`.
+- Se corrigieron los enlaces de páginas operativas a `/simgest/operativa/...`.
+- Se conservaron el front matter YAML y los marcadores HTML editoriales: son comentarios invisibles en Markdown y no alteran la vista de Wiki.js.
+- Se añadieron validadores de contenido, enlaces y assets, un workflow de PR, `.gitattributes` y un manifiesto regenerable.
+
+## Validación realizada
+
+Los validadores locales comprueban UTF-8, un H1 por página, jerarquía de encabezados, títulos duplicados, bloques de código, rutas locales, enlaces internos, existencia y mayúsculas de assets, y assets huérfanos. Las 39 capturas están referenciadas; no hay archivos individuales próximos al límite de GitHub.
+
+## Riesgos y decisiones pendientes
+
+- La configuración exacta de almacenamiento y credenciales debe realizarla el administrador de Wiki.js; este cambio no actúa sobre el servidor.
+- Wiki.js puede interpretar Markdown fuera de `simgest/` según su configuración de sincronización. Configure el destino del almacenamiento para publicar únicamente el árbol de contenido indicado y confirme el resultado con una importación de prueba.
+- Los procedimientos describen el ERP tal como se entregaron. Las afirmaciones funcionales, permisos, menús y resultados operativos deben ser validados por Hacchi antes del merge.

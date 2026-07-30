@@ -64,4 +64,4 @@ La forma de pago se modifica desde el bloque “Condiciones y Forma de Pago”. 
 
 ---
 
-[← 2. Crear un presupuesto / oferta de cliente desde cero](/assets/simgest/operativa/02-presupuestos) · [Índice](/simgest) · [4. Revisar el presupuesto antes de emitirlo →](/assets/simgest/operativa/04-revision-presupuesto)
+[← 2. Crear un presupuesto / oferta de cliente desde cero](/simgest/operativa/02-presupuestos) · [Índice](/simgest) · [4. Revisar el presupuesto antes de emitirlo →](/simgest/operativa/04-revision-presupuesto)

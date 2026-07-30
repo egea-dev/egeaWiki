@@ -4,16 +4,8 @@ Paquete preparado para el repositorio:
 
 `https://github.com/egea-dev/egeaWiki`
 
-## Carga inicial
+El contenido publicable está en `simgest/` y sus capturas en `assets/simgest/`.
 
-En Windows, ejecuta:
+Consulta [README_DEPLOY_WIKIJS.md](README_DEPLOY_WIKIJS.md) para configurar, importar, sincronizar y recuperar el contenido en Wiki.js 2.x.
 
-`SUBIR_A_EGEAWIKI.bat`
-
-## Actualizaciones
-
-Ejecuta:
-
-`ACTUALIZAR_EGEAWIKI.bat`
-
-Consulta `CONFIGURAR_WIKIJS.md` para conectar Wiki.js al repositorio e importar todo el contenido.
+Antes de publicar cambios, ejecuta los validadores de `scripts/`.

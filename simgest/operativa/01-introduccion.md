@@ -139,4 +139,4 @@ El objetivo de este manual es que una persona pueda trabajar sin tener que ver e
 
 ---
 
-[← Inicio](/simgest) · [Índice](/simgest) · [2. Crear un presupuesto / oferta de cliente desde cero →](/assets/simgest/operativa/02-presupuestos)
+[← Inicio](/simgest) · [Índice](/simgest) · [2. Crear un presupuesto / oferta de cliente desde cero →](/simgest/operativa/02-presupuestos)

@@ -52,4 +52,4 @@ La pantalla de pedido de cliente permite ver pedidos ya grabados y sus líneas. 
 
 ---
 
-[← 10. Recibir mercancía de proveedor](/assets/simgest/operativa/10-recepcion-mercancia) · [Índice](/simgest) · [12. Configurar columnas visibles →](/assets/simgest/operativa/12-columnas-visibles)
+[← 10. Recibir mercancía de proveedor](/simgest/operativa/10-recepcion-mercancia) · [Índice](/simgest) · [12. Configurar columnas visibles →](/simgest/operativa/12-columnas-visibles)

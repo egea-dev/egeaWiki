@@ -54,4 +54,4 @@ El sistema permite mostrar u ocultar columnas. Esto es útil cuando no se ve un 
 
 ---
 
-[← 11. Consultar pedidos de cliente](/assets/simgest/operativa/11-pedidos-cliente) · [Índice](/simgest) · [13. Revisar gestión de carga y bultos →](/assets/simgest/operativa/13-gestion-carga)
+[← 11. Consultar pedidos de cliente](/simgest/operativa/11-pedidos-cliente) · [Índice](/simgest) · [13. Revisar gestión de carga y bultos →](/simgest/operativa/13-gestion-carga)

@@ -111,4 +111,4 @@ En cualquiera de los dos casos:
 
 ---
 
-[← 1. Cuentas Contables: Configuración Inicial](/simgest/00-migracion-factusol/01-cuentas-contables) · [Índice](/simgest) · [3. Mapeo de Localidades (El proceso más complejo) →](/simgest/00-migracion-factusol/03-mapeo-localidades)
+[← 1. Cuentas Contables: Configuración Inicial](/simgest/migracion/01-cuentas-contables) · [Índice](/simgest) · [3. Mapeo de Localidades (El proceso más complejo) →](/simgest/migracion/03-mapeo-localidades)

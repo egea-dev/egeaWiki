@@ -104,4 +104,4 @@ En España es muy raro encontrar una localidad que no esté ya dada de alta en S
 
 ---
 
-[← 4. Creación de una Nueva Localidad en Simgest (Paso a paso)](/simgest/00-migracion-factusol/04-crear-localidad) · [Índice](/simgest) · [6. Proceso de Revisión Post-Migración →](/simgest/00-migracion-factusol/06-revision-post-migracion)
+[← 4. Creación de una Nueva Localidad en Simgest (Paso a paso)](/simgest/migracion/04-crear-localidad) · [Índice](/simgest) · [6. Proceso de Revisión Post-Migración →](/simgest/migracion/06-revision-post-migracion)

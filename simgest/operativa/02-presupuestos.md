@@ -202,4 +202,4 @@ La parte inferior de la pantalla contiene las líneas de la oferta. Aquí se int
 
 ---
 
-[← 1. Qué es este programa y para qué lo usarán los trabajadores](/assets/simgest/operativa/01-introduccion) · [Índice](/simgest) · [3. Seleccionar condiciones y forma de pago →](/assets/simgest/operativa/03-formas-de-pago)
+[← 1. Qué es este programa y para qué lo usarán los trabajadores](/simgest/operativa/01-introduccion) · [Índice](/simgest) · [3. Seleccionar condiciones y forma de pago →](/simgest/operativa/03-formas-de-pago)

@@ -1,0 +1,8 @@
+# Revisión humana antes del merge
+
+- Confirmar en SIMGEST que los nombres de menús, campos y pasos siguen vigentes.
+- Revisar especialmente introducción, presupuestos, tarifas/compras y recepción contra una instalación real.
+- Confirmar que la secuencia de migración Factusol → SIMGEST aplica a los datos de Proyecto Catorce.
+- Revisar cada captura para verificar que no contiene datos personales, comerciales o credenciales que no deban publicarse.
+- Tras la importación de prueba, confirmar que Wiki.js no publica documentos de soporte situados fuera de `simgest/`.
+- Confirmar con el administrador si la sincronización debe ser bidireccional y quién custodia la clave o token de escritura.

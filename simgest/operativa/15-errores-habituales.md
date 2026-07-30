@@ -56,4 +56,4 @@ editor: markdown
 
 ---
 
-[← 14. Checklist final para trabajadores](/assets/simgest/operativa/14-checklists) · [Índice](/simgest) · [1. Cuentas Contables: Configuración Inicial →](/simgest/00-migracion-factusol/01-cuentas-contables)
+[← 14. Checklist final para trabajadores](/simgest/operativa/14-checklists) · [Índice](/simgest) · [1. Cuentas Contables: Configuración Inicial →](/simgest/migracion/01-cuentas-contables)

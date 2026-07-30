@@ -1,19 +1,20 @@
 ---
-title: "Migración de Factusol a SIMGEST"
-description: "Índice de procedimientos de migración"
+title: Migración desde Factusol
+description: Página de entrada para la documentación de migración de datos hacia SIMGEST.
 published: true
 tags:
   - simgest
   - migracion
+  - factusol
 editor: markdown
 ---
 
-Estos procedimientos deben realizarse antes de comenzar la operativa diaria en SIMGEST.
+## Estado
 
-- [1. Cuentas Contables: Configuración Inicial](/simgest/migracion/01-cuentas-contables)
-- [2. Mapeo de Formas de Pago](/simgest/migracion/02-mapeo-formas-pago)
-- [3. Mapeo de Localidades (El proceso más complejo)](/simgest/migracion/03-mapeo-localidades)
-- [4. Creación de una Nueva Localidad en Simgest (Paso a paso)](/simgest/migracion/04-crear-localidad)
-- [5. Procedimiento de Fallback: Localidad "Desconocida"](/simgest/migracion/05-localidad-desconocida)
-- [6. Proceso de Revisión Post-Migración](/simgest/migracion/06-revision-post-migracion)
-- [7. Notas y Advertencias Importantes](/simgest/migracion/07-notas-advertencias)
+Pendiente de integrar el manual de migración validado.
+
+> **Pendiente de validación por Hacchi:** contenido, rutas y enlaces definitivos de esta sección.
+
+## Continuar
+
+Una vez revisada la migración, acceder a [Operativa SIMGEST](/simgest/operativa).

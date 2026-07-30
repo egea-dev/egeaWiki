@@ -1,0 +1,53 @@
+title: Manual SIMGEST
+path: /simgest
+children:
+  - title: Migración de Factusol a SIMGEST
+    path: /simgest/00-migracion-factusol
+    children:
+      - title: "1. Cuentas Contables: Configuración Inicial"
+        path: /simgest/00-migracion-factusol/01-cuentas-contables
+      - title: "2. Mapeo de Formas de Pago"
+        path: /simgest/00-migracion-factusol/02-mapeo-formas-pago
+      - title: "3. Mapeo de Localidades (El proceso más complejo)"
+        path: /simgest/00-migracion-factusol/03-mapeo-localidades
+      - title: "4. Creación de una Nueva Localidad en Simgest (Paso a paso)"
+        path: /simgest/00-migracion-factusol/04-crear-localidad
+      - title: "5. Procedimiento de Fallback: Localidad "Desconocida""
+        path: /simgest/00-migracion-factusol/05-localidad-desconocida
+      - title: "6. Proceso de Revisión Post-Migración"
+        path: /simgest/00-migracion-factusol/06-revision-post-migracion
+      - title: "7. Notas y Advertencias Importantes"
+        path: /simgest/00-migracion-factusol/07-notas-advertencias
+  - title: Operativa SIMGEST
+    path: /simgest/operativa
+    children:
+      - title: "1. Qué es este programa y para qué lo usarán los trabajadores"
+        path: /simgest/operativa/01-introduccion
+      - title: "2. Crear un presupuesto / oferta de cliente desde cero"
+        path: /simgest/operativa/02-presupuestos
+      - title: "3. Seleccionar condiciones y forma de pago"
+        path: /simgest/operativa/03-formas-de-pago
+      - title: "4. Revisar el presupuesto antes de emitirlo"
+        path: /simgest/operativa/04-revision-presupuesto
+      - title: "5. Generar el PDF del presupuesto"
+        path: /simgest/operativa/05-generar-pdf
+      - title: "6. Configurar artículos, variantes y escandallos"
+        path: /simgest/operativa/06-articulos-variantes-escandallos
+      - title: "7. Revisar ficha de artículo y escandallo"
+        path: /simgest/operativa/07-ficha-articulo-escandallo
+      - title: "8. Trabajar con tarifas de proveedor"
+        path: /simgest/operativa/08-tarifas-proveedor
+      - title: "9. Generar pedidos a proveedor"
+        path: /simgest/operativa/09-pedidos-proveedor
+      - title: "10. Recibir mercancía de proveedor"
+        path: /simgest/operativa/10-recepcion-mercancia
+      - title: "11. Consultar pedidos de cliente"
+        path: /simgest/operativa/11-pedidos-cliente
+      - title: "12. Configurar columnas visibles"
+        path: /simgest/operativa/12-columnas-visibles
+      - title: "13. Revisar gestión de carga y bultos"
+        path: /simgest/operativa/13-gestion-carga
+      - title: "14. Checklist final para trabajadores"
+        path: /simgest/operativa/14-checklists
+      - title: "15. Errores habituales y cómo evitarlos"
+        path: /simgest/operativa/15-errores-habituales

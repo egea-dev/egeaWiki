@@ -1,0 +1,167 @@
+{
+  "name": "Manual SIMGEST para Wiki.js",
+  "created": "2026-07-30",
+  "rootRoute": "/simgest",
+  "assetRoot": "/simgest",
+  "pages": [
+    {
+      "route": "/simgest",
+      "title": "Manual SIMGEST",
+      "group": "Inicio"
+    },
+    {
+      "route": "/simgest/operativa/01-introduccion",
+      "title": "1. Qué es este programa y para qué lo usarán los trabajadores",
+      "group": "Operativa"
+    },
+    {
+      "route": "/simgest/operativa/02-presupuestos",
+      "title": "2. Crear un presupuesto / oferta de cliente desde cero",
+      "group": "Operativa"
+    },
+    {
+      "route": "/simgest/operativa/03-formas-de-pago",
+      "title": "3. Seleccionar condiciones y forma de pago",
+      "group": "Operativa"
+    },
+    {
+      "route": "/simgest/operativa/04-revision-presupuesto",
+      "title": "4. Revisar el presupuesto antes de emitirlo",
+      "group": "Operativa"
+    },
+    {
+      "route": "/simgest/operativa/05-generar-pdf",
+      "title": "5. Generar el PDF del presupuesto",
+      "group": "Operativa"
+    },
+    {
+      "route": "/simgest/operativa/06-articulos-variantes-escandallos",
+      "title": "6. Configurar artículos, variantes y escandallos",
+      "group": "Operativa"
+    },
+    {
+      "route": "/simgest/operativa/07-ficha-articulo-escandallo",
+      "title": "7. Revisar ficha de artículo y escandallo",
+      "group": "Operativa"
+    },
+    {
+      "route": "/simgest/operativa/08-tarifas-proveedor",
+      "title": "8. Trabajar con tarifas de proveedor",
+      "group": "Operativa"
+    },
+    {
+      "route": "/simgest/operativa/09-pedidos-proveedor",
+      "title": "9. Generar pedidos a proveedor",
+      "group": "Operativa"
+    },
+    {
+      "route": "/simgest/operativa/10-recepcion-mercancia",
+      "title": "10. Recibir mercancía de proveedor",
+      "group": "Operativa"
+    },
+    {
+      "route": "/simgest/operativa/11-pedidos-cliente",
+      "title": "11. Consultar pedidos de cliente",
+      "group": "Operativa"
+    },
+    {
+      "route": "/simgest/operativa/12-columnas-visibles",
+      "title": "12. Configurar columnas visibles",
+      "group": "Operativa"
+    },
+    {
+      "route": "/simgest/operativa/13-gestion-carga",
+      "title": "13. Revisar gestión de carga y bultos",
+      "group": "Operativa"
+    },
+    {
+      "route": "/simgest/operativa/14-checklists",
+      "title": "14. Checklist final para trabajadores",
+      "group": "Operativa"
+    },
+    {
+      "route": "/simgest/operativa/15-errores-habituales",
+      "title": "15. Errores habituales y cómo evitarlos",
+      "group": "Operativa"
+    },
+    {
+      "route": "/simgest/00-migracion-factusol/01-cuentas-contables",
+      "title": "1. Cuentas Contables: Configuración Inicial",
+      "group": "Migración"
+    },
+    {
+      "route": "/simgest/00-migracion-factusol/02-mapeo-formas-pago",
+      "title": "2. Mapeo de Formas de Pago",
+      "group": "Migración"
+    },
+    {
+      "route": "/simgest/00-migracion-factusol/03-mapeo-localidades",
+      "title": "3. Mapeo de Localidades (El proceso más complejo)",
+      "group": "Migración"
+    },
+    {
+      "route": "/simgest/00-migracion-factusol/04-crear-localidad",
+      "title": "4. Creación de una Nueva Localidad en Simgest (Paso a paso)",
+      "group": "Migración"
+    },
+    {
+      "route": "/simgest/00-migracion-factusol/05-localidad-desconocida",
+      "title": "5. Procedimiento de Fallback: Localidad \"Desconocida\"",
+      "group": "Migración"
+    },
+    {
+      "route": "/simgest/00-migracion-factusol/06-revision-post-migracion",
+      "title": "6. Proceso de Revisión Post-Migración",
+      "group": "Migración"
+    },
+    {
+      "route": "/simgest/00-migracion-factusol/07-notas-advertencias",
+      "title": "7. Notas y Advertencias Importantes",
+      "group": "Migración"
+    }
+  ],
+  "assets": {
+    "operativa": [
+      "cap_01_oferta_proforma.png",
+      "cap_02_forma_pago.png",
+      "cap_03_revision_presupuesto.png",
+      "cap_04_pdf_presupuesto.png",
+      "cap_05_partes_tapizables.png",
+      "cap_06_ficha_escandallo.png",
+      "cap_07_semielaborado.png",
+      "cap_08_tarifa_pdf.png",
+      "cap_09_confirmacion_duplicado.png",
+      "cap_10_ficha_compras_ventas.png",
+      "cap_11_recalcular_materia_prima.png",
+      "cap_12_pedidos_proveedor.png",
+      "cap_13_marcar_todo.png",
+      "cap_14_revision_final_pedido_prov.png",
+      "cap_15_tarifa_interna.png",
+      "cap_16_pedido_cliente.png",
+      "cap_17_recepcion_pedidos_proveedor.png",
+      "cap_18_introducir_recibir.png",
+      "cap_19_recepcion_parcial.png",
+      "cap_20_reclamacion_pedido.png",
+      "cap_21_albaran_generado.png",
+      "cap_22_revision_albaran.png",
+      "cap_23_columnas_visibles.png",
+      "cap_24_gestion_carga.png",
+      "cap_s1_entorno_general.png",
+      "cap_s1_flujo_trabajo.png",
+      "cap_s2_abrir_oferta.png",
+      "cap_s2_cabecera_detalle.png",
+      "cap_s2_notas_lineas.png"
+    ],
+    "migracion": [
+      "mig_01_listado_terceros.png",
+      "mig_02_cuentas_codigos.png",
+      "mig_03_forma_pago.png",
+      "mig_04_ruta_tablas_auxiliares.png",
+      "mig_05_tabla_provincias.png",
+      "mig_06_ficha_localidad.png",
+      "mig_07_asignar_localidad_tercero.png",
+      "mig_08_localidad_desconocida.png",
+      "mig_09_revision_post_migracion.png"
+    ]
+  }
+}

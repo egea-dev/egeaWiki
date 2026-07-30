@@ -23,7 +23,7 @@ LINK = re.compile(r"!?\[[^\]]*\]\(([^)\s]+)")
 
 def source_for(route: str) -> Path:
     relative = route.lstrip("/")
-    return ROOT / relative / "index.md" if route in {"/simgest", "/simgest/migracion", "/simgest/operativa"} else ROOT / f"{relative}.md"
+    return ROOT / f"{relative}.md"
 
 
 def main() -> None:

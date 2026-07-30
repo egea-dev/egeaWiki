@@ -21,7 +21,7 @@ def route_exists(route: str) -> bool:
     relative = route.lstrip("/")
     candidates = (ROOT / f"{relative}.md", ROOT / relative / "index.md")
     if route == "/simgest":
-        candidates = (ROOT / "simgest" / "index.md",)
+        candidates = (ROOT / "simgest.md",)
     return any(candidate.is_file() for candidate in candidates)
 
 

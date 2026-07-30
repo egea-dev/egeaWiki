@@ -7,6 +7,7 @@ El repositorio contenía 25 páginas Markdown bajo `simgest/`, 39 capturas PNG b
 ## Cambios realizados
 
 - Se renombró `simgest/00-migracion-factusol` a `simgest/migracion`; no se eliminó contenido.
+- Las tres páginas de aterrizaje usan `simgest.md`, `simgest/migracion.md` y `simgest/operativa.md`. Wiki.js convierte los nombres de archivo directamente en rutas, por lo que no se usan archivos `index.md` (que producirían rutas terminadas en `/index`).
 - Se actualizaron navegación, manifestación previa y enlaces de migración a `/simgest/migracion/...`.
 - Se corrigieron los enlaces de páginas operativas a `/simgest/operativa/...`.
 - Se conservaron el front matter YAML y los marcadores HTML editoriales: son comentarios invisibles en Markdown y no alteran la vista de Wiki.js.

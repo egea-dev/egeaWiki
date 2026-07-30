@@ -4,7 +4,7 @@
     {
       "route": "/simgest",
       "title": "Manual SIMGEST",
-      "source": "simgest/index.md",
+      "source": "simgest.md",
       "assets": [],
       "outgoing_links": [
         "/simgest/migracion/01-cuentas-contables",
@@ -35,7 +35,7 @@
     {
       "route": "/simgest/migracion",
       "title": "Migración de Factusol a SIMGEST",
-      "source": "simgest/migracion/index.md",
+      "source": "simgest/migracion.md",
       "assets": [],
       "outgoing_links": [
         "/simgest/migracion/01-cuentas-contables",
@@ -149,7 +149,7 @@
     {
       "route": "/simgest/operativa",
       "title": "Operativa SIMGEST",
-      "source": "simgest/operativa/index.md",
+      "source": "simgest/operativa.md",
       "assets": [],
       "outgoing_links": [
         "/simgest/operativa/01-introduccion",

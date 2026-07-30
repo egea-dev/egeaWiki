@@ -10,7 +10,7 @@ Para escritura, use una Deploy Key SSH con permiso de escritura o un token de ac
 
 1. Configure y guarde el destino Git.
 2. Compruebe que las páginas previstas son las de `simgest/` y que los assets se leen desde `assets/simgest/`. Wiki.js importa el repositorio completo; los documentos de soporte están en `.txt` para que no se publiquen como páginas.
-3. Ejecute **Import Everything**.
+3. Ejecute **Import Everything**. Las páginas de entrada se publican en `/simgest`, `/simgest/migracion` y `/simgest/operativa`.
 4. Verifique `/simgest`, `/simgest/migracion` y `/simgest/operativa`, incluidas sus capturas y enlaces de navegación.
 
 ## Force Sync y recuperación

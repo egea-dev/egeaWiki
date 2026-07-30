@@ -2,10 +2,7 @@
 title: "4. Creación de una Nueva Localidad en Simgest (Paso a paso)"
 description: "Migración Factusol a SIMGEST: 4. Creación de una Nueva Localidad en Simgest (Paso a paso)"
 published: true
-tags:
-  - simgest
-  - migracion
-  - factusol
+tags: simgest, migracion, factusol
 editor: markdown
 ---
 

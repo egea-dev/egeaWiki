@@ -2,10 +2,7 @@
 title: "8. Trabajar con tarifas de proveedor"
 description: "Manual operativo SIMGEST: 8. Trabajar con tarifas de proveedor"
 published: true
-tags:
-  - simgest
-  - manual
-  - operativa
+tags: simgest, manual, operativa
 editor: markdown
 ---
 

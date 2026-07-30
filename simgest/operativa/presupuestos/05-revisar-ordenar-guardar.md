@@ -2,10 +2,7 @@
 title: Revisar, ordenar y guardar
 description: Control completo de las partidas y guardado de la oferta antes de generar la vista previa.
 published: true
-tags:
-  - simgest
-  - presupuestos
-  - revision
+tags: simgest, presupuestos, revision
 editor: markdown
 ---
 

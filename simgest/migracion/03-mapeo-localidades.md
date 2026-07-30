@@ -2,10 +2,7 @@
 title: "3. Mapeo de Localidades (El proceso más complejo)"
 description: "Migración Factusol a SIMGEST: 3. Mapeo de Localidades (El proceso más complejo)"
 published: true
-tags:
-  - simgest
-  - migracion
-  - factusol
+tags: simgest, migracion, factusol
 editor: markdown
 ---
 

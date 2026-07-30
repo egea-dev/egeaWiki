@@ -2,11 +2,7 @@
 title: Añadir las líneas del presupuesto
 description: Incorporación de artículos, servicios y conceptos en la tabla inferior de la oferta.
 published: true
-tags:
-  - simgest
-  - presupuestos
-  - articulos
-  - lineas
+tags: simgest, presupuestos, articulos, lineas
 editor: markdown
 ---
 

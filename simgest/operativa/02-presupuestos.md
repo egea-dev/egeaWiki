@@ -2,10 +2,7 @@
 title: "2. Crear un presupuesto / oferta de cliente desde cero"
 description: "Manual operativo SIMGEST: 2. Crear un presupuesto / oferta de cliente desde cero"
 published: true
-tags:
-  - simgest
-  - manual
-  - operativa
+tags: simgest, manual, operativa
 editor: markdown
 ---
 

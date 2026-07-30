@@ -2,10 +2,7 @@
 title: Operativa SIMGEST
 description: Procedimientos de trabajo diario dentro del ERP SIMGEST.
 published: true
-tags:
-  - simgest
-  - operativa
-  - erp
+tags: simgest, operativa, erp
 editor: markdown
 ---
 

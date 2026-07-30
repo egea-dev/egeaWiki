@@ -2,10 +2,7 @@
 title: Migración desde Factusol
 description: Página de entrada para la documentación de migración de datos hacia SIMGEST.
 published: true
-tags:
-  - simgest
-  - migracion
-  - factusol
+tags: simgest, migracion, factusol
 editor: markdown
 ---
 

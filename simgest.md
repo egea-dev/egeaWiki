@@ -2,10 +2,7 @@
 title: SIMGEST
 description: Documentación de migración y operación del ERP SIMGEST.
 published: true
-tags:
-  - simgest
-  - erp
-  - manuales
+tags: simgest, erp, manuales
 editor: markdown
 ---
 

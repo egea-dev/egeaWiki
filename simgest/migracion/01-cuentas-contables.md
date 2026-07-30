@@ -2,10 +2,7 @@
 title: "1. Cuentas Contables: Configuración Inicial"
 description: "Migración Factusol a SIMGEST: 1. Cuentas Contables: Configuración Inicial"
 published: true
-tags:
-  - simgest
-  - migracion
-  - factusol
+tags: simgest, migracion, factusol
 editor: markdown
 ---
 

@@ -36,6 +36,10 @@ def main() -> int:
         if len(lines) < 3 or lines[0] != "---" or "---" not in lines[1:]:
             issue(path, 1, "falta front matter YAML")
             errors += 1
+        for number, line in enumerate(lines, 1):
+            if line == "tags:" or line.startswith("tags: ["):
+                issue(path, number, "tags debe ser una cadena separada por comas para el importador Git de Wiki.js")
+                errors += 1
         fenced = False
         h1 = 0
         previous_level = 0

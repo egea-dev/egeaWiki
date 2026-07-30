@@ -2,11 +2,7 @@
 title: Completar cliente y condiciones
 description: Cumplimentación de la cabecera y las condiciones comerciales de la oferta.
 published: true
-tags:
-  - simgest
-  - presupuestos
-  - clientes
-  - condiciones
+tags: simgest, presupuestos, clientes, condiciones
 editor: markdown
 ---
 

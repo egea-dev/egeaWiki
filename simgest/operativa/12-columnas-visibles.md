@@ -2,10 +2,7 @@
 title: "12. Configurar columnas visibles"
 description: "Manual operativo SIMGEST: 12. Configurar columnas visibles"
 published: true
-tags:
-  - simgest
-  - manual
-  - operativa
+tags: simgest, manual, operativa
 editor: markdown
 ---
 

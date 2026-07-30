@@ -2,10 +2,7 @@
 title: "6. Proceso de Revisión Post-Migración"
 description: "Migración Factusol a SIMGEST: 6. Proceso de Revisión Post-Migración"
 published: true
-tags:
-  - simgest
-  - migracion
-  - factusol
+tags: simgest, migracion, factusol
 editor: markdown
 ---
 

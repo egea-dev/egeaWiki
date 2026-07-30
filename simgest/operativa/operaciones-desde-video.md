@@ -2,10 +2,7 @@
 title: "Operaciones SIMGEST desde vídeo"
 description: "Procedimientos y capturas extraídos de una grabación real de SIMGEST."
 published: true
-tags:
-  - simgest
-  - operativa
-  - video
+tags: simgest, operativa, video
 editor: markdown
 ---
 

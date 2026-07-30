@@ -2,11 +2,7 @@
 title: Recalcular la materia prima necesaria
 description: Confirmación del recálculo de necesidades de materia prima del documento.
 published: true
-tags:
-  - simgest
-  - presupuestos
-  - materia-prima
-  - compras
+tags: simgest, presupuestos, materia-prima, compras
 editor: markdown
 ---
 

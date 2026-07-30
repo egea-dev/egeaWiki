@@ -2,10 +2,7 @@
 title: Crear una oferta nueva
 description: Alta de un documento nuevo desde la ficha Oferta/Proforma de Cliente.
 published: true
-tags:
-  - simgest
-  - presupuestos
-  - ofertas
+tags: simgest, presupuestos, ofertas
 editor: markdown
 ---
 

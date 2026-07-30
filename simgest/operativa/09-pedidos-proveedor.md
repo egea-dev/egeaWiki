@@ -2,10 +2,7 @@
 title: "9. Generar pedidos a proveedor"
 description: "Manual operativo SIMGEST: 9. Generar pedidos a proveedor"
 published: true
-tags:
-  - simgest
-  - manual
-  - operativa
+tags: simgest, manual, operativa
 editor: markdown
 ---
 

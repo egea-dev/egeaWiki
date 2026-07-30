@@ -2,10 +2,7 @@
 title: "3. Seleccionar condiciones y forma de pago"
 description: "Manual operativo SIMGEST: 3. Seleccionar condiciones y forma de pago"
 published: true
-tags:
-  - simgest
-  - manual
-  - operativa
+tags: simgest, manual, operativa
 editor: markdown
 ---
 

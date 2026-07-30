@@ -2,10 +2,7 @@
 title: "10. Recibir mercancía de proveedor"
 description: "Manual operativo SIMGEST: 10. Recibir mercancía de proveedor"
 published: true
-tags:
-  - simgest
-  - manual
-  - operativa
+tags: simgest, manual, operativa
 editor: markdown
 ---
 

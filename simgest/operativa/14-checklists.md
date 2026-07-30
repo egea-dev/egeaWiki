@@ -2,10 +2,7 @@
 title: "14. Checklist final para trabajadores"
 description: "Manual operativo SIMGEST: 14. Checklist final para trabajadores"
 published: true
-tags:
-  - simgest
-  - manual
-  - operativa
+tags: simgest, manual, operativa
 editor: markdown
 ---
 

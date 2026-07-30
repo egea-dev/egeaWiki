@@ -2,10 +2,7 @@
 title: "4. Revisar el presupuesto antes de emitirlo"
 description: "Manual operativo SIMGEST: 4. Revisar el presupuesto antes de emitirlo"
 published: true
-tags:
-  - simgest
-  - manual
-  - operativa
+tags: simgest, manual, operativa
 editor: markdown
 ---
 

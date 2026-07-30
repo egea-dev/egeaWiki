@@ -2,11 +2,7 @@
 title: Crear un presupuesto en SIMGEST
 description: Manual visual para crear, revisar y emitir una oferta y consultar sus necesidades de compra.
 published: true
-tags:
-  - simgest
-  - presupuestos
-  - ofertas
-  - ventas
+tags: simgest, presupuestos, ofertas, ventas
 editor: markdown
 ---
 

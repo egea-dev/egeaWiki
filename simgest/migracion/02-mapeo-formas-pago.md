@@ -2,10 +2,7 @@
 title: "2. Mapeo de Formas de Pago"
 description: "Migración Factusol a SIMGEST: 2. Mapeo de Formas de Pago"
 published: true
-tags:
-  - simgest
-  - migracion
-  - factusol
+tags: simgest, migracion, factusol
 editor: markdown
 ---
 

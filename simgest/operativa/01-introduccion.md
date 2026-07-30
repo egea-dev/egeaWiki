@@ -2,10 +2,7 @@
 title: "1. Qué es este programa y para qué lo usarán los trabajadores"
 description: "Manual operativo SIMGEST: 1. Qué es este programa y para qué lo usarán los trabajadores"
 published: true
-tags:
-  - simgest
-  - manual
-  - operativa
+tags: simgest, manual, operativa
 editor: markdown
 ---
 

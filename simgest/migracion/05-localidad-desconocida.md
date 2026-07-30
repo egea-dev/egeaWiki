@@ -2,10 +2,7 @@
 title: "5. Procedimiento de Fallback: Localidad \"Desconocida"
 description: "Migración Factusol a SIMGEST: 5. Procedimiento de Fallback: Localidad \"Desconocida"
 published: true
-tags:
-  - simgest
-  - migracion
-  - factusol
+tags: simgest, migracion, factusol
 editor: markdown
 ---
 

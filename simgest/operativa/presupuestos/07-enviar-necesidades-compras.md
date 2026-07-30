@@ -2,11 +2,7 @@
 title: Enviar las necesidades a Compras
 description: Acceso a la consulta de pedidos de clientes a proveedores desde el módulo Compras.
 published: true
-tags:
-  - simgest
-  - presupuestos
-  - compras
-  - proveedores
+tags: simgest, presupuestos, compras, proveedores
 editor: markdown
 ---
 

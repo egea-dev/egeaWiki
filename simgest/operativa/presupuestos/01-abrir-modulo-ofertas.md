@@ -2,11 +2,7 @@
 title: Abrir el módulo de Ofertas
 description: Acceso a la ficha Oferta/Proforma de Cliente desde la pestaña Ventas.
 published: true
-tags:
-  - simgest
-  - presupuestos
-  - ofertas
-  - ventas
+tags: simgest, presupuestos, ofertas, ventas
 editor: markdown
 ---
 

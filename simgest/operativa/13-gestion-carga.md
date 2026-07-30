@@ -2,10 +2,7 @@
 title: "13. Revisar gestión de carga y bultos"
 description: "Manual operativo SIMGEST: 13. Revisar gestión de carga y bultos"
 published: true
-tags:
-  - simgest
-  - manual
-  - operativa
+tags: simgest, manual, operativa
 editor: markdown
 ---
 

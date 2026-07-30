@@ -2,10 +2,7 @@
 title: "6. Configurar artículos, variantes y escandallos"
 description: "Manual operativo SIMGEST: 6. Configurar artículos, variantes y escandallos"
 published: true
-tags:
-  - simgest
-  - manual
-  - operativa
+tags: simgest, manual, operativa
 editor: markdown
 ---
 

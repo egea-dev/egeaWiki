@@ -2,10 +2,7 @@
 title: "5. Generar el PDF del presupuesto"
 description: "Manual operativo SIMGEST: 5. Generar el PDF del presupuesto"
 published: true
-tags:
-  - simgest
-  - manual
-  - operativa
+tags: simgest, manual, operativa
 editor: markdown
 ---
 

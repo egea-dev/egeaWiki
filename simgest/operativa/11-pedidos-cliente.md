@@ -2,10 +2,7 @@
 title: "11. Consultar pedidos de cliente"
 description: "Manual operativo SIMGEST: 11. Consultar pedidos de cliente"
 published: true
-tags:
-  - simgest
-  - manual
-  - operativa
+tags: simgest, manual, operativa
 editor: markdown
 ---
 

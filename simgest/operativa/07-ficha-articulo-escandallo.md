@@ -2,10 +2,7 @@
 title: "7. Revisar ficha de artículo y escandallo"
 description: "Manual operativo SIMGEST: 7. Revisar ficha de artículo y escandallo"
 published: true
-tags:
-  - simgest
-  - manual
-  - operativa
+tags: simgest, manual, operativa
 editor: markdown
 ---
 

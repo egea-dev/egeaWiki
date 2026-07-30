@@ -2,11 +2,7 @@
 title: Generar y comprobar el PDF
 description: Revisión de la vista previa del presupuesto antes de enviarlo al cliente.
 published: true
-tags:
-  - simgest
-  - presupuestos
-  - pdf
-  - revision
+tags: simgest, presupuestos, pdf, revision
 editor: markdown
 ---
 

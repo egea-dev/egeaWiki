@@ -2,10 +2,7 @@
 title: "7. Notas y Advertencias Importantes"
 description: "Migración Factusol a SIMGEST: 7. Notas y Advertencias Importantes"
 published: true
-tags:
-  - simgest
-  - migracion
-  - factusol
+tags: simgest, migracion, factusol
 editor: markdown
 ---
 

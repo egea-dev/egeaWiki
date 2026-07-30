@@ -2,10 +2,7 @@
 title: "15. Errores habituales y cómo evitarlos"
 description: "Manual operativo SIMGEST: 15. Errores habituales y cómo evitarlos"
 published: true
-tags:
-  - simgest
-  - manual
-  - operativa
+tags: simgest, manual, operativa
 editor: markdown
 ---
 

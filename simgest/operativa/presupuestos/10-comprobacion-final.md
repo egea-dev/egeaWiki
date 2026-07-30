@@ -2,10 +2,7 @@
 title: Comprobación final del presupuesto
 description: Lista de control antes de cerrar el procedimiento de presupuesto y previsión de compra.
 published: true
-tags:
-  - simgest
-  - presupuestos
-  - checklist
+tags: simgest, presupuestos, checklist
 editor: markdown
 ---
 

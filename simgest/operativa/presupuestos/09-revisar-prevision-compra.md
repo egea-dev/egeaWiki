@@ -2,11 +2,7 @@
 title: Revisar la previsión de compra
 description: Comprobación de filtros, opciones y materiales antes de gestionar el pedido al proveedor.
 published: true
-tags:
-  - simgest
-  - compras
-  - prevision
-  - proveedores
+tags: simgest, compras, prevision, proveedores
 editor: markdown
 ---
 

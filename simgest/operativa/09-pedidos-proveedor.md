@@ -1,19 +1,20 @@
 ---
-title: 9. Generar pedidos a proveedor
-description: Manual operativo SIMGEST: 9. Generar pedidos a proveedor
+title: "9. Generar pedidos a proveedor"
+description: "Manual operativo SIMGEST: 9. Generar pedidos a proveedor"
 published: true
-tags: simgest, manual, operativa
+tags:
+  - simgest
+  - manual
+  - operativa
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 9. Generar pedidos a proveedor
 
 El pedido a proveedor se genera cuando el sistema detecta necesidades de material o producto. La pantalla permite filtrar por proyecto, tipo de proveedor y opciones de búsqueda.
 
-[![Pantalla de generación de pedidos a proveedor](/assets/simgest/operativa/cap_12_pedidos_proveedor.png)](/assets/simgest/operativa/cap_12_pedidos_proveedor.png)
+<a href="/assets/simgest/operativa/cap_12_pedidos_proveedor.png"><img src="/assets/simgest/operativa/cap_12_pedidos_proveedor.png" alt="Pantalla de generación de pedidos a proveedor" style="width: 80%; height: auto;" /></a>
 
 *Pantalla de generación de pedidos a proveedor. Pulsa la imagen para abrirla a tamaño completo.*
 
@@ -72,15 +73,15 @@ El pedido a proveedor se genera cuando el sistema detecta necesidades de materia
 
 ## Apoyo visual ampliado
 
-[![Confirmación para recalcular necesidades de materia prima](/assets/simgest/operativa/cap_11_recalcular_materia_prima.png)](/assets/simgest/operativa/cap_11_recalcular_materia_prima.png)
+<a href="/assets/simgest/operativa/cap_11_recalcular_materia_prima.png"><img src="/assets/simgest/operativa/cap_11_recalcular_materia_prima.png" alt="Confirmación para recalcular necesidades de materia prima" style="width: 80%; height: auto;" /></a>
 
 *Confirmación para recalcular necesidades de materia prima. Pulsa la imagen para abrirla a tamaño completo.*
 
-[![Selección global de líneas para compra](/assets/simgest/operativa/cap_13_marcar_todo.png)](/assets/simgest/operativa/cap_13_marcar_todo.png)
+<a href="/assets/simgest/operativa/cap_13_marcar_todo.png"><img src="/assets/simgest/operativa/cap_13_marcar_todo.png" alt="Selección global de líneas para compra" style="width: 80%; height: auto;" /></a>
 
 *Selección global de líneas para compra. Pulsa la imagen para abrirla a tamaño completo.*
 
-[![Revisión final antes de generar el pedido](/assets/simgest/operativa/cap_14_revision_final_pedido_prov.png)](/assets/simgest/operativa/cap_14_revision_final_pedido_prov.png)
+<a href="/assets/simgest/operativa/cap_14_revision_final_pedido_prov.png"><img src="/assets/simgest/operativa/cap_14_revision_final_pedido_prov.png" alt="Revisión final antes de generar el pedido" style="width: 80%; height: auto;" /></a>
 
 *Revisión final antes de generar el pedido. Pulsa la imagen para abrirla a tamaño completo.*
 

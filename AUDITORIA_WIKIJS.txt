@@ -6,6 +6,8 @@ El repositorio contenía 25 páginas Markdown bajo `simgest/`, 39 capturas PNG b
 
 ## Cambios realizados
 
+- Se normalizó el front matter de las 25 páginas a YAML sin BOM, con títulos y descripciones entre comillas y listas YAML de etiquetas.
+- Se retiraron los H1 del cuerpo: Wiki.js muestra el título del front matter y cada página comienza en H2.
 - Se renombró `simgest/00-migracion-factusol` a `simgest/migracion`; no se eliminó contenido.
 - Las tres páginas de aterrizaje usan `simgest.md`, `simgest/migracion.md` y `simgest/operativa.md`. Wiki.js convierte los nombres de archivo directamente en rutas, por lo que no se usan archivos `index.md` (que producirían rutas terminadas en `/index`).
 - Se actualizaron navegación, manifestación previa y enlaces de migración a `/simgest/migracion/...`.

@@ -1,15 +1,16 @@
 ---
-title: 15. Errores habituales y cómo evitarlos
-description: Manual operativo SIMGEST: 15. Errores habituales y cómo evitarlos
+title: "15. Errores habituales y cómo evitarlos"
+description: "Manual operativo SIMGEST: 15. Errores habituales y cómo evitarlos"
 published: true
-tags: simgest, manual, operativa
+tags:
+  - simgest
+  - manual
+  - operativa
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 15. Errores habituales y cómo evitarlos
 
 - Crear líneas antes de completar la cabecera: completar siempre cliente, referencia, tarifa y proyecto primero.
 

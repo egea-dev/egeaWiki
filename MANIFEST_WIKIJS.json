@@ -52,10 +52,7 @@
       "route": "/simgest/migracion/01-cuentas-contables",
       "title": "1. Cuentas Contables: Configuración Inicial",
       "source": "simgest/migracion/01-cuentas-contables.md",
-      "assets": [
-        "/assets/simgest/migracion/mig_01_listado_terceros.png",
-        "/assets/simgest/migracion/mig_02_cuentas_codigos.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/migracion/02-mapeo-formas-pago",
@@ -67,9 +64,7 @@
       "route": "/simgest/migracion/02-mapeo-formas-pago",
       "title": "2. Mapeo de Formas de Pago",
       "source": "simgest/migracion/02-mapeo-formas-pago.md",
-      "assets": [
-        "/assets/simgest/migracion/mig_03_forma_pago.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/migracion/01-cuentas-contables",
@@ -81,9 +76,7 @@
       "route": "/simgest/migracion/03-mapeo-localidades",
       "title": "3. Mapeo de Localidades (El proceso más complejo)",
       "source": "simgest/migracion/03-mapeo-localidades.md",
-      "assets": [
-        "/assets/simgest/migracion/mig_04_ruta_tablas_auxiliares.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/migracion/02-mapeo-formas-pago",
@@ -95,11 +88,7 @@
       "route": "/simgest/migracion/04-crear-localidad",
       "title": "4. Creación de una Nueva Localidad en Simgest (Paso a paso)",
       "source": "simgest/migracion/04-crear-localidad.md",
-      "assets": [
-        "/assets/simgest/migracion/mig_05_tabla_provincias.png",
-        "/assets/simgest/migracion/mig_06_ficha_localidad.png",
-        "/assets/simgest/migracion/mig_07_asignar_localidad_tercero.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/migracion/03-mapeo-localidades",
@@ -109,11 +98,9 @@
     },
     {
       "route": "/simgest/migracion/05-localidad-desconocida",
-      "title": "5. Procedimiento de Fallback: Localidad \"Desconocida\"",
+      "title": "5. Procedimiento de Fallback: Localidad \\\"Desconocida",
       "source": "simgest/migracion/05-localidad-desconocida.md",
-      "assets": [
-        "/assets/simgest/migracion/mig_08_localidad_desconocida.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/migracion/04-crear-localidad",
@@ -125,9 +112,7 @@
       "route": "/simgest/migracion/06-revision-post-migracion",
       "title": "6. Proceso de Revisión Post-Migración",
       "source": "simgest/migracion/06-revision-post-migracion.md",
-      "assets": [
-        "/assets/simgest/migracion/mig_09_revision_post_migracion.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/migracion/05-localidad-desconocida",
@@ -174,10 +159,7 @@
       "route": "/simgest/operativa/01-introduccion",
       "title": "1. Qué es este programa y para qué lo usarán los trabajadores",
       "source": "simgest/operativa/01-introduccion.md",
-      "assets": [
-        "/assets/simgest/operativa/cap_s1_entorno_general.png",
-        "/assets/simgest/operativa/cap_s1_flujo_trabajo.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/operativa/02-presupuestos"
@@ -188,12 +170,7 @@
       "route": "/simgest/operativa/02-presupuestos",
       "title": "2. Crear un presupuesto / oferta de cliente desde cero",
       "source": "simgest/operativa/02-presupuestos.md",
-      "assets": [
-        "/assets/simgest/operativa/cap_01_oferta_proforma.png",
-        "/assets/simgest/operativa/cap_s2_abrir_oferta.png",
-        "/assets/simgest/operativa/cap_s2_cabecera_detalle.png",
-        "/assets/simgest/operativa/cap_s2_notas_lineas.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/operativa/01-introduccion",
@@ -205,9 +182,7 @@
       "route": "/simgest/operativa/03-formas-de-pago",
       "title": "3. Seleccionar condiciones y forma de pago",
       "source": "simgest/operativa/03-formas-de-pago.md",
-      "assets": [
-        "/assets/simgest/operativa/cap_02_forma_pago.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/operativa/02-presupuestos",
@@ -219,9 +194,7 @@
       "route": "/simgest/operativa/04-revision-presupuesto",
       "title": "4. Revisar el presupuesto antes de emitirlo",
       "source": "simgest/operativa/04-revision-presupuesto.md",
-      "assets": [
-        "/assets/simgest/operativa/cap_03_revision_presupuesto.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/operativa/03-formas-de-pago",
@@ -233,9 +206,7 @@
       "route": "/simgest/operativa/05-generar-pdf",
       "title": "5. Generar el PDF del presupuesto",
       "source": "simgest/operativa/05-generar-pdf.md",
-      "assets": [
-        "/assets/simgest/operativa/cap_04_pdf_presupuesto.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/operativa/04-revision-presupuesto",
@@ -247,9 +218,7 @@
       "route": "/simgest/operativa/06-articulos-variantes-escandallos",
       "title": "6. Configurar artículos, variantes y escandallos",
       "source": "simgest/operativa/06-articulos-variantes-escandallos.md",
-      "assets": [
-        "/assets/simgest/operativa/cap_05_partes_tapizables.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/operativa/05-generar-pdf",
@@ -261,10 +230,7 @@
       "route": "/simgest/operativa/07-ficha-articulo-escandallo",
       "title": "7. Revisar ficha de artículo y escandallo",
       "source": "simgest/operativa/07-ficha-articulo-escandallo.md",
-      "assets": [
-        "/assets/simgest/operativa/cap_06_ficha_escandallo.png",
-        "/assets/simgest/operativa/cap_07_semielaborado.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/operativa/06-articulos-variantes-escandallos",
@@ -276,12 +242,7 @@
       "route": "/simgest/operativa/08-tarifas-proveedor",
       "title": "8. Trabajar con tarifas de proveedor",
       "source": "simgest/operativa/08-tarifas-proveedor.md",
-      "assets": [
-        "/assets/simgest/operativa/cap_08_tarifa_pdf.png",
-        "/assets/simgest/operativa/cap_09_confirmacion_duplicado.png",
-        "/assets/simgest/operativa/cap_10_ficha_compras_ventas.png",
-        "/assets/simgest/operativa/cap_15_tarifa_interna.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/operativa/07-ficha-articulo-escandallo",
@@ -293,12 +254,7 @@
       "route": "/simgest/operativa/09-pedidos-proveedor",
       "title": "9. Generar pedidos a proveedor",
       "source": "simgest/operativa/09-pedidos-proveedor.md",
-      "assets": [
-        "/assets/simgest/operativa/cap_11_recalcular_materia_prima.png",
-        "/assets/simgest/operativa/cap_12_pedidos_proveedor.png",
-        "/assets/simgest/operativa/cap_13_marcar_todo.png",
-        "/assets/simgest/operativa/cap_14_revision_final_pedido_prov.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/operativa/08-tarifas-proveedor",
@@ -310,14 +266,7 @@
       "route": "/simgest/operativa/10-recepcion-mercancia",
       "title": "10. Recibir mercancía de proveedor",
       "source": "simgest/operativa/10-recepcion-mercancia.md",
-      "assets": [
-        "/assets/simgest/operativa/cap_17_recepcion_pedidos_proveedor.png",
-        "/assets/simgest/operativa/cap_18_introducir_recibir.png",
-        "/assets/simgest/operativa/cap_19_recepcion_parcial.png",
-        "/assets/simgest/operativa/cap_20_reclamacion_pedido.png",
-        "/assets/simgest/operativa/cap_21_albaran_generado.png",
-        "/assets/simgest/operativa/cap_22_revision_albaran.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/operativa/09-pedidos-proveedor",
@@ -329,9 +278,7 @@
       "route": "/simgest/operativa/11-pedidos-cliente",
       "title": "11. Consultar pedidos de cliente",
       "source": "simgest/operativa/11-pedidos-cliente.md",
-      "assets": [
-        "/assets/simgest/operativa/cap_16_pedido_cliente.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/operativa/10-recepcion-mercancia",
@@ -343,9 +290,7 @@
       "route": "/simgest/operativa/12-columnas-visibles",
       "title": "12. Configurar columnas visibles",
       "source": "simgest/operativa/12-columnas-visibles.md",
-      "assets": [
-        "/assets/simgest/operativa/cap_23_columnas_visibles.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/operativa/11-pedidos-cliente",
@@ -357,9 +302,7 @@
       "route": "/simgest/operativa/13-gestion-carga",
       "title": "13. Revisar gestión de carga y bultos",
       "source": "simgest/operativa/13-gestion-carga.md",
-      "assets": [
-        "/assets/simgest/operativa/cap_24_gestion_carga.png"
-      ],
+      "assets": [],
       "outgoing_links": [
         "/simgest",
         "/simgest/operativa/12-columnas-visibles",

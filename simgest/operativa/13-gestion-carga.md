@@ -1,19 +1,20 @@
 ---
-title: 13. Revisar gestión de carga y bultos
-description: Manual operativo SIMGEST: 13. Revisar gestión de carga y bultos
+title: "13. Revisar gestión de carga y bultos"
+description: "Manual operativo SIMGEST: 13. Revisar gestión de carga y bultos"
 published: true
-tags: simgest, manual, operativa
+tags:
+  - simgest
+  - manual
+  - operativa
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 13. Revisar gestión de carga y bultos
 
 La gestión de carga ayuda a preparar expediciones, bultos, peso, palés, importes o líneas de entrega. En el vídeo se ve una pantalla con datos de carga y una tabla inferior.
 
-[![Gestión de carga y bultos](/assets/simgest/operativa/cap_24_gestion_carga.png)](/assets/simgest/operativa/cap_24_gestion_carga.png)
+<a href="/assets/simgest/operativa/cap_24_gestion_carga.png"><img src="/assets/simgest/operativa/cap_24_gestion_carga.png" alt="Gestión de carga y bultos" style="width: 80%; height: auto;" /></a>
 
 *Gestión de carga y bultos. Pulsa la imagen para abrirla a tamaño completo.*
 

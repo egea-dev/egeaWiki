@@ -1,19 +1,20 @@
 ---
-title: 3. Seleccionar condiciones y forma de pago
-description: Manual operativo SIMGEST: 3. Seleccionar condiciones y forma de pago
+title: "3. Seleccionar condiciones y forma de pago"
+description: "Manual operativo SIMGEST: 3. Seleccionar condiciones y forma de pago"
 published: true
-tags: simgest, manual, operativa
+tags:
+  - simgest
+  - manual
+  - operativa
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 3. Seleccionar condiciones y forma de pago
 
 La forma de pago se modifica desde el bloque “Condiciones y Forma de Pago”. El vídeo muestra un desplegable abierto con varias opciones y botones para aceptar o cancelar.
 
-[![Selección de condiciones y forma de pago](/assets/simgest/operativa/cap_02_forma_pago.png)](/assets/simgest/operativa/cap_02_forma_pago.png)
+<a href="/assets/simgest/operativa/cap_02_forma_pago.png"><img src="/assets/simgest/operativa/cap_02_forma_pago.png" alt="Selección de condiciones y forma de pago" style="width: 80%; height: auto;" /></a>
 
 *Selección de condiciones y forma de pago. Pulsa la imagen para abrirla a tamaño completo.*
 

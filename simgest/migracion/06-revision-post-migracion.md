@@ -1,17 +1,18 @@
 ---
-title: 6. Proceso de Revisión Post-Migración
-description: Migración Factusol a SIMGEST: 6. Proceso de Revisión Post-Migración
+title: "6. Proceso de Revisión Post-Migración"
+description: "Migración Factusol a SIMGEST: 6. Proceso de Revisión Post-Migración"
 published: true
-tags: simgest, migracion, factusol
+tags:
+  - simgest
+  - migracion
+  - factusol
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 6. Proceso de Revisión Post-Migración
 
-[![Revisión general de terceros y registros migrados](/assets/simgest/migracion/mig_09_revision_post_migracion.png)](/assets/simgest/migracion/mig_09_revision_post_migracion.png)
+<a href="/assets/simgest/migracion/mig_09_revision_post_migracion.png"><img src="/assets/simgest/migracion/mig_09_revision_post_migracion.png" alt="Revisión general de terceros y registros migrados" style="width: 80%; height: auto;" /></a>
 
 *Revisión general de terceros y registros migrados. Pulsa la imagen para abrirla a tamaño completo.*
 

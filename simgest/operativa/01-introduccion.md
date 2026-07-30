@@ -1,23 +1,24 @@
 ---
-title: 1. Qué es este programa y para qué lo usarán los trabajadores
-description: Manual operativo SIMGEST: 1. Qué es este programa y para qué lo usarán los trabajadores
+title: "1. Qué es este programa y para qué lo usarán los trabajadores"
+description: "Manual operativo SIMGEST: 1. Qué es este programa y para qué lo usarán los trabajadores"
 published: true
-tags: simgest, manual, operativa
+tags:
+  - simgest
+  - manual
+  - operativa
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 1. Qué es este programa y para qué lo usarán los trabajadores
 
 ## Apoyo visual inicial
 
-[![Entorno general de SIMGEST: menú, módulos y ventana operativa](/assets/simgest/operativa/cap_s1_entorno_general.png)](/assets/simgest/operativa/cap_s1_entorno_general.png)
+<a href="/assets/simgest/operativa/cap_s1_entorno_general.png"><img src="/assets/simgest/operativa/cap_s1_entorno_general.png" alt="Entorno general de SIMGEST: menú, módulos y ventana operativa" style="width: 80%; height: auto;" /></a>
 
 *Entorno general de SIMGEST: menú, módulos y ventana operativa. Pulsa la imagen para abrirla a tamaño completo.*
 
-[![Vista general del flujo documental: cabecera, datos comerciales y líneas](/assets/simgest/operativa/cap_s1_flujo_trabajo.png)](/assets/simgest/operativa/cap_s1_flujo_trabajo.png)
+<a href="/assets/simgest/operativa/cap_s1_flujo_trabajo.png"><img src="/assets/simgest/operativa/cap_s1_flujo_trabajo.png" alt="Vista general del flujo documental: cabecera, datos comerciales y líneas" style="width: 80%; height: auto;" /></a>
 
 *Vista general del flujo documental: cabecera, datos comerciales y líneas. Pulsa la imagen para abrirla a tamaño completo.*
 

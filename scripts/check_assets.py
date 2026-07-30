@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
-IMAGE = re.compile(r"!\[[^\]]*\]\((/assets/[^)\s]+)")
+IMAGE = re.compile(r"!\[[^\]]*\]\((/assets/[^)\s]+)|<img\s+[^>]*src=[\"'](/assets/[^\"']+)", re.I)
 
 
 def main() -> int:
@@ -17,7 +17,8 @@ def main() -> int:
     errors = 0
     for path in sorted((ROOT / "simgest").rglob("*.md")):
         for number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
-            for target in IMAGE.findall(line):
+            for match in IMAGE.findall(line):
+                target = next(value for value in match if value)
                 key = target.lstrip("/").split("?", 1)[0].split("#", 1)[0]
                 if key not in available:
                     print(f"{path.relative_to(ROOT)}:{number}: imagen inexistente o con mayúsculas incorrectas: {target}")

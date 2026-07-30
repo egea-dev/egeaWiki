@@ -1,17 +1,18 @@
 ---
-title: 2. Mapeo de Formas de Pago
-description: Migración Factusol a SIMGEST: 2. Mapeo de Formas de Pago
+title: "2. Mapeo de Formas de Pago"
+description: "Migración Factusol a SIMGEST: 2. Mapeo de Formas de Pago"
 published: true
-tags: simgest, migracion, factusol
+tags:
+  - simgest
+  - migracion
+  - factusol
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 2. Mapeo de Formas de Pago
 
-[![Forma de pago y notas del cliente en la ficha del tercero](/assets/simgest/migracion/mig_03_forma_pago.png)](/assets/simgest/migracion/mig_03_forma_pago.png)
+<a href="/assets/simgest/migracion/mig_03_forma_pago.png"><img src="/assets/simgest/migracion/mig_03_forma_pago.png" alt="Forma de pago y notas del cliente en la ficha del tercero" style="width: 80%; height: auto;" /></a>
 
 *Forma de pago y notas del cliente en la ficha del tercero. Pulsa la imagen para abrirla a tamaño completo.*
 

@@ -1,15 +1,16 @@
 ---
-title: 14. Checklist final para trabajadores
-description: Manual operativo SIMGEST: 14. Checklist final para trabajadores
+title: "14. Checklist final para trabajadores"
+description: "Manual operativo SIMGEST: 14. Checklist final para trabajadores"
 published: true
-tags: simgest, manual, operativa
+tags:
+  - simgest
+  - manual
+  - operativa
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 14. Checklist final para trabajadores
 
 
 <!-- AÑADIR_CONTENIDO_ANTES_DE_14-1-ANTES-DE-ENVIAR-UN-PRESUPUESTO -->

@@ -1,12 +1,12 @@
 ---
-title: Manual SIMGEST
-description: Manual modular de migración y operativa SIMGEST
+title: "Manual SIMGEST"
+description: "Manual modular de migración y operativa SIMGEST"
 published: true
-tags: simgest, manual
+tags:
+  - simgest
+  - manual
 editor: markdown
 ---
-
-# Manual SIMGEST
 
 Documentación modular para la migración desde Factusol y la operativa diaria de SIMGEST. Cada módulo es independiente y puede ampliarse sin alterar el resto del manual.
 

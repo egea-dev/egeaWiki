@@ -1,19 +1,20 @@
 ---
-title: 8. Trabajar con tarifas de proveedor
-description: Manual operativo SIMGEST: 8. Trabajar con tarifas de proveedor
+title: "8. Trabajar con tarifas de proveedor"
+description: "Manual operativo SIMGEST: 8. Trabajar con tarifas de proveedor"
 published: true
-tags: simgest, manual, operativa
+tags:
+  - simgest
+  - manual
+  - operativa
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 8. Trabajar con tarifas de proveedor
 
 Las tarifas de proveedor sirven para mantener precios correctos. El vídeo muestra una tarifa oficial en PDF y la pantalla interna de mantenimiento de tarifas.
 
-[![Tarifa oficial de proveedor en PDF](/assets/simgest/operativa/cap_08_tarifa_pdf.png)](/assets/simgest/operativa/cap_08_tarifa_pdf.png)
+<a href="/assets/simgest/operativa/cap_08_tarifa_pdf.png"><img src="/assets/simgest/operativa/cap_08_tarifa_pdf.png" alt="Tarifa oficial de proveedor en PDF" style="width: 80%; height: auto;" /></a>
 
 *Tarifa oficial de proveedor en PDF. Pulsa la imagen para abrirla a tamaño completo.*
 
@@ -42,7 +43,7 @@ Las tarifas de proveedor sirven para mantener precios correctos. El vídeo muest
 
 <!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_5 -->
 
-[![Confirmación al duplicar artículo o información de tarifa](/assets/simgest/operativa/cap_09_confirmacion_duplicado.png)](/assets/simgest/operativa/cap_09_confirmacion_duplicado.png)
+<a href="/assets/simgest/operativa/cap_09_confirmacion_duplicado.png"><img src="/assets/simgest/operativa/cap_09_confirmacion_duplicado.png" alt="Confirmación al duplicar artículo o información de tarifa" style="width: 80%; height: auto;" /></a>
 
 *Confirmación al duplicar artículo o información de tarifa. Pulsa la imagen para abrirla a tamaño completo.*
 
@@ -68,7 +69,7 @@ Cuando se duplica un artículo, el sistema puede preguntar si se desea duplicar 
 
 <!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_9 -->
 
-[![Mantenimiento de tarifa interna del proveedor](/assets/simgest/operativa/cap_15_tarifa_interna.png)](/assets/simgest/operativa/cap_15_tarifa_interna.png)
+<a href="/assets/simgest/operativa/cap_15_tarifa_interna.png"><img src="/assets/simgest/operativa/cap_15_tarifa_interna.png" alt="Mantenimiento de tarifa interna del proveedor" style="width: 80%; height: auto;" /></a>
 
 *Mantenimiento de tarifa interna del proveedor. Pulsa la imagen para abrirla a tamaño completo.*
 
@@ -112,7 +113,7 @@ Cuando se duplica un artículo, el sistema puede preguntar si se desea duplicar 
 
 ## Apoyo visual ampliado
 
-[![Ficha del artículo con bloque de compras y ventas](/assets/simgest/operativa/cap_10_ficha_compras_ventas.png)](/assets/simgest/operativa/cap_10_ficha_compras_ventas.png)
+<a href="/assets/simgest/operativa/cap_10_ficha_compras_ventas.png"><img src="/assets/simgest/operativa/cap_10_ficha_compras_ventas.png" alt="Ficha del artículo con bloque de compras y ventas" style="width: 80%; height: auto;" /></a>
 
 *Ficha del artículo con bloque de compras y ventas. Pulsa la imagen para abrirla a tamaño completo.*
 

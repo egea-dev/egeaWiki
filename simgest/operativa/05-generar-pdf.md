@@ -1,19 +1,20 @@
 ---
-title: 5. Generar el PDF del presupuesto
-description: Manual operativo SIMGEST: 5. Generar el PDF del presupuesto
+title: "5. Generar el PDF del presupuesto"
+description: "Manual operativo SIMGEST: 5. Generar el PDF del presupuesto"
 published: true
-tags: simgest, manual, operativa
+tags:
+  - simgest
+  - manual
+  - operativa
 editor: markdown
 ---
 
-
 <!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
 
-# 5. Generar el PDF del presupuesto
 
 Después de revisar la oferta, se genera el presupuesto en PDF. El PDF es el documento imprimible: debe mostrar artículos, descripción, cantidad, precio y total.
 
-[![Presupuesto generado en PDF](/assets/simgest/operativa/cap_04_pdf_presupuesto.png)](/assets/simgest/operativa/cap_04_pdf_presupuesto.png)
+<a href="/assets/simgest/operativa/cap_04_pdf_presupuesto.png"><img src="/assets/simgest/operativa/cap_04_pdf_presupuesto.png" alt="Presupuesto generado en PDF" style="width: 80%; height: auto;" /></a>
 
 *Presupuesto generado en PDF. Pulsa la imagen para abrirla a tamaño completo.*
 

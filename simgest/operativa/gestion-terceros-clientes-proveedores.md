@@ -1,6 +1,6 @@
 ---
-title: "Consulta de terceros y documentación asociada"
-description: "Consulta de listados, fichas, direcciones y documentación de terceros en SIMGEST."
+title: "Consulta de terceros, direcciones y documentación"
+description: "Consulta visual de la ficha de terceros y revisión de sus direcciones y documentación asociada en SIMGEST."
 published: true
 tags: simgest, operativa, terceros
 editor: markdown
@@ -8,94 +8,100 @@ editor: markdown
 
 ## Objetivo
 
-Este manual explica cómo localizar un tercero, abrir su ficha y revisar la información, direcciones y documentación que se muestran durante la sesión de formación.
+Este manual muestra únicamente las operaciones que se distinguen en el vídeo: acceder al área de terceros, consultar el listado, abrir una ficha y revisar las pestañas de direcciones y documentación.
 
-El contenido se limita a las acciones visibles en el vídeo. Los campos y comportamientos que no pueden verificarse con claridad quedan expresamente pendientes.
+No se documentan altas, modificaciones, eliminaciones ni relaciones entre terceros, clientes y proveedores porque esas operaciones no quedan confirmadas visualmente en la grabación.
 
 ## Acceder al área de terceros
 
-### Paso 1. Identificar el menú de mantenimiento
+### Paso 1. Abrir el menú Terceros
 
-La sesión muestra un menú desplegado de mantenimiento. Identifica en tu instalación el acceso equivalente antes de continuar.
+En la barra superior de SIMGEST, pulsa **Terceros**. En el desplegable se muestran las opciones disponibles dentro de este apartado.
 
-<a href="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/01-menu-terceros.png"><img src="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/01-menu-terceros.png" alt="Menú desplegado de mantenimiento en SIMGEST" style="width: 70%; height: auto;" /></a>
+<a href="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/01-menu-terceros-anotado.png"><img src="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/01-menu-terceros-anotado.png" alt="Menú Terceros de SIMGEST con el acceso y el desplegable señalados" style="width: 70%; height: auto;" /></a>
 
-*Menú desplegado de mantenimiento. Pulsa la imagen para ampliarla.*
+*El número 1 señala el menú Terceros y el número 2 su desplegable. Pulsa la imagen para ampliarla.*
 
 ### Paso 2. Abrir el listado de terceros
 
-Pendiente de validación por Hacchi: ruta exacta del menú para abrir el listado de terceros.
+Pendiente de validación por Hacchi
 
-## Localizar y abrir un tercero
+## Consultar el listado de terceros
 
-### Paso 1. Revisar el listado
+### Paso 1. Revisar los registros disponibles
 
-El listado presenta los registros disponibles en filas y varias columnas de identificación. Utiliza los controles visibles de la ventana para localizar el tercero necesario.
+La ventana muestra los terceros en una tabla. Cada fila corresponde a un registro y las columnas contienen la información visible en el listado.
 
-<a href="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/02-listado-terceros.png"><img src="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/02-listado-terceros.png" alt="Listado general de terceros mostrado en una tabla de SIMGEST" style="width: 70%; height: auto;" /></a>
+<a href="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/02-listado-terceros-anotado.png"><img src="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/02-listado-terceros-anotado.png" alt="Listado de terceros de SIMGEST con la tabla principal y las columnas laterales señaladas" style="width: 70%; height: auto;" /></a>
 
-*Listado general de terceros. Pulsa la imagen para ampliarla.*
+*El número 1 señala la tabla de registros y el número 2 las columnas situadas en la parte derecha. Pulsa la imagen para ampliarla.*
 
-### Paso 2. Abrir la ficha del registro
+### Paso 2. Abrir una ficha desde el listado
 
-Marca la fila correspondiente al tercero que deseas consultar y abre su ficha desde el control disponible en tu instalación.
+Pendiente de validación por Hacchi
 
-Pendiente de validación por Hacchi: acción exacta para abrir la ficha desde el listado.
+## Revisar la ficha del tercero
 
-## Revisar los datos generales del tercero
+### Paso 1. Identificar las pestañas de la ficha
 
-### Paso 1. Comprobar la identificación principal
+En la parte superior de la ficha se muestran varias pestañas. La captura permite distinguir la ficha principal y los bloques de información visibles en el formulario.
 
-En la ficha abierta, revisa los campos de identificación y localización que aparecen en la zona principal del formulario.
+<a href="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/03-ficha-tercero-anotada.png"><img src="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/03-ficha-tercero-anotada.png" alt="Ficha de tercero con las pestañas y los bloques principales del formulario señalados" style="width: 70%; height: auto;" /></a>
 
-<a href="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/03-ficha-tercero-datos-generales.png"><img src="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/03-ficha-tercero-datos-generales.png" alt="Ficha de tercero de SIMGEST con los datos generales y de localización" style="width: 70%; height: auto;" /></a>
+*El número 1 señala las pestañas de la ficha; los números 2 y 3 señalan los bloques principales visibles. Pulsa la imagen para ampliarla.*
 
-*Datos generales de la ficha del tercero. Pulsa la imagen para ampliarla.*
+### Paso 2. Revisar los paneles laterales
 
-### Paso 2. Revisar la información asociada
+La ficha contiene paneles laterales con información asociada al registro.
 
-La ficha muestra bloques laterales y apartados relacionados con el tercero. Comprueba la información disponible antes de realizar cambios.
+Pendiente de validación por Hacchi
 
-<a href="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/04-ficha-tercero-datos-relacionados.png"><img src="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/04-ficha-tercero-datos-relacionados.png" alt="Ficha de tercero con paneles laterales de información relacionada" style="width: 70%; height: auto;" /></a>
+<a href="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/04-paneles-ficha-tercero-anotados.png"><img src="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/04-paneles-ficha-tercero-anotados.png" alt="Ficha de tercero con tres paneles laterales señalados" style="width: 70%; height: auto;" /></a>
 
-*Información relacionada disponible desde la ficha del tercero. Pulsa la imagen para ampliarla.*
+*Los números 1, 2 y 3 señalan los paneles laterales visibles en la ficha. Pulsa la imagen para ampliarla.*
 
-## Revisar las direcciones del tercero
+## Consultar las direcciones asociadas
 
-### Paso 1. Abrir la sección de direcciones
+### Paso 1. Abrir la pestaña Direcciones
 
-Desde la ficha del tercero, abre la pestaña o apartado de direcciones.
+Pulsa la pestaña **Direcciones** situada en la parte superior de la ficha.
 
-Pendiente de validación por Hacchi: nombre exacto del acceso en la instalación.
+<a href="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/05-direcciones-tercero-anotada.png"><img src="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/05-direcciones-tercero-anotada.png" alt="Pestaña Direcciones de la ficha de tercero con el formulario y el listado inferior señalados" style="width: 70%; height: auto;" /></a>
 
-### Paso 2. Revisar los datos de dirección
+*El número 1 señala la pestaña Direcciones, el número 2 el formulario visible y el número 3 el listado inferior. Pulsa la imagen para ampliarla.*
 
-Revisa los datos de dirección, localidad, provincia y los campos asociados visibles en el formulario.
+### Paso 2. Revisar la información de la dirección
 
-<a href="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/05-ficha-cliente-condiciones.png"><img src="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/05-ficha-cliente-condiciones.png" alt="Apartado de direcciones y datos asociados de un tercero" style="width: 70%; height: auto;" /></a>
+La pestaña muestra un formulario con datos de dirección y otros bloques asociados. También aparece un listado en la parte inferior.
 
-*Direcciones y datos asociados del tercero. Pulsa la imagen para ampliarla.*
+No se confirma en el vídeo el procedimiento para crear, modificar o eliminar una dirección.
 
 ## Consultar la documentación asociada
 
-### Paso 1. Abrir la pestaña de documentación
+### Paso 1. Abrir la pestaña Documentación
 
-Desde la ficha del tercero, abre la pestaña **Documentación** visible en la sesión.
+Pulsa la pestaña **Documentación** situada en la parte superior de la ficha.
 
-<a href="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/06-ficha-cliente-datos-fiscales.png"><img src="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/06-ficha-cliente-datos-fiscales.png" alt="Pestaña de documentación asociada a un tercero" style="width: 70%; height: auto;" /></a>
+<a href="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/06-documentacion-tercero-anotada.png"><img src="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/06-documentacion-tercero-anotada.png" alt="Pestaña Documentación de la ficha de tercero con el formulario documental y el listado inferior señalados" style="width: 70%; height: auto;" /></a>
 
-*Pestaña de documentación asociada al tercero. Pulsa la imagen para ampliarla.*
+*El número 1 señala la pestaña Documentación, el número 2 el formulario documental y el número 3 el listado inferior. Pulsa la imagen para ampliarla.*
 
-### Paso 2. Revisar los campos y registros disponibles
+### Paso 2. Revisar los documentos visibles
 
-La pantalla muestra campos de documentación y un listado inferior de registros asociados. Revisa la información disponible sin modificarla hasta confirmar el procedimiento interno.
+En el formulario se muestran campos relacionados con la documentación y varias líneas de documentos. En la parte inferior aparece una tabla de registros.
 
-<a href="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/07-opciones-ficha-cliente.png"><img src="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/07-opciones-ficha-cliente.png" alt="Campos y listado de documentación asociada a un tercero" style="width: 70%; height: auto;" /></a>
+<a href="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/07-listado-documentacion-anotado.png"><img src="/assets/simgest/operativa/gestion-terceros-clientes-proveedores/07-listado-documentacion-anotado.png" alt="Área de documentos y tabla inferior de la pestaña Documentación señaladas" style="width: 70%; height: auto;" /></a>
 
-*Campos y listado de documentación asociada. Pulsa la imagen para ampliarla.*
+*El número 1 señala las líneas de documentos y el número 2 la tabla inferior de registros. Pulsa la imagen para ampliarla.*
 
-## Consideraciones
+### Paso 3. Abrir un documento asociado
 
-- Revisa siempre que el tercero correcto esté seleccionado antes de abrir o modificar una ficha.
-- No se documentan acciones de guardado, eliminación o creación porque su secuencia completa no se distingue con suficiente certeza en el vídeo.
-- La relación exacta entre tercero, cliente y proveedor debe validarse antes de crear un manual específico de altas, modificaciones o condiciones comerciales.
+Pendiente de validación por Hacchi
+
+## Límites del procedimiento
+
+- El vídeo no confirma el método exacto para abrir una ficha desde el listado.
+- El vídeo no confirma el significado de todos los paneles laterales.
+- El vídeo no confirma las acciones de alta, modificación, guardado o eliminación.
+- El vídeo no confirma cómo se abre un documento asociado.
+- Este manual no establece ninguna relación funcional entre tercero, cliente y proveedor.

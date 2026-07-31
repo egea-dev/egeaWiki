@@ -15,7 +15,8 @@ def main() -> int:
     available = {item.relative_to(ROOT).as_posix() for item in ASSETS.rglob("*") if item.is_file()}
     used: set[str] = set()
     errors = 0
-    for path in sorted((ROOT / "simgest").rglob("*.md")):
+    pages = [ROOT / "simgest.md", *sorted((ROOT / "simgest").rglob("*.md"))]
+    for path in pages:
         for number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
             for match in IMAGE.findall(line):
                 target = next(value for value in match if value)

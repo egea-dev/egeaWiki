@@ -8,7 +8,9 @@ editor: markdown
 
 <div style="text-align:center">
 
-<img src="/assets/simgest/manual-simgest-logo.png" alt="Manual SIMGEST" style="max-width:70%; height:auto;">
+<img src="/assets/simgest/logo-decoraciones-egea.png" alt="Decoraciones Egea" style="width:300px; max-width:80%; height:auto; margin:12px;">
+
+<img src="/assets/simgest/logo-simgest.png" alt="SIMGEST" style="width:150px; max-width:55%; height:auto; margin:12px;">
 
 </div>
 

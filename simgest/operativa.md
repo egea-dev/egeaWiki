@@ -16,6 +16,12 @@ Cada manual es independiente. Se publican en el orden de trabajo, pero sus rutas
 
 Manual visual para localizar terceros, revisar sus fichas, direcciones y documentación asociada.
 
+### Configuración de artículos y ofertas
+
+[Consultar artículos y ofertas](/simgest/operativa/configuracion-articulos-y-ofertas)
+
+Manual visual para revisar ofertas, líneas, proformas y las áreas principales de configuración de artículos.
+
 ### Presupuestos y ofertas
 
 [Crear un presupuesto en SIMGEST](/simgest/operativa/presupuestos)

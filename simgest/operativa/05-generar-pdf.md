@@ -6,60 +6,122 @@ tags: simgest, manual, operativa
 editor: markdown
 ---
 
-<!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
+## 5. Generar y comprobar el PDF
 
+> **Objetivo**
+>
+> Obtener el documento imprimible de la oferta y comprobar que reproduce correctamente la información que se ha revisado en SIMGEST.
 
-Después de revisar la oferta, se genera el presupuesto en PDF. El PDF es el documento imprimible: debe mostrar artículos, descripción, cantidad, precio y total.
+## Cuándo utilizar este procedimiento
 
-<a href="/assets/simgest/operativa/cap_04_pdf_presupuesto.png"><img src="/assets/simgest/operativa/cap_04_pdf_presupuesto.png" alt="Presupuesto generado en PDF" style="width: 80%; height: auto;" /></a>
+Utilízalo después de completar la revisión de la oferta y antes de enviar, imprimir o archivar el presupuesto.
 
-*Presupuesto generado en PDF. Pulsa la imagen para abrirla a tamaño completo.*
+## Requisitos previos
 
-1. Con la oferta abierta y revisada, usar la opción de imprimir, listar o generar documento. En el vídeo se observa el PDF ya generado en el visor.
+- Oferta guardada y revisada.
+- Cliente, referencia y proyecto correctos.
+- Líneas completas.
+- Precios, descuentos e IVA comprobados.
+- Forma de pago confirmada.
 
+## Vista general
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
+Generar documento
+→ abrir el PDF
+→ revisar cabecera
+→ revisar líneas
+→ comprobar totales y cortes
+→ corregir la oferta si es necesario
+→ generar de nuevo
 
-1. Abrir el PDF generado.
+## Procedimiento
 
+### Paso 1. Generar el documento
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
+Con la oferta correcta abierta, utiliza la opción de impresión, listado o generación de documento correspondiente.
 
-1. Comprobar la cabecera: empresa, cliente, documento, número, página y fecha.
+**Nombre exacto del botón o informe que genera el presupuesto:** Pendiente de validación por Hacchi
 
+No selecciones un informe únicamente porque sea el primero de la lista. Confirma que corresponde al formato de presupuesto utilizado por la empresa.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
+### Paso 2. Abrir el PDF
 
-1. Comprobar la referencia del trabajo.
+Espera a que el visor muestre el documento completo. Comprueba que el PDF pertenece a la oferta que estaba activa.
 
+[![Visor de PDF con la cabecera y el detalle del presupuesto señalados](/assets/simgest/operativa/cap_04_pdf_presupuesto.png =70%x)](/assets/simgest/operativa/cap_04_pdf_presupuesto.png)
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_4 -->
+*Documento generado desde la oferta para su revisión antes del envío. Pulsa la imagen para abrirla a tamaño completo.*
 
-1. Revisar la lista de artículos: descripción, cantidad, precio y total.
+### Paso 3. Revisar la cabecera del documento
 
+Comprueba:
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_5 -->
+- empresa emisora;
+- cliente;
+- número o identificación del documento;
+- fecha;
+- referencia del trabajo;
+- numeración de páginas cuando haya más de una.
 
-1. Confirmar que el PDF no corta textos importantes.
+### Paso 4. Revisar el detalle
 
+Compara el PDF con la oferta:
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_6 -->
+- artículos;
+- descripciones;
+- cantidades;
+- precios;
+- descuentos visibles;
+- impuestos;
+- subtotales y total.
 
-1. Revisar el total antes de enviarlo.
+### Paso 5. Comprobar la maquetación
 
+Revisa que:
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_7 -->
+- no se corten descripciones;
+- las líneas no se solapen;
+- los totales sean legibles;
+- todas las páginas pertenezcan al mismo documento;
+- no aparezcan notas internas que no deban imprimirse.
 
-1. Guardar el PDF con un nombre claro, por ejemplo: Presupuesto_[Cliente]_[Proyecto]_[Fecha].pdf.
+### Paso 6. Corregir discrepancias
 
+Si el PDF no coincide con la oferta:
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_8 -->
+1. no lo envíes;
+2. vuelve a SIMGEST;
+3. corrige la oferta;
+4. guarda el cambio;
+5. genera un PDF nuevo;
+6. repite la revisión completa.
 
-> **Atención:** Si el PDF no coincide con la oferta, no se debe enviar. Volver a la oferta, corregir, guardar y generar el PDF otra vez.
+### Paso 7. Guardar o enviar
 
+**Nombre de archivo, ubicación de almacenamiento y circuito de envío corporativo:** Pendiente de validación por Hacchi
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_MODULO -->
+## Resultado esperado
+
+El PDF coincide con la oferta, muestra los datos necesarios y está preparado para el circuito corporativo de envío o archivo.
+
+## Comprobación final
+
+- [ ] PDF de la oferta correcta.
+- [ ] Cliente y referencia correctos.
+- [ ] Líneas comparadas con SIMGEST.
+- [ ] Totales revisados.
+- [ ] Sin textos cortados ni páginas incompletas.
+- [ ] Sin notas internas improcedentes.
+- [ ] Versión final claramente identificada.
+
+## Errores habituales
+
+| Error | Riesgo | Actuación |
+|---|---|---|
+| Enviar sin comparar con la oferta | Comunicar datos distintos | Revisar cabecera, líneas y total. |
+| Corregir el PDF fuera de SIMGEST | Mantener dos versiones diferentes | Corregir la oferta y regenerar. |
+| Guardar con un nombre ambiguo | Confundir versiones | Pendiente de validación por Hacchi |
 
 ---
 
-[← 4. Revisar el presupuesto antes de emitirlo](/simgest/operativa/04-revision-presupuesto) · [Índice](/simgest) · [6. Configurar artículos, variantes y escandallos →](/simgest/operativa/06-articulos-variantes-escandallos)
+[← 4. Revisar la oferta](/simgest/operativa/04-revision-presupuesto) · [Índice de operativa](/simgest/operativa) · [6. Revisar partes tapizables y variantes →](/simgest/operativa/06-articulos-variantes-escandallos)

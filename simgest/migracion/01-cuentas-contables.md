@@ -6,125 +6,106 @@ tags: simgest, migracion, factusol
 editor: markdown
 ---
 
-<!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
+## 1. Conservar cuentas contables y códigos
 
+> **Objetivo**
+>
+> Mantener en SIMGEST los códigos de cliente o proveedor y las cuentas contables procedentes de Factusol, sin alterar los valores que deban conservarse.
 
-<a href="/assets/simgest/migracion/mig_01_listado_terceros.png"><img src="/assets/simgest/migracion/mig_01_listado_terceros.png" alt="Listado de terceros para revisar códigos y datos migrados" style="width: 80%; height: auto;" /></a>
+## Cuándo utilizar este procedimiento
 
-*Listado de terceros para revisar códigos y datos migrados. Pulsa la imagen para abrirla a tamaño completo.*
+Utiliza este procedimiento antes de migrar terceros, clientes, proveedores y acreedores. Su finalidad es preparar una correspondencia verificable entre los datos de origen y los datos que quedarán registrados en SIMGEST.
 
-<a href="/assets/simgest/migracion/mig_02_cuentas_codigos.png"><img src="/assets/simgest/migracion/mig_02_cuentas_codigos.png" alt="Identificación del tercero, códigos y cuenta contable" style="width: 80%; height: auto;" /></a>
+## Requisitos previos
 
-*Identificación del tercero, códigos y cuenta contable. Pulsa la imagen para abrirla a tamaño completo.*
+- Relación actualizada de terceros de Factusol.
+- Código original de cada cliente, proveedor o agente.
+- Cuenta contable asociada a cada registro.
+- Identificación de los registros que comparten CIF pero tienen funciones distintas.
+- Confirmación de que se está utilizando la última entrega de datos.
 
+## Vista general
 
-<!-- AÑADIR_CONTENIDO_ANTES_DE_PASO-1-IDENTIFICAR-LAS-CUENTAS-CONTABLES-EXISTENTES -->
+Inventariar códigos y cuentas
+→ comprobar correspondencias
+→ generar el código interno de tercero
+→ mantener separados los roles
+→ revisar el resultado
 
-## Paso 1: Identificar las cuentas contables existentes
+## Procedimiento
 
-1. Tomar las cuentas contables de Factusol tal como están (códigos de cliente, proveedor, etc.)
+### Paso 1. Preparar el inventario de origen
 
+**Qué debe hacer:** extrae o lista los códigos y las cuentas contables que se utilizan en Factusol.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
+**Para qué sirve:** permite comparar el origen con el resultado de la migración y detectar alteraciones antes de comenzar la operativa.
 
-1. No modificar ninguna cuenta contable — se respetan íntegramente los valores originales
+**Qué debe comprobar:** el listado debe incluir todos los registros que se van a migrar y debe distinguir, cuando proceda, entre cliente, proveedor, acreedor o agente.
 
+**Resultado esperado:** existe una relación de control con el código original y la cuenta contable de cada registro.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
+[![Listado de terceros con las columnas de código, identificación y tipo de registro señaladas](/assets/simgest/migracion/mig_01_listado_terceros.png =70%x)](/assets/simgest/migracion/mig_01_listado_terceros.png)
 
-1. Listar todas las cuentas utilizadas para verificar su integridad antes de la migración
+*Listado utilizado para revisar los terceros que formarán parte de la migración. Pulsa la imagen para abrirla a tamaño completo.*
 
+### Paso 2. Mantener la correspondencia original
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
+**Qué debe hacer:** conserva los códigos y las cuentas contables tal como se reciben desde Factusol.
 
+**Criterio documentado:** si un cliente tiene un código determinado y una cuenta del grupo 430 con la misma terminación, ambos valores deben mantenerse. Para proveedores, se revisan las cuentas del grupo 400 y su terminación original.
 
-<!-- AÑADIR_CONTENIDO_ANTES_DE_PASO-2-CONFIRMAR-LA-ASIGNACION-DE-CUENTAS -->
+**Qué debe comprobar:**
 
-## Paso 2: Confirmar la asignación de cuentas
+- el código del registro coincide con el de Factusol;
+- la cuenta contable conserva el valor original;
+- los últimos dígitos no se han cambiado durante el traspaso;
+- no se ha aplicado una renumeración manual.
 
-1. Pedro respeta las cuentas que le pasa el equipo de Productivity Egea sin ninguna alteración
+**Resultado esperado:** código de Factusol y cuenta contable mantienen una correspondencia directa en SIMGEST.
 
+[![Ficha del tercero con las zonas de cliente, tercero y cuenta contable señaladas](/assets/simgest/migracion/mig_02_cuentas_codigos.png =70%x)](/assets/simgest/migracion/mig_02_cuentas_codigos.png)
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
+*Ficha utilizada para comparar el código del tercero con sus datos de cliente y cuenta contable. Pulsa la imagen para abrirla a tamaño completo.*
 
-1. Ejemplo: si un cliente tiene código 5 y cuenta 430…5 en Factusol, esos mismos valores se mantienen en Simgest
+### Paso 3. Diferenciar el código interno de tercero
 
+SIMGEST incorpora un código de tercero que no existía en Factusol. Según el procedimiento de migración, este código se genera durante el traspaso y funciona como identificador interno.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
+**Qué debe comprobar:** al convertir o relacionar el tercero con cliente, proveedor o agente, deben seguir conservándose los códigos originales de Factusol en las tablas correspondientes.
 
-1. Verificar que la cuenta 430 (clientes) y 400 (proveedores) mantengan sus últimos dígitos originales
+**No debe hacerse:** utilizar el nuevo código interno como sustituto del código original de cliente o proveedor.
 
+### Paso 4. Tratar un mismo CIF con varios roles
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
+Un mismo CIF puede aparecer como cliente y como proveedor con datos diferentes.
 
-1. La correspondencia es directa: código de Factusol → mismo código en Simgest
+- Los datos propios de cliente deben permanecer en la tabla de clientes.
+- Los datos propios de proveedor deben permanecer en la tabla de proveedores.
+- Las notas de cada rol deben incorporarse al registro correspondiente.
+- No deben mezclarse los datos de ambos roles en una única ficha funcional.
 
+## Resultado esperado
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_4 -->
+Los terceros quedan identificados en SIMGEST y los códigos y cuentas que proceden de Factusol conservan sus valores. Cuando un CIF tiene varios roles, cada uno mantiene sus datos específicos.
 
+## Comprobación final
 
-<!-- AÑADIR_CONTENIDO_ANTES_DE_PASO-3-MANEJO-DEL-CODIGO-DE-TERCERO-NUEVO-EN-SIMGEST -->
+- [ ] Se ha utilizado la versión más reciente de los datos.
+- [ ] Todos los códigos de origen están incluidos en el control.
+- [ ] Las cuentas contables coinciden con Factusol.
+- [ ] El código interno de tercero no ha sustituido al código comercial original.
+- [ ] Los roles de cliente y proveedor permanecen separados.
+- [ ] Las diferencias detectadas están registradas para corrección.
 
-## Paso 3: Manejo del código de tercero (nuevo en Simgest)
+## Errores habituales
 
-1. Simgest requiere un código de tercero que NO existía en Factusol
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
-
-1. Este código es nuevo y en principio su número exacto es irrelevante para el equipo
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
-
-1. Pedro lo genera automáticamente durante la migración
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
-
-1. Al traspasar el tercero a cliente/proveedor/agente, se respeta el código original de Factusol
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_4 -->
-
-1. El código de tercero es un identificador interno del sistema — no afecta la operativa diaria
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_5 -->
-
-
-<!-- AÑADIR_CONTENIDO_ANTES_DE_CASO-ESPECIAL-MISMO-CIF-COMO-CLIENTE-Y-PROVEEDOR -->
-
-## ⚠️ Caso especial: Mismo CIF como cliente y proveedor
-
-1. Un mismo CIF puede existir como cliente y como proveedor con datos diferentes
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
-
-1. Los datos de la ficha de cliente se graban en la tabla de clientes
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
-
-1. Los datos de la ficha de proveedor se graban en la tabla de proveedores
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
-
-1. NO se mezclan en la tabla de terceros — cada rol mantiene sus datos independientes
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_4 -->
-
-1. Las notas de cada tabla se insertan en su correspondiente tipo de tercero
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_5 -->
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_MODULO -->
+| Error | Cómo detectarlo | Actuación |
+|---|---|---|
+| Código comercial renumerado | No coincide con Factusol | Detener la validación y recuperar el valor original. |
+| Cuenta contable modificada | La cuenta o su terminación es distinta | Comparar con el inventario de origen antes de continuar. |
+| Datos de cliente y proveedor mezclados | Un rol contiene notas o datos del otro | Separar la información en las tablas correspondientes. |
+| Duda sobre la asignación de un registro | La fuente no permite confirmar el rol | Pendiente de validación por Hacchi |
 
 ---
 
-[← 15. Errores habituales y cómo evitarlos](/simgest/operativa/15-errores-habituales) · [Índice](/simgest) · [2. Mapeo de Formas de Pago →](/simgest/migracion/02-mapeo-formas-pago)
+[Índice de migración](/simgest/migracion) · [2. Mapear formas de pago →](/simgest/migracion/02-mapeo-formas-pago)

@@ -6,52 +6,76 @@ tags: simgest, manual, operativa
 editor: markdown
 ---
 
-<!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
+## 15. Errores habituales y actuación recomendada
 
+> **Objetivo**
+>
+> Identificar fallos repetidos antes de que produzcan documentos, compras, recepciones o datos maestros incorrectos.
 
-- Crear líneas antes de completar la cabecera: completar siempre cliente, referencia, tarifa y proyecto primero.
+## Cómo utilizar esta entrada
 
+Consulta primero el procedimiento específico. Esta tabla sirve como control rápido y no sustituye la revisión funcional.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
+## Ofertas y presupuestos
 
-- Usar una forma de pago incorrecta: abrir el desplegable y confirmar con la condición pactada.
+| Error | Señal de detección | Riesgo | Actuación |
+|---|---|---|---|
+| Crear líneas antes de completar la cabecera | Faltan cliente, proyecto, tarifa o forma de pago | Líneas asociadas a condiciones incorrectas | Completar y revisar la cabecera. |
+| Seleccionar una forma de pago por defecto | No coincide con la condición comercial | Presupuesto incorrecto | Abrir el selector y confirmar el significado. |
+| Revisar solo el total | No se comprueban artículos y cantidades | Error oculto en una línea | Revisar línea por línea. |
+| Enviar un PDF sin compararlo | Oferta y PDF pueden diferir | Información incorrecta al cliente | Comparar cabecera, líneas y total. |
+| Corregir el PDF fuera de SIMGEST | Dos versiones distintas | Pérdida de trazabilidad | Corregir la oferta y regenerar. |
 
+## Artículos, variantes y tarifas
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
+| Error | Señal de detección | Riesgo | Actuación |
+|---|---|---|---|
+| Editar un artículo parecido | Código distinto con descripción similar | Modificar otra referencia | Confirmar código antes de guardar. |
+| Duplicar heredando proveedor o tarifa | El diálogo de duplicación se acepta sin revisar | Datos de compra incorrectos | Revisar la nueva ficha. |
+| Copiar precio de otra columna | Acabado, ancho o unidad no coinciden | Coste incorrecto | Volver a la tarifa oficial. |
+| Cambiar consumo o merma sin criterio | El escandallo se recalcula de forma inesperada | Necesidades erróneas | Pendiente de validación por Hacchi |
 
-- Enviar PDF sin revisar: comparar PDF con oferta antes de mandarlo.
+## Pedidos a proveedor
 
+| Error | Señal de detección | Riesgo | Actuación |
+|---|---|---|---|
+| Filtrar por otro proyecto | Aparecen líneas ajenas | Compra para otro trabajo | Corregir filtros y repetir la búsqueda. |
+| Utilizar Marcar todo sin revisar | Se seleccionan todas las líneas visibles | Pedido sobredimensionado | Seleccionar individualmente. |
+| Generar sin validar tarifa | Precio no coincide con la fuente oficial | Coste incorrecto | Revisar proveedor, unidad y tarifa. |
+| No abrir el pedido generado | No se comprueba el resultado | Error no detectado | Comparar pedido y selección. |
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
+## Recepción
 
-- Duplicar artículos heredando proveedor incorrecto: leer el mensaje de confirmación.
+| Error | Señal de detección | Riesgo | Actuación |
+|---|---|---|---|
+| Registrar la cantidad pedida en lugar de la recibida | No se ha contado la mercancía | Stock y albarán incorrectos | Introducir solo la cantidad física. |
+| Marcar una recepción parcial como servida | Quedan unidades pendientes | Cierre prematuro | Revisar estado y resto pendiente. |
+| Introducir datos en otra línea | Artículo no coincide con el albarán | Recepción equivocada | Comparar código y descripción. |
+| Confirmar sin revisar el albarán generado | Documento final no comprobado | Error persistente | Abrir y comparar el albarán. |
 
+## Consultas y vistas
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
+| Error | Señal de detección | Riesgo | Actuación |
+|---|---|---|---|
+| Pensar que falta un dato | La columna está oculta | Revisión incompleta | Abrir columnas visibles. |
+| Guardar una vista sin conocer el alcance | Cambia la vista de otros usuarios | Interferencia operativa | Pendiente de validación por Hacchi |
+| Revisar solo la cabecera de una carga | No se miran documentos ni líneas | Entrega incompleta | Revisar el detalle inferior. |
 
-- Copiar precio desde tarifa equivocada: comprobar acabado, ancho y unidad.
+## Regla de detención
 
+Detén el proceso cuando:
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
+- el documento no pertenece al cliente o proyecto esperado;
+- una cantidad no coincide con la mercancía o la fuente;
+- un color o estado no tiene significado confirmado;
+- no se conoce el efecto de una confirmación;
+- existe una contradicción entre la captura, el vídeo y el documento;
+- el procedimiento indica **Pendiente de validación por Hacchi**.
 
-- Generar pedido proveedor sin filtrar por proyecto: revisar el filtro antes de confirmar.
+## Resultado esperado
 
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Recepcionar cantidades no recibidas: registrar solo lo físico.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- No ver columnas importantes: abrir menú de columnas visibles.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_MODULO -->
+Los errores se detectan antes de guardar o confirmar y se deriva a validación cualquier situación no documentada.
 
 ---
 
-[← 14. Checklist final para trabajadores](/simgest/operativa/14-checklists) · [Índice](/simgest) · [1. Cuentas Contables: Configuración Inicial →](/simgest/migracion/01-cuentas-contables)
+[← 14. Listas de comprobación](/simgest/operativa/14-checklists) · [Índice de operativa](/simgest/operativa) · [Manual SIMGEST →](/simgest)

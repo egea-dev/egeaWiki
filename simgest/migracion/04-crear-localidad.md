@@ -6,215 +6,123 @@ tags: simgest, migracion, factusol
 editor: markdown
 ---
 
-<!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
+## 4. Crear una localidad
 
+> **Objetivo**
+>
+> Dar de alta en SIMGEST una localidad que no existe en su tabla auxiliar y asignarla posteriormente al tercero correspondiente.
 
-<a href="/assets/simgest/migracion/mig_05_tabla_provincias.png"><img src="/assets/simgest/migracion/mig_05_tabla_provincias.png" alt="Tabla de provincias y asignación de país" style="width: 80%; height: auto;" /></a>
+## Cuándo utilizar este procedimiento
 
-*Tabla de provincias y asignación de país. Pulsa la imagen para abrirla a tamaño completo.*
+Utilízalo cuando el código postal o la localidad de origen no tenga un registro válido en SIMGEST y la dirección pueda identificarse correctamente.
 
-<a href="/assets/simgest/migracion/mig_06_ficha_localidad.png"><img src="/assets/simgest/migracion/mig_06_ficha_localidad.png" alt="Ficha para crear una nueva localidad" style="width: 80%; height: auto;" /></a>
+No utilices este procedimiento para crear una localidad dudosa. En ese caso, aplica [Localidad Desconocida](/simgest/migracion/05-localidad-desconocida) y registra la incidencia.
 
-*Ficha para crear una nueva localidad. Pulsa la imagen para abrirla a tamaño completo.*
+## Requisitos previos
 
-<a href="/assets/simgest/migracion/mig_07_asignar_localidad_tercero.png"><img src="/assets/simgest/migracion/mig_07_asignar_localidad_tercero.png" alt="Asignación de localidad, provincia y país al tercero" style="width: 80%; height: auto;" /></a>
+- Código postal confirmado.
+- Nombre oficial de la localidad.
+- País correspondiente.
+- Provincia, región, condado, departamento o estado aplicable.
+- Confirmación de que la localidad no existe ya con otra denominación.
 
-*Asignación de localidad, provincia y país al tercero. Pulsa la imagen para abrirla a tamaño completo.*
+## Vista general
 
-Este procedimiento se basa en la demostración en vivo realizada durante la reunión.
+Confirmar que no existe
+→ abrir tablas auxiliares
+→ crear país o provincia si falta
+→ crear localidad
+→ guardar
+→ asignar al tercero
 
+## Procedimiento
 
-<!-- AÑADIR_CONTENIDO_ANTES_DE_PASO-1-IDENTIFICAR-QUE-LA-LOCALIDAD-NO-EXISTE -->
+### Paso 1. Confirmar que la localidad no existe
 
-## Paso 1: Identificar que la localidad no existe
+Busca el código postal y el nombre antes de crear un registro nuevo. El procedimiento de origen indica que, al intentar utilizar una localidad inexistente, el sistema no encuentra el código interno necesario.
 
-1. Al intentar insertar el código postal en el tercero, el sistema muestra que el código interno no existe
+**Qué debe comprobar:** realiza la búsqueda por código postal y por nombre para evitar duplicados.
 
+### Paso 2. Acceder a las tablas auxiliares
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
+Abre el área desde la que se gestionan países, provincias y localidades.
 
-1. Ejemplo: código postal que no está en la base de Simgest
+[![Ruta visual hacia las tablas auxiliares geográficas de SIMGEST](/assets/simgest/migracion/mig_04_ruta_tablas_auxiliares.png =70%x)](/assets/simgest/migracion/mig_04_ruta_tablas_auxiliares.png)
 
+*Acceso a las tablas de países, provincias y localidades. Pulsa la imagen para abrirla a tamaño completo.*
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
+### Paso 3. Revisar o crear el país
 
-1. Esto indica que es necesario dar de alta la localidad antes de poder grabar el tercero
+Si el país ya existe, selecciónalo. Si no existe, la fuente indica que debe darse de alta antes de continuar con la localidad.
 
+**Datos obligatorios y procedimiento exacto para crear un país:** Pendiente de validación por Hacchi
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
+### Paso 4. Revisar o crear la provincia o región
 
+Selecciona la división administrativa aplicable al país. La fuente menciona provincias para España y estructuras equivalentes para otros países.
 
-<!-- AÑADIR_CONTENIDO_ANTES_DE_PASO-2-ACCEDER-A-LA-TABLA-DE-LOCALIDADES -->
+Si no existe, créala asociándola al país correspondiente.
 
-## Paso 2: Acceder a la tabla de localidades
+[![Tabla de provincias con los campos de país, código y título señalados](/assets/simgest/migracion/mig_05_tabla_provincias.png =70%x)](/assets/simgest/migracion/mig_05_tabla_provincias.png)
 
-1. Navegar al módulo de tablas auxiliares
+*Pantalla utilizada para revisar o dar de alta la provincia asociada al país. Pulsa la imagen para abrirla a tamaño completo.*
 
+**Qué debe comprobar:** el país seleccionado en la provincia debe ser el mismo que se utilizará en la localidad.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
+### Paso 5. Crear la localidad
 
-1. Seleccionar la tabla de localidades
+1. Abre una ficha nueva de localidad.
+2. Introduce el código postal.
+3. Introduce el nombre oficial.
+4. Selecciona el país.
+5. Selecciona la provincia o región.
+6. Revisa la combinación completa antes de guardar.
 
+[![Ficha de localidad con código postal, nombre, país y provincia señalados](/assets/simgest/migracion/mig_06_ficha_localidad.png =70%x)](/assets/simgest/migracion/mig_06_ficha_localidad.png)
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
+*Campos que deben revisarse antes de guardar una localidad nueva. Pulsa la imagen para abrirla a tamaño completo.*
 
+El procedimiento indica que SIMGEST asigna automáticamente el código interno de localidad. No lo sustituyas por el código postal ni introduzcas un valor manual salvo que la aplicación lo solicite expresamente.
 
-<!-- AÑADIR_CONTENIDO_ANTES_DE_PASO-3-DAR-DE-ALTA-UNA-NUEVA-LOCALIDAD -->
+### Paso 6. Guardar y comprobar el registro
 
-## Paso 3: Dar de alta una nueva localidad
+Guarda la localidad y vuelve a buscarla en la tabla. Confirma que el código interno aparece asociado a país, provincia y código postal correctos.
 
-1. El sistema asigna automáticamente un código de localidad único
+**Resultado esperado:** la nueva localidad puede seleccionarse desde la ficha del tercero.
 
+### Paso 7. Asignar la localidad al tercero
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
+1. Vuelve a la ficha del tercero.
+2. Selecciona el código de localidad recién creado.
+3. Comprueba los datos de localidad, provincia, país y código postal que muestra la ficha.
+4. Guarda el tercero.
 
-1. Este código es el identificador interno de la localidad en Simgest
+[![Ficha del tercero con el bloque de dirección y localidad señalado](/assets/simgest/migracion/mig_07_asignar_localidad_tercero.png =70%x)](/assets/simgest/migracion/mig_07_asignar_localidad_tercero.png)
 
+*Asignación de la localidad creada a la dirección del tercero. Pulsa la imagen para abrirla a tamaño completo.*
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
+## Resultado esperado
 
-1. No es necesario introducirlo manualmente
+La localidad existe una sola vez en la tabla auxiliar, tiene país y provincia correctos y queda asociada al tercero correspondiente.
 
+## Comprobación final
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
-
-
-<!-- AÑADIR_CONTENIDO_ANTES_DE_PASO-4-RELLENAR-LOS-DATOS-DE-LA-LOCALIDAD -->
-
-## Paso 4: Rellenar los datos de la localidad
-
-1. Campo "Código postal": introducir el código postal correspondiente
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
-
-1. Campo "Nombre de la localidad": introducir el nombre oficial
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
-
-
-<!-- AÑADIR_CONTENIDO_ANTES_DE_PASO-5-SELECCIONAR-ASIGNAR-EL-PAIS -->
-
-## Paso 5: Seleccionar/asignar el país
-
-1. Si el país ya existe en la tabla de países → seleccionarlo
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
-
-1. Si el país NO existe:
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
-
-1. Ir a la tabla de países
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
-
-1. Dar de alta el nuevo país
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_4 -->
-
-1. Volver a la localidad y seleccionarlo
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_5 -->
-
-
-<!-- AÑADIR_CONTENIDO_ANTES_DE_PASO-6-SELECCIONAR-ASIGNAR-LA-PROVINCIA-O-REGION-EQUIVALENTE -->
-
-## Paso 6: Seleccionar/asignar la provincia (o región equivalente)
-
-Dependiendo de la organización administrativa del país:
-
-1. España: provincias
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
-
-1. UK: condados/regiones
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
-
-1. Otros: departamentos, estados, etc.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
-
-Procedimiento:
-
-1. Si la provincia ya existe en la tabla de provincias → seleccionarla
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_4 -->
-
-1. Si la provincia NO existe:
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_5 -->
-
-1. Ir a la tabla de provincias
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_6 -->
-
-1. Dar de alta la nueva provincia, asociándola al país correspondiente
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_7 -->
-
-1. Volver a la localidad y seleccionarla
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_8 -->
-
-
-<!-- AÑADIR_CONTENIDO_ANTES_DE_PASO-7-GUARDAR-LA-LOCALIDAD -->
-
-## Paso 7: Guardar la localidad
-
-1. Una vez guardada, el sistema asigna el código de localidad
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
-
-1. Ese código ya trae asociada toda la información: país, provincia, código postal
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
-
-
-<!-- AÑADIR_CONTENIDO_ANTES_DE_PASO-8-ASIGNAR-LA-LOCALIDAD-AL-TERCERO -->
-
-## Paso 8: Asignar la localidad al tercero
-
-1. Volver a la ficha del tercero
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
-
-1. Seleccionar el código de localidad recién creado
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
-
-1. El sistema autocompleta: provincia, país y código postal
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
-
-1. Guardar el tercero
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_4 -->
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_MODULO -->
+- [ ] Se ha comprobado que la localidad no existía.
+- [ ] Código postal y nombre oficial son correctos.
+- [ ] País y provincia están relacionados correctamente.
+- [ ] SIMGEST ha generado o mostrado el código interno.
+- [ ] El tercero muestra la localidad recién creada.
+- [ ] No se ha creado un duplicado con otra denominación.
+
+## Errores habituales
+
+| Error | Riesgo | Actuación |
+|---|---|---|
+| Crear una localidad sin buscar variantes del nombre | Duplicar la tabla | Buscar por código postal y nombre antes del alta. |
+| Asociar una provincia a otro país | Dirección incoherente | Corregir la relación antes de asignarla al tercero. |
+| Introducir manualmente un código interno | Romper la secuencia de SIMGEST | Utilizar el código generado por el sistema. |
+| No poder confirmar los datos geográficos | Crear un registro incorrecto | Pendiente de validación por Hacchi |
 
 ---
 
-[← 3. Mapeo de Localidades (El proceso más complejo)](/simgest/migracion/03-mapeo-localidades) · [Índice](/simgest) · [5. Procedimiento de Fallback: Localidad "Desconocida" →](/simgest/migracion/05-localidad-desconocida)
+[← 3. Mapear localidades](/simgest/migracion/03-mapeo-localidades) · [Índice de migración](/simgest/migracion) · [5. Utilizar la localidad Desconocida →](/simgest/migracion/05-localidad-desconocida)

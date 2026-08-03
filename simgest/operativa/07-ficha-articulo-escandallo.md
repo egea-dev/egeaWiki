@@ -6,94 +6,123 @@ tags: simgest, manual, operativa
 editor: markdown
 ---
 
-<!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
+## 7. Revisar la ficha de artículo y el escandallo
 
+> **Objetivo**
+>
+> Comprobar los datos generales de un artículo y los componentes o consumos que forman parte de su escandallo o composición.
 
-La ficha de artículo contiene los datos generales de la referencia. El escandallo contiene los componentes necesarios para fabricar o completar ese artículo.
+## Cuándo utilizar este procedimiento
 
-<a href="/assets/simgest/operativa/cap_06_ficha_escandallo.png"><img src="/assets/simgest/operativa/cap_06_ficha_escandallo.png" alt="Ficha de artículo y componentes del escandallo" style="width: 80%; height: auto;" /></a>
+Utilízalo antes de presupuestar, comprar o fabricar un artículo que dependa de componentes, semielaborados, tela, piel, merma o variantes.
 
-*Ficha de artículo y componentes del escandallo. Pulsa la imagen para abrirla a tamaño completo.*
+## Requisitos previos
 
-1. Abrir Artículos.
+- Código o descripción del artículo.
+- Familia y tipo de artículo conocidos.
+- Componentes esperados.
+- Medidas y consumos disponibles.
+- Costes o tarifas que deban compararse.
 
+## Vista general
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
+Buscar artículo
+→ revisar ficha general
+→ abrir escandallo
+→ revisar componentes
+→ revisar semielaborado y consumos
+→ comprobar variantes
+→ guardar y validar
 
-1. Buscar el artículo por código o descripción.
+## Procedimiento
 
+### Paso 1. Abrir la ficha correcta
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
+En **Artículos**, busca por código o descripción. Confirma que la referencia seleccionada es la que se utilizará en el proceso.
 
-1. En la ficha, revisar nombre, familia, IVA, coste y disponibilidad.
+### Paso 2. Revisar los datos generales
 
+Comprueba los campos visibles relacionados con:
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
+- nombre o descripción;
+- familia;
+- IVA;
+- coste;
+- disponibilidad;
+- ancho, alto o fondo cuando existan;
+- metros de tela, piel o unidades.
 
-1. Revisar medidas si existen: ancho, alto, fondo, metros de tela o unidades.
+[![Ficha de artículo con datos generales y líneas de componentes del escandallo señaladas](/assets/simgest/operativa/cap_06_ficha_escandallo.png =70%x)](/assets/simgest/operativa/cap_06_ficha_escandallo.png)
 
+*Vista utilizada para comparar la referencia con los componentes que la forman. Pulsa la imagen para abrirla a tamaño completo.*
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_4 -->
+### Paso 3. Revisar el escandallo
 
-1. Entrar o visualizar el escandallo de artículos.
+Comprueba cada componente:
 
+1. código o descripción;
+2. cantidad;
+3. unidad;
+4. coste visible;
+5. relación con el artículo principal.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_5 -->
+La fuente muestra ejemplos como relleno, cremallera, cuadrante o material auxiliar. No añadas componentes por semejanza con otro producto.
 
-1. Comprobar los componentes: por ejemplo relleno, cremallera, cuadrante o material auxiliar.
+### Paso 4. Revisar la composición del semielaborado
 
+La pantalla de composición muestra cómo se descompone el semielaborado y puede incluir consumo de tela o piel, merma y variantes relacionadas.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_6 -->
+[![Pantalla de composición del semielaborado con consumo y variantes señalados](/assets/simgest/operativa/cap_07_semielaborado.png =70%x)](/assets/simgest/operativa/cap_07_semielaborado.png)
 
-1. Revisar cantidad y coste de cada componente.
+*Desglose utilizado para revisar materiales, merma y variantes del semielaborado. Pulsa la imagen para abrirla a tamaño completo.*
 
+Comprueba:
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_7 -->
+- parte o semielaborado;
+- consumo de tela o piel;
+- porcentaje de merma cuando aparezca;
+- indicador de cosido o activo cuando exista;
+- variantes según tela o acabado.
 
-1. Guardar solo si el artículo y sus componentes están completos.
+### Paso 5. Comprobar coherencia
 
+El artículo no debe quedar con:
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_8 -->
+- componentes incompletos;
+- cantidades sin unidad;
+- variantes sin material;
+- consumos incompatibles con la medida;
+- costes sin revisar.
 
-<a href="/assets/simgest/operativa/cap_07_semielaborado.png"><img src="/assets/simgest/operativa/cap_07_semielaborado.png" alt="Composición del semielaborado y variantes relacionadas" style="width: 80%; height: auto;" /></a>
+**Criterio de aprobación del escandallo y responsable funcional:** Pendiente de validación por Hacchi
 
-*Composición del semielaborado y variantes relacionadas. Pulsa la imagen para abrirla a tamaño completo.*
+### Paso 6. Guardar y revisar el resultado
 
-En la pantalla de composición se revisa cómo se descompone el semielaborado. En el vídeo aparece una parte de composición, consumo de tela/piel, merma y variantes relacionadas según tela o acabado.
+Guarda únicamente cuando ficha, componentes y composición sean coherentes. Reabre el artículo y confirma que los cambios permanecen en la referencia correcta.
 
-1. Revisar la parte del semielaborado.
+## Resultado esperado
 
+La ficha identifica correctamente el artículo y el escandallo contiene los componentes, cantidades, consumos y variantes confirmados.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_9 -->
+## Comprobación final
 
-1. Comprobar consumo de tela o piel.
+- [ ] Código y descripción correctos.
+- [ ] Familia e IVA revisados.
+- [ ] Medidas y unidades coherentes.
+- [ ] Componentes completos.
+- [ ] Cantidades y costes revisados.
+- [ ] Consumo y merma comprobados.
+- [ ] Variantes relacionadas correctamente.
+- [ ] Resultado revisado después de guardar.
 
+## Errores habituales
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_10 -->
-
-1. Revisar porcentaje de merma si aparece.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_11 -->
-
-1. Confirmar si la pieza está marcada como cosida o activa.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_12 -->
-
-1. Revisar variantes relacionadas según tela o acabado.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_13 -->
-
-1. No dejar variantes incompletas si el artículo depende de ellas.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_14 -->
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_MODULO -->
+| Error | Riesgo | Actuación |
+|---|---|---|
+| Editar una referencia similar | Alterar otro producto | Verificar código antes de guardar. |
+| Omitir un componente | Fabricación o coste incompleto | Comparar con la composición esperada. |
+| Cambiar merma o consumo sin criterio | Necesidades de material incorrectas | Pendiente de validación por Hacchi |
 
 ---
 
-[← 6. Configurar artículos, variantes y escandallos](/simgest/operativa/06-articulos-variantes-escandallos) · [Índice](/simgest) · [8. Trabajar con tarifas de proveedor →](/simgest/operativa/08-tarifas-proveedor)
+[← 6. Partes tapizables y variantes](/simgest/operativa/06-articulos-variantes-escandallos) · [Índice de operativa](/simgest/operativa) · [8. Revisar tarifas de proveedor →](/simgest/operativa/08-tarifas-proveedor)

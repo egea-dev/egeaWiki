@@ -6,100 +6,94 @@ tags: simgest, migracion, factusol
 editor: markdown
 ---
 
-<!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
+## 5. Utilizar la localidad Desconocida
 
+> **Objetivo**
+>
+> Permitir el registro temporal de un tercero cuando la localidad correcta no puede identificarse o crearse durante la migración, manteniendo una incidencia pendiente de resolución.
 
-<a href="/assets/simgest/migracion/mig_08_localidad_desconocida.png"><img src="/assets/simgest/migracion/mig_08_localidad_desconocida.png" alt="Selección de la localidad DESCONOCIDA como solución temporal" style="width: 80%; height: auto;" /></a>
+## Cuándo utilizar este procedimiento
 
-*Selección de la localidad DESCONOCIDA como solución temporal. Pulsa la imagen para abrirla a tamaño completo.*
+Úsalo únicamente como solución provisional cuando no sea posible confirmar la localidad correcta en ese momento.
 
-> **Cuándo usarlo: Cuando no se puede identificar o crear la localidad correcta en el momento de la migración.**
+No debe utilizarse para evitar una búsqueda que sí puede resolverse con los datos disponibles.
 
+## Requisitos previos
 
-<!-- AÑADIR_CONTENIDO_ANTES_DE_PASO-1-BUSCAR-EL-CODIGO-DE-LOCALIDAD-DESCONOCIDA -->
+- Confirmación de que la localidad correcta no puede asignarse en ese momento.
+- Código postal y nombre esperado, aunque estén incompletos.
+- Registro de incidencias donde anotar el tercero afectado.
+- Existencia de una localidad comodín adecuada en SIMGEST.
 
-## Paso 1: Buscar el código de localidad "desconocida"
+## Vista general
 
-1. En la tabla de localidades de Simgest, buscar el registro con código "desconocido"
+Buscar el valor comodín
+→ asignarlo al tercero
+→ registrar la incidencia
+→ crear o localizar la localidad correcta
+→ sustituir el valor provisional
 
+## Procedimiento
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
+### Paso 1. Buscar la localidad comodín
 
-1. Normalmente existe un código comodín para cada país
+En el selector de localidades, busca el registro **Desconocida** o el valor equivalente documentado para el país correspondiente.
 
+[![Selector de localidades con el valor Desconocida señalado](/assets/simgest/migracion/mig_08_localidad_desconocida.png =70%x)](/assets/simgest/migracion/mig_08_localidad_desconocida.png)
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
+*Ejemplo de selección de la localidad provisional Desconocida. Pulsa la imagen para abrirla a tamaño completo.*
 
+**Código exacto del valor comodín para cada país:** Pendiente de validación por Hacchi
 
-<!-- AÑADIR_CONTENIDO_ANTES_DE_PASO-2-ASIGNAR-LA-LOCALIDAD-DESCONOCIDA-AL-TERCERO -->
+### Paso 2. Asignar el valor provisional
 
-## Paso 2: Asignar la localidad "desconocida" al tercero
+Selecciona la localidad Desconocida en la ficha del tercero y comprueba que el sistema permite continuar con el registro.
 
-1. Seleccionar "desconocida" como localidad del tercero
+**Qué debe comprobar:** la dirección escrita en la ficha no debe interpretarse como validada por el hecho de haber utilizado el valor comodín.
 
+### Paso 3. Registrar la incidencia
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
+Anota como mínimo:
 
-1. Esto permite grabar el tercero sin tener la localidad correcta
+- código del tercero;
+- nombre o razón social;
+- país;
+- código postal;
+- localidad indicada en Factusol;
+- motivo por el que no pudo resolverse;
+- fecha o fase de la migración;
+- estado pendiente.
 
+### Paso 4. Corregir el tercero posteriormente
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
+Cuando la localidad correcta exista:
 
-1. El registro queda almacenado en el sistema y es funcional
+1. abre la ficha del tercero;
+2. sustituye Desconocida por la localidad correcta;
+3. comprueba país, provincia y código postal;
+4. guarda el cambio;
+5. marca la incidencia como resuelta.
 
+## Resultado esperado
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
+El tercero puede quedar registrado temporalmente, pero permanece identificado en una lista de incidencias hasta que se sustituya la localidad provisional.
 
+## Comprobación final
 
-<!-- AÑADIR_CONTENIDO_ANTES_DE_PASO-3-REGISTRAR-LA-INCIDENCIA -->
+- [ ] El valor Desconocida se ha utilizado solo por necesidad.
+- [ ] El tercero está identificado en el control de incidencias.
+- [ ] Se conserva el código postal y el nombre de localidad de origen.
+- [ ] Existe una acción pendiente para corregir la ficha.
+- [ ] La incidencia no se ha cerrado antes de sustituir el valor.
 
-## Paso 3: Registrar la incidencia
+## Errores habituales
 
-1. Anotar qué terceros tienen localidad "desconocida"
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
-
-1. Documentar cuál debería ser la localidad correcta (código postal + nombre)
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
-
-1. Mantener una lista de incidencias pendientes de resolución
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
-
-
-<!-- AÑADIR_CONTENIDO_ANTES_DE_PASO-4-CORRECCION-FUTURA -->
-
-## Paso 4: Corrección futura
-
-1. Cuando alguien dé de alta la localidad correcta en la tabla de localidades
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
-
-1. Volver a la ficha del tercero y cambiar la localidad de "desconocida" a la correcta
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
-
-1. Marcar la incidencia como resuelta en el registro
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
-
-
-<!-- AÑADIR_CONTENIDO_ANTES_DE_NOTA-IMPORTANTE -->
-
-## ⚠️ Nota importante
-
-En España es muy raro encontrar una localidad que no esté ya dada de alta en Simgest. Este procedimiento aplica principalmente para localidades fuera de España, donde es más probable que haya que crear país, provincia y localidad desde cero.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_MODULO -->
+| Error | Riesgo | Actuación |
+|---|---|---|
+| Utilizar Desconocida como valor definitivo | Dirección incompleta de forma permanente | Mantener la incidencia abierta. |
+| No registrar el tercero afectado | Imposibilidad de corregirlo en bloque | Añadirlo al control antes de continuar. |
+| Seleccionar un comodín de otro país | País y provincia incorrectos | Revisar la tabla y solicitar validación. |
 
 ---
 
-[← 4. Creación de una Nueva Localidad en Simgest (Paso a paso)](/simgest/migracion/04-crear-localidad) · [Índice](/simgest) · [6. Proceso de Revisión Post-Migración →](/simgest/migracion/06-revision-post-migracion)
+[← 4. Crear una localidad](/simgest/migracion/04-crear-localidad) · [Índice de migración](/simgest/migracion) · [6. Revisar la migración →](/simgest/migracion/06-revision-post-migracion)

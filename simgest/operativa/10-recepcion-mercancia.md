@@ -8,136 +8,285 @@ editor: markdown
 
 ## 10. Registrar una recepción de proveedor
 
+La recepción registra la mercancía que ha llegado físicamente y genera un albarán interno. Según la documentación funcional, también puede actualizar stock, asignar materiales a pedidos y modificar indicadores relacionados con la disponibilidad. Por este motivo, la cantidad introducida debe proceder de una comprobación física y no de la cantidad inicialmente pedida.
+
 > **Objetivo**
 >
-> Registrar en SIMGEST la mercancía que ha llegado físicamente, mantener pendiente lo que no se ha recibido y revisar el albarán generado.
+> Registrar correctamente una recepción completa, parcial o superior, mantener pendientes las cantidades no recibidas y comprobar todos los efectos del albarán generado.
 
 ## Cuándo utilizar este procedimiento
 
-Utilízalo cuando llegue mercancía asociada a un pedido de proveedor. No registres una recepción únicamente porque la fecha prevista haya llegado.
+Utilícelo cuando llegue mercancía asociada a un pedido de proveedor.
+
+No registre una recepción porque haya llegado la fecha prevista ni porque el pedido aparezca pendiente. Debe existir mercancía física que pueda contarse, medirse o identificarse.
+
+## Efectos documentados de la recepción
+
+Al confirmar la recepción, el material funcional indica que el sistema puede:
+
+- generar el albarán interno;
+- actualizar el stock;
+- crear fichas de stock con el metraje recibido;
+- asignar materiales a los pedidos que los requieren;
+- desmarcar el indicador **Falta tela** en el pedido de cliente;
+- mostrar los materiales como asignados en el PMP;
+- retirar el pedido servido de la lista de pendientes.
+
+Estos efectos convierten la recepción en una acción crítica. Un error puede duplicar stock, cerrar un pedido con unidades pendientes o asignar material incorrecto.
 
 ## Requisitos previos
 
-- Pedido de proveedor identificado.
-- Proveedor confirmado.
-- Mercancía física disponible para contar o medir.
-- Albarán del proveedor cuando forme parte del proceso.
-- Cantidades pendientes visibles en SIMGEST.
+- proveedor identificado;
+- pedido de proveedor localizado;
+- mercancía física disponible;
+- cantidades contadas o medidas;
+- albarán del proveedor cuando exista;
+- número de albarán;
+- líneas pendientes visibles;
+- posibilidad de comprobar el pedido de cliente asociado cuando corresponda.
 
 ## Vista general
 
-Localizar pedido
+Seleccionar proveedor
+→ localizar pedido
 → revisar líneas pendientes
-→ introducir cantidades reales
-→ tratar recepciones parciales
-→ confirmar
+→ comparar mercancía física
+→ introducir cantidad real
+→ comprobar checks y estado
+→ registrar número de albarán
 → generar albarán
-→ revisar documento
+→ confirmar asignación
+→ revisar stock y pendientes
 
-## Procedimiento
+## Procedimiento principal
 
-### Paso 1. Abrir la recepción y localizar el pedido
+### Paso 1. Abrir la recepción de pedidos de proveedor
 
-Abre la recepción de pedidos de proveedor y selecciona el pedido correspondiente. Revisa fecha, serie, proveedor y líneas pendientes.
+Acceda a la pantalla de recepción documentada.
 
-[![Ventana de recepción con cabecera del pedido y líneas pendientes señaladas](/assets/simgest/operativa/cap_17_recepcion_pedidos_proveedor.png =70%x)](/assets/simgest/operativa/cap_17_recepcion_pedidos_proveedor.png)
+[![Ventana de recepción con proveedor, pedido y líneas pendientes señalados](/assets/simgest/operativa/cap_17_recepcion_pedidos_proveedor.png =70%x)](/assets/simgest/operativa/cap_17_recepcion_pedidos_proveedor.png)
 
-*Selección del pedido de proveedor que se va a recepcionar. Pulsa la imagen para abrirla a tamaño completo.*
+*La captura muestra la cabecera y las líneas que deben identificarse antes de introducir cantidades.*
 
-### Paso 2. Comparar pantalla y mercancía física
+**Qué debe comprobar**
 
-Antes de introducir cantidades:
+- empresa;
+- fecha;
+- serie;
+- proveedor;
+- pedido;
+- líneas pendientes;
+- artículos y descripciones.
 
-1. identifica el artículo;
-2. compara la descripción;
-3. revisa la cantidad pedida;
-4. revisa la cantidad pendiente;
-5. cuenta o mide la mercancía recibida;
-6. comprueba el número de albarán cuando proceda.
+### Paso 2. Seleccionar el proveedor y localizar el pedido
 
-No utilices la cantidad pedida como cantidad recibida sin comprobar la mercancía física.
+La documentación indica que al seleccionar el proveedor el sistema muestra sus pedidos pendientes.
 
-### Paso 3. Introducir la cantidad real
+**Qué debe hacer**
 
-Registra en la columna **Recibir** únicamente la cantidad que ha llegado.
+1. seleccione el proveedor del albarán físico;
+2. localice el pedido correspondiente;
+3. compare número, fecha o referencia;
+4. revise las líneas mostradas;
+5. confirme que la mercancía pertenece a ese pedido.
 
-[![Tabla de recepción con la columna Recibir y el estado de las líneas señalados](/assets/simgest/operativa/cap_18_introducir_recibir.png =70%x)](/assets/simgest/operativa/cap_18_introducir_recibir.png)
+No elija un pedido únicamente porque contiene el mismo artículo. Puede existir la misma referencia en varios pedidos o proyectos.
 
-*Registro de las cantidades físicas en las líneas del pedido. Pulsa la imagen para abrirla a tamaño completo.*
+### Paso 3. Comprobar el indicador Falta tela cuando proceda
 
-**Qué debe comprobar:** la cantidad introducida no debe superar lo que ha llegado y debe corresponder a la línea correcta.
+El material documenta una relación con el pedido de cliente asociado y el check **Falta tela**.
 
-### Paso 4. Registrar una recepción parcial
+**Qué debe comprobar**
 
-Cuando no llegue todo el pedido:
+- que el pedido de cliente asociado muestra la falta de material antes de la recepción;
+- que la línea recibida corresponde a esa necesidad;
+- que el indicador se actualiza después de recibir.
 
-1. introduce solo la cantidad recibida;
-2. deja el resto pendiente;
-3. revisa el estado de la línea después de confirmar;
-4. no marques el pedido como servido si queda material por recibir.
+El procedimiento exacto para localizar el pedido asociado en todos los casos es **Pendiente de validación por Hacchi**.
 
-[![Recepción parcial con la cantidad recibida y la cantidad pendiente señaladas](/assets/simgest/operativa/cap_19_recepcion_parcial.png =70%x)](/assets/simgest/operativa/cap_19_recepcion_parcial.png)
+### Paso 4. Comparar la pantalla con la mercancía física
 
-*Ejemplo de una línea en la que una parte del pedido continúa pendiente. Pulsa la imagen para abrirla a tamaño completo.*
+Antes de escribir una cantidad:
 
-**Criterio exacto para marcar una línea como servida:** Pendiente de validación por Hacchi
+- identifique artículo y descripción;
+- revise color, variante o lote cuando aparezcan;
+- compruebe unidad;
+- revise cantidad pedida;
+- revise cantidad pendiente;
+- cuente o mida lo recibido;
+- compare con el albarán del proveedor.
 
-### Paso 5. Revisar pedidos pendientes o fuera de plazo
+**Regla principal**
 
-La documentación visual incluye una pantalla de reclamación de pedidos con líneas pendientes.
+La columna **Recibir** debe contener únicamente la cantidad física que ha llegado.
 
-[![Pantalla de reclamación con pedidos pendientes y datos de entrega señalados](/assets/simgest/operativa/cap_20_reclamacion_pedido.png =70%x)](/assets/simgest/operativa/cap_20_reclamacion_pedido.png)
+### Paso 5. Introducir la cantidad real
 
-*Consulta utilizada para localizar pedidos pendientes o fuera de plazo. Pulsa la imagen para abrirla a tamaño completo.*
+[![Tabla de recepción con la columna Recibir y los checks de estado señalados](/assets/simgest/operativa/cap_18_introducir_recibir.png =70%x)](/assets/simgest/operativa/cap_18_introducir_recibir.png)
 
-Esta vista puede utilizarse para identificar pedidos que requieren seguimiento. El procedimiento corporativo para emitir o enviar una reclamación es **Pendiente de validación por Hacchi**.
+*La captura muestra la zona donde se registra la cantidad y los indicadores que cambian según el valor introducido.*
 
-### Paso 6. Confirmar la recepción
+Introduzca la cantidad en la línea correcta.
 
-Confirma únicamente cuando:
+**Qué debe comprobar**
 
-- proveedor y pedido son correctos;
-- todas las líneas recibidas están revisadas;
-- las cantidades físicas coinciden;
-- el número de albarán está introducido cuando corresponde;
-- las líneas parciales mantienen el resto pendiente.
+- artículo correcto;
+- unidad correcta;
+- cantidad física;
+- ausencia de un valor copiado de otra línea;
+- efecto de la cantidad sobre los checks.
 
-### Paso 7. Revisar el albarán generado
+### Paso 6. Interpretar Procesar albarán y Pedido servido
 
-Después de confirmar, comprueba que SIMGEST ha generado el albarán con las líneas recibidas.
+La documentación funcional establece:
 
-[![Albarán generado con su cabecera y líneas recibidas señaladas](/assets/simgest/operativa/cap_21_albaran_generado.png =70%x)](/assets/simgest/operativa/cap_21_albaran_generado.png)
+- si la cantidad recibida es igual o superior a la pedida, el sistema marca **Procesar albarán** y **Pedido servido**;
+- si la cantidad recibida es inferior, se marca **Procesar albarán** y el pedido permanece pendiente;
+- si se marca **Servido** manualmente, el pedido se cierra aunque falten unidades.
 
-*Resultado documental de la recepción registrada. Pulsa la imagen para abrirla a tamaño completo.*
+**Advertencia**
 
-Abre el documento y revisa cabecera, proveedor, número de albarán, artículos y cantidades.
+No marque **Servido** para eliminar una línea pendiente sin una decisión funcional confirmada. El criterio corporativo para forzar el cierre es **Pendiente de validación por Hacchi**.
 
-[![Ficha del albarán de proveedor con cabecera y líneas inferiores señaladas](/assets/simgest/operativa/cap_22_revision_albaran.png =70%x)](/assets/simgest/operativa/cap_22_revision_albaran.png)
+### Paso 7. Registrar el número de albarán del proveedor
 
-*Comprobación final del documento generado después de la recepción. Pulsa la imagen para abrirla a tamaño completo.*
+El número puede introducirse durante la recepción o posteriormente en el albarán, según la documentación.
+
+**Opción A. Durante la recepción**
+
+1. localice el campo **Nº albarán**;
+2. escriba el número exacto del documento del proveedor;
+3. revíselo antes de generar;
+4. continúe con el albarán.
+
+**Opción B. Después de la recepción**
+
+1. abra la lista de albaranes;
+2. localice el albarán interno generado;
+3. edite el campo del número de proveedor;
+4. guarde;
+5. vuelva a comprobar.
+
+**Riesgo de duplicado**
+
+La documentación indica que el sistema avisa si el número ya existe, pero permite continuar. Forzar un duplicado puede duplicar el stock. Ante el aviso, no continúe hasta comprobar el documento y la recepción anterior.
+
+### Paso 8. Generar el albarán
+
+Pulse la acción **Generar albarán** documentada.
+
+El sistema puede preguntar si debe asignar los materiales a todos los pedidos relacionados. La demostración responde afirmativamente.
+
+El criterio aplicable cuando existan excepciones o materiales que no deban asignarse es **Pendiente de validación por Hacchi**.
+
+### Paso 9. Revisar el albarán generado
+
+[![Albarán generado con número interno, proveedor y líneas recibidas señalados](/assets/simgest/operativa/cap_21_albaran_generado.png =70%x)](/assets/simgest/operativa/cap_21_albaran_generado.png)
+
+*La captura muestra el documento interno producido por la recepción.*
+
+Abra el albarán y revise:
+
+- número interno;
+- número del proveedor;
+- proveedor;
+- fecha;
+- artículos;
+- cantidades;
+- unidades;
+- líneas incluidas.
+
+[![Ficha de albarán con cabecera y detalle de líneas señalados](/assets/simgest/operativa/cap_22_revision_albaran.png =70%x)](/assets/simgest/operativa/cap_22_revision_albaran.png)
+
+*La imagen muestra la comprobación final del documento guardado.*
+
+### Paso 10. Comprobar efectos posteriores
+
+Después de generar:
+
+- revise que el pedido servido desaparece de pendientes cuando corresponda;
+- compruebe que las cantidades parciales permanecen abiertas;
+- verifique el stock creado;
+- compruebe la asignación de material;
+- revise el indicador **Falta tela**;
+- confirme que no existe un albarán duplicado.
+
+## Escenarios de recepción
+
+### Escenario A. Recepción completa
+
+Introduzca la cantidad total recibida. Si coincide con la pedida, el sistema marca procesamiento y pedido servido según el comportamiento documentado.
+
+**Resultado esperado**
+
+El pedido se cierra, se genera el albarán y el stock refleja la cantidad recibida.
+
+### Escenario B. Recepción parcial
+
+[![Recepción parcial con cantidad recibida y cantidad pendiente señaladas](/assets/simgest/operativa/cap_19_recepcion_parcial.png =70%x)](/assets/simgest/operativa/cap_19_recepcion_parcial.png)
+
+*La captura muestra una línea en la que parte de la cantidad permanece pendiente.*
+
+1. introduzca solo la cantidad recibida;
+2. compruebe que **Pedido servido** no queda marcado;
+3. genere el albarán parcial;
+4. revise la cantidad restante;
+5. mantenga el pedido pendiente.
+
+Se permiten varias recepciones parciales del mismo pedido según la documentación.
+
+### Escenario C. Recepción superior a lo pedido
+
+El material indica que el sistema acepta una cantidad superior, marca ambos checks y aumenta el stock con la cantidad real.
+
+**Control obligatorio**
+
+No introduzca una cantidad superior sin verificar que realmente ha llegado y que debe aceptarse. El criterio comercial o logístico para aceptar exceso es **Pendiente de validación por Hacchi**.
+
+### Escenario D. Cierre manual con unidades pendientes
+
+Marcar **Servido** manualmente cierra el pedido aunque falten unidades.
+
+Esta acción debe considerarse excepcional. No debe utilizarse para limpiar pendientes. La autorización y motivo válido son **Pendiente de validación por Hacchi**.
+
+## Seguimiento y reclamación
+
+[![Pantalla de reclamación con pedidos fuera de plazo señalados](/assets/simgest/operativa/cap_20_reclamacion_pedido.png =70%x)](/assets/simgest/operativa/cap_20_reclamacion_pedido.png)
+
+*La captura muestra pedidos pendientes o fuera de plazo utilizados para seguimiento.*
+
+La documentación indica que los pedidos fuera de plazo aparecen en rojo y que existe una acción **Reclamación de pedido** que genera un documento. El usuario debe revisar y modificar el texto cuando sea necesario y realizar el envío manualmente.
+
+La reclamación no se envía automáticamente.
 
 ## Resultado esperado
 
-El albarán registra únicamente la mercancía recibida. Las cantidades no entregadas permanecen pendientes y el documento puede compararse con el albarán físico del proveedor.
+El albarán registra exactamente la mercancía física recibida. Las cantidades parciales permanecen pendientes, el stock y la asignación corresponden al material real y cualquier número de albarán duplicado se detiene antes de confirmar.
 
 ## Comprobación final
 
-- [ ] Pedido y proveedor correctos.
+- [ ] Proveedor y pedido correctos.
 - [ ] Mercancía física contada o medida.
+- [ ] Artículo, variante y unidad revisados.
 - [ ] Cantidad Recibir introducida línea por línea.
+- [ ] Checks interpretados según el escenario.
 - [ ] Recepciones parciales mantienen el resto pendiente.
-- [ ] Número de albarán revisado.
-- [ ] Recepción confirmada solo después del control.
-- [ ] Albarán generado abierto y comparado.
+- [ ] Número de albarán introducido y comprobado.
+- [ ] No se forzó un duplicado.
+- [ ] Albarán interno abierto y comparado.
+- [ ] Stock y asignación revisados.
+- [ ] Indicadores y pedidos pendientes actualizados correctamente.
 
 ## Errores habituales
 
-| Error | Riesgo | Actuación |
+| Error | Consecuencia | Actuación |
 |---|---|---|
-| Copiar la cantidad pedida en Recibir | Registrar mercancía no entregada | Introducir solo la cantidad física. |
-| Marcar como servido un pedido parcial | Cerrar unidades pendientes | Revisar el estado antes de confirmar. |
-| Introducir la cantidad en otra línea | Stock o albarán incorrectos | Comparar artículo y descripción. |
-| Confirmar sin revisar el albarán | No detectar errores de recepción | Abrir el documento generado. |
+| Copiar la cantidad pedida | Se registra mercancía no recibida | Introducir solo lo físico. |
+| Escribir en otra línea | Stock y albarán incorrectos | Comparar artículo y descripción. |
+| Marcar Servido en una parcial | Se cierra el resto pendiente | Desmarcar y validar el criterio. |
+| Forzar un número duplicado | Puede duplicarse el stock | Detener y localizar el albarán anterior. |
+| No revisar efectos posteriores | El error queda oculto | Comprobar stock, pendientes y asignación. |
+| Aceptar exceso sin autorización | Se registra material no previsto | Pendiente de validación por Hacchi. |
 
 ---
 

@@ -6,44 +6,67 @@ tags: simgest, operativa, erp
 editor: markdown
 ---
 
-## Manuales operativos
+## Operativa diaria de SIMGEST
 
-Cada manual es independiente. Se publican en el orden de trabajo, pero sus rutas no cambian cuando se añadan manuales nuevos.
+Esta sección reúne los procedimientos documentados para trabajar en SIMGEST dentro del flujo operativo del Proyecto Catorce. El contenido parte de los mini manuales, los vídeos reales, las capturas del programa y la documentación funcional disponible.
 
-### Consulta de terceros, direcciones y documentación
+El objetivo no es describir todas las posibilidades del ERP, sino explicar de forma suficientemente detallada los procesos que han sido observados y documentados: creación y revisión de ofertas, generación de documentos, configuración de artículos, compras, recepción, consultas y controles finales.
 
-[Consultar terceros, direcciones y documentación](/simgest/operativa/gestion-terceros-clientes-proveedores)
+> **Objetivo de la sección**
+>
+> Permitir que un usuario comprenda la relación entre los documentos del proceso, ejecute cada tarea en el orden correcto y compruebe el resultado antes de continuar con la siguiente fase.
 
-Manual visual para localizar terceros, revisar sus fichas, direcciones y documentación asociada.
+## Flujo operativo documentado
 
-### Configuración de artículos y ofertas
+Oferta o presupuesto
+→ pedido de cliente
+→ necesidades de compra
+→ pedido a proveedor
+→ recepción de mercancía
+→ actualización y asignación de materiales
+→ planificación y fabricación
+→ preparación de carga y entrega
 
-[Consultar artículos y ofertas](/simgest/operativa/configuracion-articulos-y-ofertas)
+Cada fase genera o actualiza información que se utiliza en la siguiente. Por este motivo, los errores de cabecera, artículo, cantidad, precio, proveedor o recepción no deben tratarse como fallos aislados: pueden trasladarse a pedidos, compras, stock y producción.
 
-Manual visual para revisar ofertas, líneas, proformas y las áreas principales de configuración de artículos.
+## Principios de trabajo
 
-### Presupuestos y ofertas
+1. **Completar la cabecera antes del detalle.** Cliente, referencia, proyecto, tarifa, fechas y condiciones determinan el contexto del documento.
+2. **Revisar antes de confirmar.** Confirmar una oferta, un pedido o una recepción puede producir nuevos documentos y efectos posteriores.
+3. **Comparar con la realidad.** Las cantidades recibidas deben coincidir con la mercancía física; las tarifas internas deben compararse con la documentación oficial del proveedor.
+4. **No resolver dudas por intuición.** Cuando el vídeo o el documento no confirman un comportamiento, debe indicarse **Pendiente de validación por Hacchi**.
+5. **Mantener la trazabilidad.** Un documento debe poder relacionarse con el cliente, el proyecto, la oferta o pedido de origen y los documentos posteriores.
 
-[Crear un presupuesto en SIMGEST](/simgest/operativa/presupuestos)
+## Procedimientos disponibles
 
-Manual visual para abrir Ofertas, crear y revisar un presupuesto, generar el PDF y comprobar las necesidades de compra.
+1. [Comprender el entorno y el flujo de trabajo](/simgest/operativa/01-introduccion)
+2. [Crear una oferta o presupuesto](/simgest/operativa/02-presupuestos)
+3. [Seleccionar la forma de pago](/simgest/operativa/03-formas-de-pago)
+4. [Revisar una oferta antes de emitirla](/simgest/operativa/04-revision-presupuesto)
+5. [Generar y comprobar el PDF](/simgest/operativa/05-generar-pdf)
+6. [Revisar partes tapizables y variantes](/simgest/operativa/06-articulos-variantes-escandallos)
+7. [Revisar la ficha de artículo y el escandallo](/simgest/operativa/07-ficha-articulo-escandallo)
+8. [Revisar tarifas de proveedor](/simgest/operativa/08-tarifas-proveedor)
+9. [Generar pedidos a proveedor](/simgest/operativa/09-pedidos-proveedor)
+10. [Registrar una recepción de proveedor](/simgest/operativa/10-recepcion-mercancia)
+11. [Consultar pedidos de cliente](/simgest/operativa/11-pedidos-cliente)
+12. [Configurar las columnas visibles](/simgest/operativa/12-columnas-visibles)
+13. [Revisar la gestión de carga](/simgest/operativa/13-gestion-carga)
+14. [Listas de comprobación](/simgest/operativa/14-checklists)
+15. [Errores habituales y actuación recomendada](/simgest/operativa/15-errores-habituales)
 
-> El próximo manual operativo se incorporará antes de este bloque. No se renombrará ni moverá esta ruta.
+## Alcance y límites
 
-## Procedimientos de referencia
+Las pantallas, botones y campos se describen únicamente cuando aparecen en el material disponible. Las funciones futuras, automatizaciones en estudio, permisos y criterios no confirmados no se presentan como operativa disponible.
 
-Estos procedimientos complementan los manuales principales. Úsalos para consultas puntuales o procesos que todavía no disponen de un manual visual completo.
+Antes de utilizar esta sección, la migración inicial debe haber sido revisada conforme a [Migración de Factusol a SIMGEST](/simgest/migracion).
 
-- [Introducción al entorno](/simgest/operativa/01-introduccion)
-- [Artículos, variantes y escandallos](/simgest/operativa/06-articulos-variantes-escandallos)
-- [Ficha de artículo y escandallo](/simgest/operativa/07-ficha-articulo-escandallo)
-- [Tarifas de proveedor](/simgest/operativa/08-tarifas-proveedor)
-- [Pedidos a proveedor](/simgest/operativa/09-pedidos-proveedor)
-- [Recepción de mercancía](/simgest/operativa/10-recepcion-mercancia)
-- [Pedidos de cliente](/simgest/operativa/11-pedidos-cliente)
-- [Columnas visibles](/simgest/operativa/12-columnas-visibles)
-- [Gestión de carga y bultos](/simgest/operativa/13-gestion-carga)
-- [Lista de comprobación](/simgest/operativa/14-checklists)
-- [Errores habituales](/simgest/operativa/15-errores-habituales)
+---
 
-Las páginas antiguas de presupuesto se conservan como referencia histórica mientras se valida este manual visual.
+[← Manual SIMGEST](/simgest) · [1. Comprender el entorno →](/simgest/operativa/01-introduccion)
+
+## Manuales visuales complementarios
+
+- [Consulta de terceros, direcciones y documentación](/simgest/operativa/gestion-terceros-clientes-proveedores)
+- [Consulta de artículos y ofertas](/simgest/operativa/configuracion-articulos-y-ofertas)
+- [Crear un presupuesto en SIMGEST](/simgest/operativa/presupuestos)

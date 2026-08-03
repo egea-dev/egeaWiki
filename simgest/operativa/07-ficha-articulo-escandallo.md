@@ -8,121 +8,195 @@ editor: markdown
 
 ## 7. Revisar la ficha de artículo y el escandallo
 
+La ficha de artículo identifica la referencia y sus datos generales. El escandallo describe los componentes necesarios para fabricar o completar ese artículo. Ambos niveles deben ser coherentes: una ficha correcta con un escandallo incompleto puede generar compras, consumos o producción incorrectos.
+
 > **Objetivo**
 >
-> Comprobar los datos generales de un artículo y los componentes o consumos que forman parte de su escandallo o composición.
+> Comprobar que el artículo está correctamente identificado y que su escandallo contiene los componentes, cantidades y consumos necesarios para el producto documentado.
 
 ## Cuándo utilizar este procedimiento
 
-Utilízalo antes de presupuestar, comprar o fabricar un artículo que dependa de componentes, semielaborados, tela, piel, merma o variantes.
+Utilícelo al crear o revisar un artículo, al investigar necesidades de compra inesperadas, al comprobar un coste, al preparar un semielaborado o antes de utilizar una referencia en una oferta o pedido.
+
+No debe alterarse un escandallo en producción sin conocer su impacto sobre artículos ya utilizados. El criterio de aprobación y el responsable funcional son **Pendiente de validación por Hacchi**.
 
 ## Requisitos previos
 
-- Código o descripción del artículo.
-- Familia y tipo de artículo conocidos.
-- Componentes esperados.
-- Medidas y consumos disponibles.
-- Costes o tarifas que deban compararse.
+- código o descripción del artículo;
+- ficha técnica o información validada;
+- unidades y medidas;
+- lista de componentes;
+- cantidades o consumos;
+- costes o tarifas cuando proceda;
+- variantes relacionadas;
+- documentación del semielaborado si existe.
+
+## Relación entre ficha, escandallo y semielaborado
+
+La ficha responde a **qué es el artículo**. El escandallo responde a **de qué está compuesto**. La composición del semielaborado explica **cómo se descompone una parte intermedia** y puede incluir consumo de tela o piel, merma y variantes.
+
+Una revisión profesional debe comprobar los tres niveles cuando están relacionados.
 
 ## Vista general
 
-Buscar artículo
-→ revisar ficha general
+Abrir la ficha
+→ comprobar identidad y unidad
+→ revisar medidas y costes
 → abrir escandallo
 → revisar componentes
-→ revisar semielaborado y consumos
-→ comprobar variantes
-→ guardar y validar
+→ analizar semielaborados
+→ comprobar variantes y merma
+→ validar coherencia
+→ guardar y volver a revisar
 
 ## Procedimiento
 
 ### Paso 1. Abrir la ficha correcta
 
-En **Artículos**, busca por código o descripción. Confirma que la referencia seleccionada es la que se utilizará en el proceso.
+Busque el artículo por código o descripción.
+
+**Qué debe comprobar**
+
+- código exacto;
+- nombre y descripción;
+- familia;
+- IVA;
+- coste cuando aparezca;
+- disponibilidad o estado;
+- unidad de medida;
+- ausencia de una referencia similar seleccionada por error.
 
 ### Paso 2. Revisar los datos generales
 
-Comprueba los campos visibles relacionados con:
+[![Ficha de artículo con los datos generales y la tabla de componentes señalados](/assets/simgest/operativa/cap_06_ficha_escandallo.png =70%x)](/assets/simgest/operativa/cap_06_ficha_escandallo.png)
 
-- nombre o descripción;
-- familia;
-- IVA;
-- coste;
-- disponibilidad;
-- ancho, alto o fondo cuando existan;
-- metros de tela, piel o unidades.
+*La captura muestra la relación entre la identificación del artículo y los componentes del escandallo.*
 
-[![Ficha de artículo con datos generales y líneas de componentes del escandallo señaladas](/assets/simgest/operativa/cap_06_ficha_escandallo.png =70%x)](/assets/simgest/operativa/cap_06_ficha_escandallo.png)
+Revise los campos visibles y compárelos con la documentación disponible.
 
-*Vista utilizada para comparar la referencia con los componentes que la forman. Pulsa la imagen para abrirla a tamaño completo.*
+**Controles recomendados**
+
+- nombre comprensible;
+- familia correcta;
+- IVA coherente;
+- coste y unidad;
+- ancho, alto, fondo o medidas cuando existan;
+- metros de tela o unidades;
+- estado activo o disponible si se utiliza.
+
+No debe corregirse un coste sin identificar si procede de una tarifa, un componente o un cálculo.
 
 ### Paso 3. Revisar el escandallo
 
-Comprueba cada componente:
+El escandallo puede incluir componentes como relleno, cremallera, cuadrante o material auxiliar.
 
-1. código o descripción;
-2. cantidad;
-3. unidad;
-4. coste visible;
-5. relación con el artículo principal.
+**Para cada componente compruebe:**
 
-La fuente muestra ejemplos como relleno, cremallera, cuadrante o material auxiliar. No añadas componentes por semejanza con otro producto.
+- referencia;
+- descripción;
+- cantidad;
+- unidad;
+- coste;
+- relación con el artículo principal;
+- ausencia de duplicados;
+- necesidad real del componente.
+
+**Por qué se hace**
+
+El sistema puede utilizar estos componentes para calcular necesidades, costes o fabricación. Un componente omitido no se compensa con una nota; debe formar parte del escandallo cuando corresponda.
 
 ### Paso 4. Revisar la composición del semielaborado
 
-La pantalla de composición muestra cómo se descompone el semielaborado y puede incluir consumo de tela o piel, merma y variantes relacionadas.
+[![Composición de semielaborado con consumo, merma y variantes señalados](/assets/simgest/operativa/cap_07_semielaborado.png =70%x)](/assets/simgest/operativa/cap_07_semielaborado.png)
 
-[![Pantalla de composición del semielaborado con consumo y variantes señalados](/assets/simgest/operativa/cap_07_semielaborado.png =70%x)](/assets/simgest/operativa/cap_07_semielaborado.png)
+*La captura muestra la descomposición de una parte intermedia y los campos relacionados con material y variantes.*
 
-*Desglose utilizado para revisar materiales, merma y variantes del semielaborado. Pulsa la imagen para abrirla a tamaño completo.*
+**Qué debe revisar**
 
-Comprueba:
-
-- parte o semielaborado;
+- parte del semielaborado;
 - consumo de tela o piel;
-- porcentaje de merma cuando aparezca;
-- indicador de cosido o activo cuando exista;
-- variantes según tela o acabado.
+- porcentaje de merma si aparece;
+- condición de pieza cosida o activa;
+- variantes relacionadas;
+- acabado o tela que modifica el consumo.
 
-### Paso 5. Comprobar coherencia
+El significado exacto de checks no confirmados visualmente debe marcarse como **Pendiente de validación por Hacchi**.
 
-El artículo no debe quedar con:
+### Paso 5. Comprobar la coherencia de cantidades y unidades
 
-- componentes incompletos;
-- cantidades sin unidad;
-- variantes sin material;
-- consumos incompatibles con la medida;
-- costes sin revisar.
+No basta con que un componente aparezca. Debe utilizar la unidad adecuada.
 
-**Criterio de aprobación del escandallo y responsable funcional:** Pendiente de validación por Hacchi
+Ejemplos de controles:
 
-### Paso 6. Guardar y revisar el resultado
+- metros frente a unidades;
+- metros cuadrados frente a metros lineales;
+- cantidad por producto frente a cantidad total;
+- porcentaje de merma aplicado sobre la base correcta;
+- componentes internos relacionados con la dimensión del artículo.
 
-Guarda únicamente cuando ficha, componentes y composición sean coherentes. Reabre el artículo y confirma que los cambios permanecen en la referencia correcta.
+El material funcional indica que los cojines requieren cuadrantes de microfibra como componentes internos. También señala que las descripciones actuales de algunos cuadrantes no incluyen medidas, lo que dificulta identificarlos. Esta carencia debe registrarse y no resolverse con una selección aproximada.
+
+### Paso 6. Revisar variantes relacionadas
+
+Cuando el semielaborado depende de tela, color o acabado:
+
+- compruebe que la variante existe;
+- confirme que apunta al componente correcto;
+- revise si cambia consumo o coste;
+- verifique que no quedan opciones incompletas.
+
+### Paso 7. Comprobar el efecto sobre compras y producción
+
+Antes de guardar, determine si el cambio puede modificar:
+
+- necesidad de material;
+- agrupación de compras;
+- coste del artículo;
+- cantidad de componentes;
+- disponibilidad para producción;
+- instrucciones de fabricación.
+
+Cuando no sea posible comprobar este impacto en un entorno controlado, no debe aplicarse el cambio.
+
+### Paso 8. Guardar y revisar el resultado
+
+Guarde solo después de completar la revisión.
+
+Después:
+
+1. vuelva a abrir la ficha;
+2. revise los componentes;
+3. confirme cantidades y unidades;
+4. abra el semielaborado si existe;
+5. compruebe que no faltan variantes;
+6. registre cualquier pendiente.
 
 ## Resultado esperado
 
-La ficha identifica correctamente el artículo y el escandallo contiene los componentes, cantidades, consumos y variantes confirmados.
+El artículo está correctamente identificado y su escandallo representa los componentes y consumos documentados. Las relaciones con semielaborados y variantes son coherentes y no existen campos dudosos presentados como definitivos.
 
 ## Comprobación final
 
-- [ ] Código y descripción correctos.
-- [ ] Familia e IVA revisados.
-- [ ] Medidas y unidades coherentes.
-- [ ] Componentes completos.
-- [ ] Cantidades y costes revisados.
-- [ ] Consumo y merma comprobados.
-- [ ] Variantes relacionadas correctamente.
-- [ ] Resultado revisado después de guardar.
+- [ ] Código, descripción, familia, IVA y unidad correctos.
+- [ ] Medidas y datos generales revisados.
+- [ ] Todos los componentes necesarios están incluidos.
+- [ ] Cantidades y unidades son coherentes.
+- [ ] Costes no se han modificado sin conocer su origen.
+- [ ] Semielaborados, consumos y merma están revisados.
+- [ ] Variantes relacionadas están completas.
+- [ ] El impacto sobre compras y producción está comprobado.
+- [ ] La ficha se ha vuelto a abrir tras guardar.
 
 ## Errores habituales
 
-| Error | Riesgo | Actuación |
+| Error | Consecuencia | Actuación |
 |---|---|---|
-| Editar una referencia similar | Alterar otro producto | Verificar código antes de guardar. |
-| Omitir un componente | Fabricación o coste incompleto | Comparar con la composición esperada. |
-| Cambiar merma o consumo sin criterio | Necesidades de material incorrectas | Pendiente de validación por Hacchi |
+| Confundir ficha y escandallo | Se corrige el nivel equivocado | Identificar si el error es del artículo o de un componente. |
+| Usar unidades diferentes | Consumo o coste incorrecto | Confirmar la unidad de cada línea. |
+| Omitir un componente | Necesidad de compra incompleta | Añadir solo con respaldo funcional. |
+| Elegir un cuadrante sin medidas claras | Componente incorrecto | Pendiente de validación por Hacchi. |
+| Cambiar merma sin criterio | Se altera el consumo | Validar antes de guardar. |
 
 ---
 
-[← 6. Partes tapizables y variantes](/simgest/operativa/06-articulos-variantes-escandallos) · [Índice de operativa](/simgest/operativa) · [8. Revisar tarifas de proveedor →](/simgest/operativa/08-tarifas-proveedor)
+[← 6. Revisar partes y variantes](/simgest/operativa/06-articulos-variantes-escandallos) · [Índice de operativa](/simgest/operativa) · [8. Revisar tarifas →](/simgest/operativa/08-tarifas-proveedor)

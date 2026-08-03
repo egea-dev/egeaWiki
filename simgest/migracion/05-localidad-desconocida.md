@@ -8,91 +8,156 @@ editor: markdown
 
 ## 5. Utilizar la localidad Desconocida
 
+La localidad **Desconocida** es una solución provisional que permite guardar un tercero cuando no se puede identificar o crear inmediatamente la localidad correcta. No representa la ubicación real y, por tanto, su uso debe quedar siempre acompañado de una incidencia pendiente de corrección.
+
 > **Objetivo**
 >
-> Permitir el registro temporal de un tercero cuando la localidad correcta no puede identificarse o crearse durante la migración, manteniendo una incidencia pendiente de resolución.
+> Evitar que la migración se detenga por una localidad no resuelta, manteniendo al mismo tiempo la trazabilidad necesaria para sustituir posteriormente el valor provisional.
 
 ## Cuándo utilizar este procedimiento
 
-Úsalo únicamente como solución provisional cuando no sea posible confirmar la localidad correcta en ese momento.
+Utilícelo únicamente cuando:
 
-No debe utilizarse para evitar una búsqueda que sí puede resolverse con los datos disponibles.
+- no puede identificarse con seguridad la localidad correcta;
+- la localidad no existe y no puede crearse en ese momento;
+- falta información territorial necesaria;
+- el registro debe incorporarse para continuar la migración.
+
+No debe utilizarse para ahorrar tiempo cuando la localidad puede encontrarse o crearse. En España, el material de origen indica que es poco frecuente necesitar este recurso; su uso es más probable en ubicaciones internacionales.
+
+## Riesgo que debe controlarse
+
+El tercero queda técnicamente guardado, pero su dirección estructurada no es correcta. Si la incidencia no se registra, el valor provisional puede mantenerse indefinidamente y utilizarse en búsquedas, documentos o procesos posteriores como si fuera definitivo.
 
 ## Requisitos previos
 
-- Confirmación de que la localidad correcta no puede asignarse en ese momento.
-- Código postal y nombre esperado, aunque estén incompletos.
-- Registro de incidencias donde anotar el tercero afectado.
-- Existencia de una localidad comodín adecuada en SIMGEST.
+- haber intentado resolver la localidad mediante el procedimiento de mapeo;
+- comprobar que no existe una coincidencia válida;
+- disponer del código postal y nombre original, aunque estén incompletos;
+- localizar el registro comodín **Desconocida** correspondiente al país;
+- disponer de un registro de incidencias.
+
+La existencia de un código comodín para todos los países no está confirmada en las fuentes. Cuando no aparezca, será **Pendiente de validación por Hacchi**.
 
 ## Vista general
 
-Buscar el valor comodín
-→ asignarlo al tercero
+Confirmar que no puede resolverse
+→ localizar Desconocida
+→ asignar valor provisional
+→ guardar el tercero
 → registrar la incidencia
-→ crear o localizar la localidad correcta
-→ sustituir el valor provisional
+→ crear o identificar la localidad correcta
+→ sustituir el valor
+→ cerrar la incidencia
 
 ## Procedimiento
 
-### Paso 1. Buscar la localidad comodín
+### Paso 1. Confirmar que el caso requiere un valor provisional
 
-En el selector de localidades, busca el registro **Desconocida** o el valor equivalente documentado para el país correspondiente.
+Antes de utilizar **Desconocida**, documente qué comprobaciones se han realizado:
 
-[![Selector de localidades con el valor Desconocida señalado](/assets/simgest/migracion/mig_08_localidad_desconocida.png =70%x)](/assets/simgest/migracion/mig_08_localidad_desconocida.png)
+- búsqueda por código postal;
+- búsqueda por nombre;
+- revisión de país y provincia;
+- comprobación de variantes;
+- revisión de la dirección completa;
+- imposibilidad temporal de crear el registro.
 
-*Ejemplo de selección de la localidad provisional Desconocida. Pulsa la imagen para abrirla a tamaño completo.*
+**Resultado esperado**
 
-**Código exacto del valor comodín para cada país:** Pendiente de validación por Hacchi
+Existe una razón concreta y registrada para utilizar el valor provisional.
 
-### Paso 2. Asignar el valor provisional
+### Paso 2. Localizar la localidad comodín
 
-Selecciona la localidad Desconocida en la ficha del tercero y comprueba que el sistema permite continuar con el registro.
+Busque el registro **Desconocida** en la tabla de localidades.
 
-**Qué debe comprobar:** la dirección escrita en la ficha no debe interpretarse como validada por el hecho de haber utilizado el valor comodín.
+[![Tabla de localidades con el registro Desconocida señalado](/assets/simgest/migracion/mig_08_localidad_desconocida.png =70%x)](/assets/simgest/migracion/mig_08_localidad_desconocida.png)
 
-### Paso 3. Registrar la incidencia
+*La captura muestra el registro provisional que debe seleccionarse cuando la localidad real no puede resolverse.*
 
-Anota como mínimo:
+**Qué debe comprobar**
 
-- código del tercero;
-- nombre o razón social;
-- país;
+- nombre del registro;
+- país asociado;
+- código interno;
+- ausencia de otra localidad correcta;
+- que se está seleccionando el comodín adecuado para el caso.
+
+### Paso 3. Asignar el valor provisional al tercero
+
+Seleccione **Desconocida** en la ficha del tercero y guarde el registro.
+
+**Qué ocurre**
+
+Según el material de origen, el tercero queda almacenado y puede continuar dentro de la migración. Esto no convierte la dirección en correcta; solo evita que el proceso se detenga.
+
+**Qué debe comprobar**
+
+- el tercero se guarda;
+- el valor provisional queda visible;
+- el código postal y nombre originales se conservan en el registro de incidencia;
+- no se marca el caso como resuelto.
+
+### Paso 4. Registrar la incidencia
+
+Anote, como mínimo:
+
+- código y nombre del tercero;
+- CIF;
+- dirección de origen;
 - código postal;
 - localidad indicada en Factusol;
+- país y provincia cuando se conozcan;
+- valor provisional asignado;
 - motivo por el que no pudo resolverse;
-- fecha o fase de la migración;
 - estado pendiente.
 
-### Paso 4. Corregir el tercero posteriormente
+**Por qué se hace**
 
-Cuando la localidad correcta exista:
+La corrección posterior no debe depender de recordar qué fichas se modificaron. La lista de incidencias es la única forma de localizar todos los valores provisionales de manera controlada.
 
-1. abre la ficha del tercero;
-2. sustituye Desconocida por la localidad correcta;
-3. comprueba país, provincia y código postal;
-4. guarda el cambio;
-5. marca la incidencia como resuelta.
+### Paso 5. Resolver la localidad correcta
+
+Cuando se disponga de la información necesaria:
+
+1. busque nuevamente la localidad;
+2. créela si no existe y está confirmado;
+3. abra la ficha del tercero;
+4. sustituya **Desconocida** por el código correcto;
+5. compruebe país, provincia y código postal;
+6. guarde la ficha;
+7. marque la incidencia como resuelta.
+
+### Paso 6. Comprobar que no quedan incidencias invisibles
+
+Al cerrar una fase de migración, revise el listado de terceros con localidad **Desconocida** y compárelo con el registro de incidencias.
+
+**Resultado esperado**
+
+Cada tercero con valor provisional aparece en la lista de control y puede corregirse sin revisar manualmente toda la base de datos.
 
 ## Resultado esperado
 
-El tercero puede quedar registrado temporalmente, pero permanece identificado en una lista de incidencias hasta que se sustituya la localidad provisional.
+La migración puede continuar sin perder la información necesaria para corregir la localidad. El valor **Desconocida** permanece claramente identificado como provisional y no se confunde con una asignación definitiva.
 
 ## Comprobación final
 
-- [ ] El valor Desconocida se ha utilizado solo por necesidad.
-- [ ] El tercero está identificado en el control de incidencias.
-- [ ] Se conserva el código postal y el nombre de localidad de origen.
-- [ ] Existe una acción pendiente para corregir la ficha.
-- [ ] La incidencia no se ha cerrado antes de sustituir el valor.
+- [ ] Se intentó resolver la localidad antes de usar el comodín.
+- [ ] Se seleccionó el registro provisional adecuado.
+- [ ] El tercero quedó guardado.
+- [ ] La dirección original se conserva en la incidencia.
+- [ ] El caso está marcado como pendiente.
+- [ ] Existe un procedimiento para sustituir el valor.
+- [ ] La incidencia se cerrará únicamente después de revisar la ficha.
 
 ## Errores habituales
 
-| Error | Riesgo | Actuación |
+| Error | Consecuencia | Actuación |
 |---|---|---|
-| Utilizar Desconocida como valor definitivo | Dirección incompleta de forma permanente | Mantener la incidencia abierta. |
-| No registrar el tercero afectado | Imposibilidad de corregirlo en bloque | Añadirlo al control antes de continuar. |
-| Seleccionar un comodín de otro país | País y provincia incorrectos | Revisar la tabla y solicitar validación. |
+| Utilizar Desconocida sin buscar | Aumentan innecesariamente las incidencias | Resolver la localidad antes de continuar. |
+| No registrar el tercero afectado | El provisional puede quedar indefinidamente | Añadirlo al control de incidencias. |
+| Borrar la dirección original | Se pierde la información para corregir | Recuperar los datos de Factusol. |
+| Marcar el caso como resuelto al guardar | La incidencia desaparece sin corregirse | Mantener estado pendiente hasta sustituir el valor. |
 
 ---
 

@@ -6,105 +6,119 @@ tags: simgest, manual, operativa
 editor: markdown
 ---
 
-<!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
+## 4. Revisar una oferta antes de emitirla
 
+> **Objetivo**
+>
+> Detectar errores de cliente, proyecto, condiciones, artículos, cantidades, precios e impuestos antes de generar el documento que verá el cliente.
 
-Antes de generar el PDF o confirmar una oferta, se debe hacer una revisión completa. Esta revisión evita errores de cliente, precio, unidades, IVA o artículos.
+## Cuándo utilizar este procedimiento
 
-<a href="/assets/simgest/operativa/cap_03_revision_presupuesto.png"><img src="/assets/simgest/operativa/cap_03_revision_presupuesto.png" alt="Revisión de datos del cliente, proyecto, fechas y tabla inferior" style="width: 80%; height: auto;" /></a>
+Realiza esta revisión después de guardar la oferta y antes de generar el PDF o ejecutar una confirmación que cambie su estado.
 
-*Revisión de datos del cliente, proyecto, fechas y tabla inferior. Pulsa la imagen para abrirla a tamaño completo.*
+## Requisitos previos
 
+- Oferta guardada.
+- Información comercial disponible.
+- Artículos y cantidades introducidos.
+- Forma de pago revisada.
+- Acceso a las notas y a la tabla de líneas.
 
-<!-- AÑADIR_CONTENIDO_ANTES_DE_4-1-REVISION-DE-CABECERA -->
+## Vista general
 
-## 4.1 Revisión de cabecera
+Revisar cabecera
+→ revisar condiciones
+→ revisar notas
+→ revisar líneas
+→ comprobar estados visuales
+→ guardar correcciones
+→ repetir la revisión
 
-- Cliente correcto.
+## Procedimiento
 
+### Paso 1. Confirmar la identidad del documento
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
+Revisa:
 
-- Referencia clara y relacionada con el trabajo.
+- cliente;
+- referencia;
+- dirección y localidad;
+- proyecto;
+- fechas;
+- tarifa;
+- agente o transportista cuando el proceso lo utilice.
 
+[![Oferta con los datos de cabecera, proyecto, fechas y tabla de líneas señalados](/assets/simgest/operativa/cap_03_revision_presupuesto.png =70%x)](/assets/simgest/operativa/cap_03_revision_presupuesto.png)
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
+*Vista de revisión previa a la emisión del presupuesto. Pulsa la imagen para abrirla a tamaño completo.*
 
-- Dirección y localidad correctas.
+### Paso 2. Confirmar las condiciones comerciales
 
+Comprueba la forma de pago y los porcentajes visibles que afecten al documento. No modifiques margen, transporte, descuento o comisión sin un criterio confirmado.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
+### Paso 3. Revisar las notas
 
-- Fechas correctas.
+Lee el panel de notas y confirma que:
 
+- las observaciones pertenecen al cliente o trabajo correcto;
+- no hay instrucciones contradictorias;
+- la información que deba aparecer en el documento está en el campo adecuado;
+- no se han incluido datos innecesarios.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
+**Campo exacto desde el que una nota se imprime en el PDF:** Pendiente de validación por Hacchi
 
-- Proyecto asignado.
+### Paso 4. Revisar cada línea
 
+Para cada artículo, comprueba:
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
+| Dato | Control |
+|---|---|
+| Artículo | Es la referencia solicitada |
+| Descripción | Permite entender el concepto |
+| Unidades | Coinciden con la solicitud |
+| Precio | Procede de la tarifa o está validado |
+| Descuento | Es el autorizado |
+| IVA | Está informado correctamente |
+| Acabado o variante | Corresponde al producto real |
+| Aclaración | No contradice la descripción |
 
-- Tarifa correcta.
+### Paso 5. Interpretar colores y estados con precaución
 
+Si una línea o celda aparece en rojo o con otro color, detén la emisión y revisa el dato. La fuente visual muestra estados coloreados, pero no confirma el significado general de todos ellos.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
+**Significado exacto de cada color o estado:** Pendiente de validación por Hacchi
 
-- Forma de pago correcta.
+### Paso 6. Corregir y repetir la revisión
 
+Después de cualquier cambio:
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
+1. guarda la oferta;
+2. vuelve a abrir o refrescar el documento;
+3. comprueba el dato modificado;
+4. repite el control de cabecera y líneas afectadas.
 
-- Agente o transportista correcto si el proceso lo requiere.
+## Resultado esperado
 
+La oferta queda completa, coherente y preparada para generar el PDF sin errores conocidos.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
+## Comprobación final
 
+- [ ] Cliente, referencia y proyecto correctos.
+- [ ] Fechas, tarifa y forma de pago revisadas.
+- [ ] Notas correspondientes al trabajo.
+- [ ] Todas las líneas revisadas individualmente.
+- [ ] Precios, descuentos e IVA comprobados.
+- [ ] No quedan colores o estados sin interpretar.
+- [ ] Correcciones guardadas y verificadas.
 
-<!-- AÑADIR_CONTENIDO_ANTES_DE_4-2-REVISION-DE-LINEAS -->
+## Errores habituales
 
-## 4.2 Revisión de líneas
-
-- Cada artículo debe corresponder al producto real solicitado.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- La descripción debe ser entendible para el cliente o para producción.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Las unidades deben coincidir con la solicitud.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- El precio debe venir de tarifa o estar autorizado si se modifica manualmente.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- El IVA debe estar informado.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Los descuentos deben ser correctos.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Las columnas de comisión o transporte no deben contener valores erróneos.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-> **Importante:** Si una línea se ve en rojo o con celdas coloreadas, no continuar sin revisar el motivo. Puede indicar precio, tarifa, stock, validación o estado pendiente.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_MODULO -->
+| Error | Cómo detectarlo | Actuación |
+|---|---|---|
+| Revisar solo el total | Una línea puede tener precio o cantidad incorrectos | Comprobar línea por línea. |
+| Dar por válido un color | Se desconoce su significado | Detener la emisión y validar. |
+| Corregir sin volver a comprobar | El cambio puede no quedar guardado | Reabrir o refrescar la oferta. |
 
 ---
 
-[← 3. Seleccionar condiciones y forma de pago](/simgest/operativa/03-formas-de-pago) · [Índice](/simgest) · [5. Generar el PDF del presupuesto →](/simgest/operativa/05-generar-pdf)
+[← 3. Seleccionar la forma de pago](/simgest/operativa/03-formas-de-pago) · [Índice de operativa](/simgest/operativa) · [5. Generar y comprobar el PDF →](/simgest/operativa/05-generar-pdf)

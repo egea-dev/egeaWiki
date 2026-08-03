@@ -6,55 +6,114 @@ tags: simgest, manual, operativa
 editor: markdown
 ---
 
-<!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
+## 6. Revisar partes tapizables y variantes
 
+> **Objetivo**
+>
+> Comprobar la configuración de las partes tapizables y las variantes de un modelo antes de utilizarlo en presupuestos, compras o fabricación.
 
-Algunos productos no son una simple línea de compra. Pueden tener medidas, variantes, partes tapizables, telas, acabados y componentes. Esta parte la deben tocar solo usuarios autorizados o personas formadas.
+## Cuándo utilizar este procedimiento
 
-<a href="/assets/simgest/operativa/cap_05_partes_tapizables.png"><img src="/assets/simgest/operativa/cap_05_partes_tapizables.png" alt="Partes tapizables y variantes del modelo" style="width: 80%; height: auto;" /></a>
+Utilízalo cuando un artículo dependa de tela, material, medida, acabado, color, unidades o incrementos asociados a una variante.
 
-*Partes tapizables y variantes del modelo. Pulsa la imagen para abrirla a tamaño completo.*
+La modificación de esta configuración puede afectar a consumos, precios o fabricación. Debe realizarla personal formado.
 
-1. Abrir la ficha del artículo o del modelo.
+**Perfiles autorizados y permisos concretos:** Pendiente de validación por Hacchi
 
+## Requisitos previos
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
+- Artículo o modelo identificado.
+- Parte tapizable que debe revisarse.
+- Tela o material confirmado.
+- Medidas y unidades disponibles.
+- Criterio comercial o productivo para las variantes.
 
-1. Entrar en la pantalla de partes tapizables o variantes del modelo.
+## Vista general
 
+Abrir modelo
+→ seleccionar parte tapizable
+→ revisar material y medidas
+→ revisar variantes
+→ comprobar impacto
+→ guardar solo si está confirmado
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
+## Procedimiento
 
-1. Revisar la parte tapizable. En el vídeo se ve una zona superior con la parte, tela, descripción, serie, ancho y unidades.
+### Paso 1. Abrir el artículo o modelo
 
+Localiza la ficha correcta por código o descripción. Comprueba que no estás trabajando sobre una referencia similar.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
+### Paso 2. Abrir las partes tapizables o variantes
 
-1. Comprobar la tela o material asociado.
+Accede a la pantalla donde aparecen la parte, la tela, la descripción, la serie, el ancho, las unidades y la tabla inferior de variantes.
 
+[![Pantalla de partes tapizables con datos de la parte y variantes inferiores señalados](/assets/simgest/operativa/cap_05_partes_tapizables.png =70%x)](/assets/simgest/operativa/cap_05_partes_tapizables.png)
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_4 -->
+*Configuración de una parte tapizable y de las variantes relacionadas con el modelo. Pulsa la imagen para abrirla a tamaño completo.*
 
-1. Revisar el ancho, alto, medidas y unidades.
+### Paso 3. Revisar la parte principal
 
+Comprueba:
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_5 -->
+- parte tapizable;
+- tela o material;
+- descripción;
+- serie;
+- ancho y alto cuando aparezcan;
+- unidades;
+- otras medidas visibles.
 
-1. Revisar las variantes inferiores. Pueden afectar a metros, acabado, color o incremento de precio.
+### Paso 4. Revisar las variantes inferiores
 
+Cada variante puede modificar el comportamiento del artículo. Revisa los campos visibles relacionados con:
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_6 -->
+- metros o consumo;
+- acabado;
+- color;
+- medida;
+- incremento de precio;
+- estado activo cuando aparezca.
 
-1. Guardar solo si los datos son correctos.
+No copies una variante de otro modelo sin comprobar que material, medida y unidad coinciden.
 
+### Paso 5. Comprobar el impacto
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_7 -->
+Antes de guardar, determina si el cambio puede afectar:
 
-> **Atención:** No modificar variantes sin entender el efecto. Una variante mal configurada puede cambiar precio, consumo de material o fabricación.
+- precio de venta;
+- consumo de material;
+- escandallo;
+- pedido a proveedor;
+- fabricación.
 
+**Reglas exactas de recálculo automático:** Pendiente de validación por Hacchi
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_MODULO -->
+### Paso 6. Guardar y volver a abrir
+
+Guarda únicamente cuando todos los datos estén confirmados. Vuelve a abrir la ficha y comprueba que la variante aparece asociada al modelo correcto.
+
+## Resultado esperado
+
+El modelo mantiene partes, materiales, medidas y variantes coherentes con el producto que se va a presupuestar o fabricar.
+
+## Comprobación final
+
+- [ ] Artículo o modelo correcto.
+- [ ] Parte tapizable correcta.
+- [ ] Tela o material confirmado.
+- [ ] Medidas y unidades revisadas.
+- [ ] Variantes completas.
+- [ ] Impacto sobre precio y consumo evaluado.
+- [ ] Cambios guardados y comprobados.
+
+## Errores habituales
+
+| Error | Riesgo | Actuación |
+|---|---|---|
+| Modificar un modelo parecido | Cambiar otro artículo | Verificar código y descripción. |
+| Cambiar una variante sin revisar unidades | Consumo o precio incorrectos | Comparar material, medida y unidad. |
+| No conocer el efecto del cambio | Alterar presupuesto o fabricación | Pendiente de validación por Hacchi |
 
 ---
 
-[← 5. Generar el PDF del presupuesto](/simgest/operativa/05-generar-pdf) · [Índice](/simgest) · [7. Revisar ficha de artículo y escandallo →](/simgest/operativa/07-ficha-articulo-escandallo)
+[← 5. Generar y comprobar el PDF](/simgest/operativa/05-generar-pdf) · [Índice de operativa](/simgest/operativa) · [7. Revisar ficha y escandallo →](/simgest/operativa/07-ficha-articulo-escandallo)

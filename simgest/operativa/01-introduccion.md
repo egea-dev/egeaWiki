@@ -6,135 +6,91 @@ tags: simgest, manual, operativa
 editor: markdown
 ---
 
-<!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
+## 1. Comprender el entorno y el flujo de trabajo
 
+> **Objetivo**
+>
+> Reconocer las zonas principales de SIMGEST y comprender cómo se relacionan ofertas, pedidos, compras, recepción y procesos posteriores.
 
-## Apoyo visual inicial
+## A quién va dirigido
 
-<a href="/assets/simgest/operativa/cap_s1_entorno_general.png"><img src="/assets/simgest/operativa/cap_s1_entorno_general.png" alt="Entorno general de SIMGEST: menú, módulos y ventana operativa" style="width: 80%; height: auto;" /></a>
+La documentación fuente está orientada a personal operativo, compras, producción y personas que administran o consultan el sistema. Las funciones concretas que puede modificar cada perfil dependen de los permisos configurados.
 
-*Entorno general de SIMGEST: menú, módulos y ventana operativa. Pulsa la imagen para abrirla a tamaño completo.*
+**Matriz de permisos por perfil:** Pendiente de validación por Hacchi
 
-<a href="/assets/simgest/operativa/cap_s1_flujo_trabajo.png"><img src="/assets/simgest/operativa/cap_s1_flujo_trabajo.png" alt="Vista general del flujo documental: cabecera, datos comerciales y líneas" style="width: 80%; height: auto;" /></a>
+## Antes de empezar
 
-*Vista general del flujo documental: cabecera, datos comerciales y líneas. Pulsa la imagen para abrirla a tamaño completo.*
+- Confirma la empresa y el usuario activos.
+- Comprueba que trabajas en el entorno correcto.
+- Identifica el módulo y el documento antes de introducir datos.
+- No confirmes una acción cuyo efecto no esté documentado.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_APOYO_VISUAL -->
+## Reconocer la pantalla general
 
-SIMGEST es el programa de gestión que se usa para controlar el trabajo comercial y operativo del Proyecto Catorce. En el vídeo se ve principalmente el flujo de oferta o presupuesto, la revisión de artículos, la configuración de datos de producto, la tarifa de proveedor, la generación de pedidos de compra y la recepción de mercancía.
+SIMGEST utiliza un menú principal, accesos por módulos, barras de acciones y ventanas de trabajo que pueden contener cabecera, pestañas, notas y tablas de líneas.
 
-El objetivo de este manual es que una persona pueda trabajar sin tener que ver el vídeo: abrir una oferta, completar los datos, revisar los artículos, generar el presupuesto en PDF, preparar compras, recibir mercancía y comprobar las líneas antes de avanzar.
+[![Entorno general de SIMGEST con el menú principal, módulos y ventana de trabajo señalados](/assets/simgest/operativa/cap_s1_entorno_general.png =70%x)](/assets/simgest/operativa/cap_s1_entorno_general.png)
 
+*Vista general utilizada para reconocer la navegación y la ventana operativa. Pulsa la imagen para abrirla a tamaño completo.*
 
-<!-- AÑADIR_CONTENIDO_ANTES_DE_1-1-FLUJO-GENERAL-DE-TRABAJO -->
+### Zonas que se repiten
 
-## 1.1 Flujo general de trabajo
+| Zona | Para qué se utiliza | Qué comprobar |
+|---|---|---|
+| Menú principal | Cambiar de área funcional | Empresa y módulo correctos |
+| Barra de acciones | Crear, buscar, guardar o ejecutar acciones | Icono y documento activos |
+| Cabecera | Identificar cliente, proyecto, fechas y condiciones | Datos generales antes de las líneas |
+| Pestañas | Separar ficha, notas, documentos u otras vistas | Pestaña correcta antes de editar |
+| Tabla de líneas | Registrar artículos, cantidades, precios o estados | Línea y columna correctas |
 
-1. Crear o abrir una oferta/proforma de cliente.
+## Flujo general documentado
 
+La documentación describe la siguiente secuencia:
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
+1. Crear o revisar una oferta o presupuesto.
+2. Convertir la oferta aprobada en pedido de cliente.
+3. Detectar necesidades y preparar pedidos a proveedor.
+4. Registrar la recepción de mercancía.
+5. Continuar con planificación, fabricación y entrega según el alcance del sistema.
 
-1. Completar la cabecera: cliente, referencia, fechas, tarifa, dirección, proyecto y condiciones.
+[![Pantalla de oferta con las zonas de cabecera, datos comerciales y líneas señaladas](/assets/simgest/operativa/cap_s1_flujo_trabajo.png =70%x)](/assets/simgest/operativa/cap_s1_flujo_trabajo.png)
 
+*Ejemplo de un documento que conecta datos generales y detalle de artículos. Pulsa la imagen para abrirla a tamaño completo.*
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
+## Conceptos básicos
 
-1. Añadir o revisar las líneas de artículos: descripción, unidades, precio, IVA, descuentos y comisión.
+| Concepto | Significado dentro del manual |
+|---|---|
+| Oferta o proforma | Documento comercial previo al pedido de cliente |
+| Presupuesto PDF | Representación imprimible de la oferta |
+| Pedido de cliente | Documento generado o registrado tras la aprobación de la oferta |
+| Artículo | Referencia utilizada en una línea de venta, compra o fabricación |
+| Variante | Configuración que puede afectar medidas, acabado, material o precio |
+| Escandallo | Relación de componentes y consumos de un artículo fabricado o semielaborado |
+| Tarifa de proveedor | Precios y condiciones asociados a un proveedor |
+| Pedido a proveedor | Documento de compra generado a partir de necesidades |
+| Recepción | Registro de la mercancía que llega y de lo que queda pendiente |
 
+## Reglas de trabajo
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
+- Completa y revisa la cabecera antes de editar líneas.
+- Comprueba el proyecto antes de filtrar o generar compras.
+- Compara cantidades de pantalla con documentos y mercancía física.
+- Revisa el resultado después de guardar.
+- No interpretes un color, icono o estado sin confirmación funcional.
 
-1. Validar la forma de pago y las notas del cliente.
+## Resultado esperado
 
+El usuario identifica la pantalla, comprende la secuencia documental y sabe en qué punto debe consultar cada procedimiento específico.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_4 -->
+## Comprobación final
 
-1. Generar el PDF del presupuesto y revisar que lo imprimible coincide con la oferta.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_5 -->
-
-1. Si hay artículos fabricados o configurables, comprobar ficha, variantes y escandallo.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_6 -->
-
-1. Revisar tarifas de proveedor y precios oficiales antes de comprar.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_7 -->
-
-1. Generar pedido a proveedor con filtros de proyecto/tipo/proveedor.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_8 -->
-
-1. Registrar recepción de proveedor y cantidades recibidas.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_9 -->
-
-1. Usar configuración de columnas y gestión de carga cuando haga falta revisar más datos.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_10 -->
-
-
-<!-- AÑADIR_CONTENIDO_ANTES_DE_1-2-CONCEPTOS-QUE-DEBE-CONOCER-EL-TRABAJADOR -->
-
-## 1.2 Conceptos que debe conocer el trabajador
-
-- Oferta / Proforma: documento previo al pedido. Sirve para presupuestar al cliente.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Presupuesto PDF: documento imprimible que se envía o revisa con el cliente.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Pedido de cliente: pedido resultante de una oferta aprobada o grabada.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Artículo: producto, tela, pieza o referencia que se incorpora a la oferta o al pedido.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Variante: configuración del artículo, por ejemplo tela, acabado, medida o color.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Escandallo: desglose de componentes y costes de un artículo fabricado o semielaborado.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Tarifa proveedor: precios y condiciones que aplica un proveedor a sus artículos.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Pedido a proveedor: compra que se genera para pedir material necesario.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Recepción: registro de la mercancía que ha llegado del proveedor.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-> **Atención:** Si un campo no se ve claro en el vídeo, este manual lo indica como “validar”. En el trabajo real se debe confirmar con el responsable o con el ERP abierto.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_MODULO -->
+- [ ] Empresa y usuario correctos.
+- [ ] Módulo identificado.
+- [ ] Documento correcto antes de editar.
+- [ ] Cabecera revisada antes de las líneas.
+- [ ] Siguiente procedimiento localizado.
 
 ---
 
-[← Inicio](/simgest) · [Índice](/simgest) · [2. Crear un presupuesto / oferta de cliente desde cero →](/simgest/operativa/02-presupuestos)
+[← Manual SIMGEST](/simgest) · [Índice de operativa](/simgest/operativa) · [2. Crear una oferta o presupuesto →](/simgest/operativa/02-presupuestos)

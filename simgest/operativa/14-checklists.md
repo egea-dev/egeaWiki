@@ -6,132 +6,92 @@ tags: simgest, manual, operativa
 editor: markdown
 ---
 
-<!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
-
-
-
-<!-- AÑADIR_CONTENIDO_ANTES_DE_14-1-ANTES-DE-ENVIAR-UN-PRESUPUESTO -->
-
-## 14.1 Antes de enviar un presupuesto
-
-- Cliente correcto.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Referencia correcta.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Proyecto informado.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Forma de pago correcta.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Todas las líneas están completas.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Precios revisados.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- IVA correcto.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Notas revisadas.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- PDF generado y comprobado.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-
-<!-- AÑADIR_CONTENIDO_ANTES_DE_14-2-ANTES-DE-GENERAR-PEDIDO-A-PROVEEDOR -->
-
-## 14.2 Antes de generar pedido a proveedor
-
-- Proyecto filtrado correctamente.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Proveedor correcto.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Necesidades revisadas.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Unidades revisadas.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Fechas revisadas.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Precios o tarifas validadas.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- No hay líneas de otros proyectos.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-
-<!-- AÑADIR_CONTENIDO_ANTES_DE_14-3-ANTES-DE-CONFIRMAR-RECEPCION -->
-
-## 14.3 Antes de confirmar recepción
-
-- Pedido de proveedor correcto.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Albarán introducido si procede.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Cantidad física comparada con pantalla.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Recepción parcial registrada correctamente si no ha llegado todo.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-- Documento guardado.
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DE_ESTE_PUNTO -->
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_MODULO -->
+## 14. Listas de comprobación
+
+> **Objetivo**
+>
+> Aplicar un control final breve antes de emitir un presupuesto, generar un pedido a proveedor o confirmar una recepción.
+
+## Cómo utilizar estas listas
+
+1. Completa primero el procedimiento correspondiente.
+2. Revisa cada punto con el documento abierto.
+3. No marques un control por memoria.
+4. Si un punto no cumple, vuelve al procedimiento y corrígelo.
+5. Cuando no exista criterio suficiente, aplica **Pendiente de validación por Hacchi**.
+
+## Antes de emitir un presupuesto
+
+- [ ] Cliente correcto.
+- [ ] Referencia identificable.
+- [ ] Dirección y localidad revisadas.
+- [ ] Proyecto informado.
+- [ ] Tarifa correcta.
+- [ ] Forma de pago confirmada.
+- [ ] Fechas revisadas.
+- [ ] Todas las líneas pertenecen al trabajo.
+- [ ] Artículos y descripciones correctos.
+- [ ] Unidades comprobadas.
+- [ ] Precios y descuentos revisados.
+- [ ] IVA informado.
+- [ ] Notas revisadas.
+- [ ] Oferta guardada.
+- [ ] PDF generado y comparado con SIMGEST.
+
+**Si falla un control:** no envíes el documento. Corrige la oferta y genera un PDF nuevo.
+
+## Antes de generar un pedido a proveedor
+
+- [ ] Proyecto filtrado correctamente.
+- [ ] Serie, almacén y canal revisados cuando proceda.
+- [ ] Proveedor correcto.
+- [ ] Necesidades actualizadas con un criterio confirmado.
+- [ ] No hay líneas de otros proyectos.
+- [ ] Artículos y descripciones correctos.
+- [ ] Unidades necesarias y pedidas revisadas.
+- [ ] Fechas de entrega comprobadas.
+- [ ] Tarifa o precio validado.
+- [ ] Selección final revisada.
+- [ ] Pedido generado abierto y comparado.
+
+**Si falla un control:** corrige filtros o selección antes de generar el pedido.
+
+## Antes de confirmar una recepción
+
+- [ ] Pedido de proveedor correcto.
+- [ ] Proveedor correcto.
+- [ ] Número de albarán introducido cuando procede.
+- [ ] Mercancía física comparada con cada línea.
+- [ ] Cantidad Recibir corresponde a lo que ha llegado.
+- [ ] Recepción parcial mantiene el resto pendiente.
+- [ ] Ninguna línea ajena está marcada.
+- [ ] Estado de servido revisado.
+- [ ] Recepción confirmada después del control.
+- [ ] Albarán generado abierto y comparado.
+
+**Si falla un control:** no confirmes la recepción. Corrige la línea o solicita validación.
+
+## Antes de cerrar una revisión de datos migrados
+
+- [ ] Código de origen conservado.
+- [ ] Cuenta contable comparada.
+- [ ] Forma de pago definitiva o marcada como provisional.
+- [ ] Localidad, provincia y país revisados.
+- [ ] Valores Desconocida incluidos en incidencias.
+- [ ] Roles de cliente y proveedor separados.
+- [ ] Corrección comprobada después de guardar.
+
+## Evidencia de finalización
+
+La evidencia depende del proceso:
+
+| Proceso | Evidencia mínima |
+|---|---|
+| Presupuesto | Oferta guardada y PDF revisado |
+| Pedido a proveedor | Pedido generado y comparado con la selección |
+| Recepción | Albarán generado y cantidades verificadas |
+| Migración | Registro revisado e incidencia cerrada o documentada |
 
 ---
 
-[← 13. Revisar gestión de carga y bultos](/simgest/operativa/13-gestion-carga) · [Índice](/simgest) · [15. Errores habituales y cómo evitarlos →](/simgest/operativa/15-errores-habituales)
+[← 13. Revisar la gestión de carga](/simgest/operativa/13-gestion-carga) · [Índice de operativa](/simgest/operativa) · [15. Errores habituales →](/simgest/operativa/15-errores-habituales)

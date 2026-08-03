@@ -6,148 +6,110 @@ tags: simgest, migracion, factusol
 editor: markdown
 ---
 
-<!-- AÑADIR_CONTENIDO_ANTES_DEL_MODULO -->
+## 6. Revisar la migración
 
+> **Objetivo**
+>
+> Comprobar que los terceros y sus datos principales se han trasladado correctamente antes de extender la migración o comenzar la operativa diaria.
 
-<a href="/assets/simgest/migracion/mig_09_revision_post_migracion.png"><img src="/assets/simgest/migracion/mig_09_revision_post_migracion.png" alt="Revisión general de terceros y registros migrados" style="width: 80%; height: auto;" /></a>
+## Cuándo utilizar este procedimiento
 
-*Revisión general de terceros y registros migrados. Pulsa la imagen para abrirla a tamaño completo.*
+Se aplica cuando el responsable técnico comunica que la ejecución de la migración ha finalizado y señala el punto de corte a partir del cual los datos deben mantenerse en SIMGEST.
 
+## Requisitos previos
 
-<!-- AÑADIR_CONTENIDO_ANTES_DE_FASE-1-MIGRACION-INICIAL-A-CARGO-DE-PEDRO -->
+- Confirmación de finalización de la ejecución técnica.
+- Relación de registros señalados como problemáticos.
+- Inventarios de cuentas, formas de pago y localidades.
+- Acceso de consulta a los terceros migrados.
+- Criterio de cierre del periodo de trabajo en Factusol.
 
-## Fase 1: Migración inicial (a cargo de Pedro)
+## Vista general
 
-1. Pedro ejecuta los scripts de migración para GEA (la empresa más grande)
+Recibir notificación
+→ revisar muestra general
+→ revisar incidencias señaladas
+→ corregir errores
+→ validar el resultado
+→ autorizar la siguiente fase
 
+## Procedimiento
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
+### Fase 1. Confirmar el alcance migrado
 
-1. La migración cubre: terceros, clientes, proveedores y acreedores
+La fuente indica que la migración incluye terceros, clientes, proveedores y acreedores, con una secuencia técnica que incorpora primero la información común y después los roles específicos.
 
+**Qué debe comprobar:** solicita o revisa la relación de entidades incluidas en la ejecución y el momento exacto del corte.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
+### Fase 2. Aplicar el punto de corte
 
-1. Los scripts ya están preparados para insertar terceros y bancos, luego clientes, proveedores y acreedores
+Cuando Pedro comunique que la migración está completa, el equipo debe identificar qué datos ya forman parte de SIMGEST.
 
+**Regla documentada:** no modificar en Factusol los datos ya incluidos en la migración después del punto de corte comunicado.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
+**Procedimiento para cambios urgentes durante el corte:** Pendiente de validación por Hacchi
 
-1. Pedro ha utilizado IA para agilizar el proceso de mapeo y scripting, reduciendo considerablemente el tiempo respecto a la primera migración
+### Fase 3. Realizar una revisión general
 
+La fuente no plantea revisar manualmente todos los registros uno por uno. Se realiza una revisión general y se presta atención específica a los registros señalados.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_4 -->
+[![Listado general de terceros migrados con el área de registros señalada](/assets/simgest/migracion/mig_09_revision_post_migracion.png =70%x)](/assets/simgest/migracion/mig_09_revision_post_migracion.png)
 
+*Vista utilizada para revisar el resultado general de la migración. Pulsa la imagen para abrirla a tamaño completo.*
 
-<!-- AÑADIR_CONTENIDO_ANTES_DE_FASE-2-NOTIFICACION -->
+Comprueba una muestra que incluya:
 
-## Fase 2: Notificación
+- códigos de terceros;
+- cliente o proveedor asociado;
+- NIF o CIF;
+- razón social;
+- cuenta contable;
+- forma de pago;
+- dirección y localidad;
+- notas propias de cada rol.
 
-1. Pedro avisa al equipo cuando la migración está completa
+### Fase 4. Revisar las incidencias prioritarias
 
+Da prioridad a:
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
+- localidades no identificadas;
+- localidades asignadas por coincidencia parcial;
+- valores Desconocida;
+- cuentas que no coincidan con Factusol;
+- formas de pago provisionales;
+- terceros con el mismo CIF y varios roles.
 
-1. Marca el punto a partir del cual todos los datos son nuevos
+### Fase 5. Corregir y volver a comprobar
 
+Después de corregir un dato, vuelve a abrir el registro y compara el resultado con la fuente de origen. No cierres una incidencia únicamente porque se haya guardado un cambio.
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
+### Fase 6. Validar la siguiente migración
 
-1. A partir de ese momento, el equipo no debe modificar datos en Factusol que ya hayan sido migrados
+La fuente plantea utilizar la primera empresa migrada como validación antes de aplicar el mismo proceso al resto.
 
+**Responsable que autoriza el paso a la siguiente empresa:** Pendiente de validación por Hacchi
 
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
+## Resultado esperado
 
+Los registros revisados mantienen sus códigos y datos esenciales, las incidencias conocidas están corregidas o documentadas y existe una decisión explícita sobre la continuación del proceso.
 
-<!-- AÑADIR_CONTENIDO_ANTES_DE_FASE-3-REVISION-POR-EL-EQUIPO -->
+## Comprobación final
 
-## Fase 3: Revisión por el equipo
+- [ ] Se conoce el alcance y el punto de corte.
+- [ ] Se ha realizado una revisión general.
+- [ ] Los registros señalados se han comprobado individualmente.
+- [ ] Las correcciones se han validado después de guardar.
+- [ ] Los valores provisionales siguen registrados si no están resueltos.
+- [ ] Existe autorización para continuar con la siguiente fase.
 
-1. El equipo revisa los datos migrados
+## Errores habituales
 
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
-
-1. No se revisan uno por uno (~1.500 registros), pero se hace una revisión general
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
-
-1. Pedro señala específicamente los registros que necesitan atención (localidades no identificadas, etc.)
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
-
-1. Se presta especial atención a los registros marcados como problemáticos
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_4 -->
-
-
-<!-- AÑADIR_CONTENIDO_ANTES_DE_FASE-4-CORRECCION -->
-
-## Fase 4: Corrección
-
-1. Se corrigen los errores detectados
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
-
-1. Especial atención a: localidades mal asignadas, cuentas incorrectas
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
-
-1. Se actualizan los registros con localidad "desconocida" cuando sea posible
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
-
-
-<!-- AÑADIR_CONTENIDO_ANTES_DE_FASE-5-VALIDACION -->
-
-## Fase 5: Validación
-
-1. Si la migración de GEA es correcta
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
-
-1. Se procede con la migración del resto de empresas (Caribe, Canarias, etc.)
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
-
-1. El mismo proceso y scripts se aplican a las demás empresas
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
-
-
-<!-- AÑADIR_CONTENIDO_ANTES_DE_FASE-6-TRABAJO-FUTURO -->
-
-## Fase 6: Trabajo futuro
-
-Una vez completada la migración, el equipo de Productivity Egea será responsable de:
-
-1. Dar de alta nuevos terceros directamente en Simgest
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_1 -->
-
-1. Configurar las fichas de cada tipo de tercero
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_2 -->
-
-1. Alimentar la base de datos con nuevos registros
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_PUNTO_3 -->
-
-
-<!-- AÑADIR_CONTENIDO_DESPUES_DEL_MODULO -->
+| Error | Riesgo | Actuación |
+|---|---|---|
+| Seguir modificando Factusol tras el corte | Divergencia entre sistemas | Detener el cambio y comunicar la incidencia. |
+| Revisar solo registros aleatorios | Omitir los casos ya señalados | Empezar por la lista de incidencias. |
+| Cerrar una incidencia sin comprobar el resultado | Mantener datos incorrectos | Reabrir la ficha y comparar con el origen. |
 
 ---
 
-[← 5. Procedimiento de Fallback: Localidad "Desconocida"](/simgest/migracion/05-localidad-desconocida) · [Índice](/simgest) · [7. Notas y Advertencias Importantes →](/simgest/migracion/07-notas-advertencias)
+[← 5. Utilizar la localidad Desconocida](/simgest/migracion/05-localidad-desconocida) · [Índice de migración](/simgest/migracion) · [7. Controles y advertencias →](/simgest/migracion/07-notas-advertencias)

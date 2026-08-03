@@ -8,115 +8,181 @@ editor: markdown
 
 ## 3. Mapear localidades
 
+El mapeo de localidades es la parte más compleja de la migración porque Factusol y SIMGEST no almacenan la ubicación con la misma estructura. Factusol aporta principalmente el código postal y el nombre de la localidad, mientras que SIMGEST exige seleccionar un código interno de localidad relacionado con país, provincia o región y código postal.
+
 > **Objetivo**
 >
-> Relacionar el código postal y el nombre de localidad de Factusol con el código interno de localidad que SIMGEST necesita para guardar un tercero.
+> Relacionar cada combinación de código postal y localidad de Factusol con el registro correcto de SIMGEST, evitando asignaciones automáticas que no correspondan a la dirección real.
 
 ## Cuándo utilizar este procedimiento
 
-Utilízalo durante la preparación de terceros, antes de guardar o validar sus direcciones en SIMGEST. La localidad es un dato crítico porque SIMGEST trabaja con una tabla jerárquica propia.
+Debe realizarse antes de importar terceros y siempre que una ficha no pueda guardarse porque falta el código interno de localidad. También se utiliza durante la revisión posterior para comprobar asignaciones dudosas.
 
 ## Diferencia entre los sistemas
 
 | Aspecto | Factusol | SIMGEST |
 |---|---|---|
-| Datos de origen | Código postal y nombre de localidad | Código interno de localidad |
-| Estructura | Información directa en la ficha | País → provincia o región → localidad → código postal |
-| Condición para guardar | La fuente no documenta un código interno | El procedimiento indica que el tercero necesita un código de localidad válido |
+| Dato disponible | Código postal y nombre | País, provincia o región, localidad y código postal |
+| Código de localidad | No existe | Código interno único |
+| Requisito para guardar | No exige código interno | El código de localidad es obligatorio |
+
+Esta diferencia obliga a transformar el dato. No basta con copiar el texto de la localidad, porque SIMGEST necesita relacionarlo con un registro existente en su tabla auxiliar.
+
+## Riesgo que evita
+
+Un código postal puede corresponder a varias entidades, barrios, parroquias o distritos. El material de origen indica que, cuando se busca únicamente por código postal, SIMGEST puede devolver la primera localidad encontrada. Esa coincidencia técnica no garantiza que la localidad sea la correcta.
+
+El riesgo es especialmente relevante en Mallorca, Galicia y Asturias, donde pueden existir varias denominaciones o entidades asociadas a un mismo código postal.
 
 ## Requisitos previos
 
-- Código postal y localidad de cada tercero.
-- Dirección completa para resolver coincidencias dudosas.
-- Acceso a las tablas auxiliares de países, provincias y localidades.
-- Registro de incidencias para los casos sin coincidencia.
+- código postal de cada tercero;
+- nombre de localidad de Factusol;
+- dirección completa cuando sea necesaria para decidir;
+- tabla de localidades de SIMGEST;
+- datos de país y provincia o región;
+- listado de combinaciones únicas;
+- registro de incidencias.
 
 ## Vista general
 
-Preparar combinaciones únicas
-→ consultar la tabla de SIMGEST
-→ comprobar coincidencia completa
-→ revisar coincidencias solo por código postal
-→ crear o asignar un valor provisional
+Extraer combinaciones únicas
+→ ordenar por código postal
+→ buscar en SIMGEST
+→ comprobar país y provincia
+→ validar coincidencia exacta
+→ revisar coincidencias múltiples
+→ crear o marcar la localidad pendiente
 
 ## Procedimiento
 
 ### Paso 1. Preparar las combinaciones de origen
 
-Extrae de Factusol el código postal y el nombre de localidad de cada tercero. Después:
+**Qué debe hacer**
 
-1. elimina duplicados exactos para trabajar con combinaciones únicas;
-2. ordénalas por código postal;
-3. conserva la relación con los terceros afectados;
-4. separa los registros con datos incompletos.
+Extraiga de Factusol el código postal y el nombre de localidad de cada tercero. Agrupe las combinaciones repetidas para que una misma localidad se analice una sola vez.
 
-**Resultado esperado:** existe una lista manejable de combinaciones que puede compararse con SIMGEST.
+**Por qué se hace**
 
-### Paso 2. Abrir las tablas auxiliares
+Trabajar con combinaciones únicas reduce el número de búsquedas y evita aplicar criterios distintos a registros que comparten la misma ubicación.
 
-La demostración muestra el acceso a países, provincias y localidades desde el área de tablas auxiliares.
+**Qué debe comprobar**
 
-[![Menú auxiliar con los accesos a países, provincias y localidades señalados](/assets/simgest/migracion/mig_04_ruta_tablas_auxiliares.png =70%x)](/assets/simgest/migracion/mig_04_ruta_tablas_auxiliares.png)
+- códigos postales completos;
+- nombres sin recortes;
+- variantes ortográficas;
+- espacios o abreviaturas que puedan ocultar duplicados;
+- país de los registros no españoles.
 
-*Zona de SIMGEST desde la que se consultan las tablas geográficas auxiliares. Pulsa la imagen para abrirla a tamaño completo.*
+**Resultado esperado**
 
-**Qué debe comprobar:** antes de seleccionar una localidad, confirma también el país y la provincia o región asociada.
+Existe una lista ordenada por código postal con todas las combinaciones que deben buscarse en SIMGEST.
+
+### Paso 2. Acceder a las tablas auxiliares
+
+Abra el módulo de tablas auxiliares y localice las tablas relacionadas con países, provincias y localidades.
+
+[![Ruta de acceso a tablas auxiliares con las opciones territoriales señaladas](/assets/simgest/migracion/mig_04_ruta_tablas_auxiliares.png =70%x)](/assets/simgest/migracion/mig_04_ruta_tablas_auxiliares.png)
+
+*La captura muestra el acceso documentado a las tablas necesarias para revisar la jerarquía territorial.*
+
+**Qué debe comprobar**
+
+No empiece creando registros. Primero determine si el país, la provincia y la localidad ya existen. En España, el material de origen indica que la mayoría de las localidades deberían estar disponibles.
 
 ### Paso 3. Resolver una coincidencia completa
 
-Cuando código postal y nombre de localidad coincidan:
+**Qué debe hacer**
 
-1. selecciona el código interno correspondiente;
-2. comprueba país y provincia;
-3. registra el mapeo como confirmado;
-4. continúa con el siguiente valor.
+Busque la combinación de código postal y localidad. Cuando aparezca una coincidencia, revise también país y provincia o región.
 
-**Resultado esperado:** la localidad queda asociada sin necesidad de crear registros nuevos.
+**La coincidencia se considera completa cuando:**
+
+- coincide el código postal;
+- coincide el nombre o corresponde inequívocamente a la misma entidad;
+- coincide la provincia o región;
+- coincide el país;
+- la dirección del tercero es coherente con el registro.
+
+**Resultado esperado**
+
+Se identifica el código interno de localidad y puede asignarse al tercero sin crear registros nuevos.
 
 ### Paso 4. Revisar coincidencias por código postal
 
-Un código postal puede devolver un nombre diferente al de Factusol. La fuente señala casos de parroquias, barrios o distritos y advierte que SIMGEST puede tomar la primera localidad encontrada para ese código postal.
+Cuando el código postal coincide pero el nombre es diferente, no debe aceptarse la primera opción sin revisión.
 
-No confirmes la asignación solo porque coincida el código postal. Compara:
+**Qué debe hacer**
 
-- nombre de la localidad;
-- dirección completa;
+1. compare las localidades asociadas al código postal;
+2. consulte la dirección completa del tercero;
+3. revise provincia y país;
+4. determine si la diferencia es una variante de nombre, un barrio, una parroquia o una entidad distinta;
+5. registre el caso cuando no exista certeza.
+
+**Resultado posible**
+
+El material de origen permite asignar el código encontrado y marcarlo para revisión posterior cuando el nombre exacto no coincide. Esta decisión debe quedar documentada; no debe ocultarse como una coincidencia definitiva.
+
+### Paso 5. Aplicar el control especial de Mallorca y otras zonas con entidades múltiples
+
+En Palma y otras zonas puede haber barrios o distritos asociados a códigos postales concretos. En Galicia y Asturias pueden existir parroquias u otras entidades con denominaciones diferentes.
+
+**Qué debe comprobar**
+
+- calle y número cuando estén disponibles;
+- municipio real;
 - provincia;
 - país;
-- tercero afectado.
+- coherencia entre el nombre de Factusol y la opción de SIMGEST.
 
-Si el nombre no coincide exactamente pero se asigna de forma provisional, registra el caso para revisión posterior.
-
-### Paso 5. Aplicar el control especial de Mallorca
-
-En Palma y otras zonas puede haber barrios o entidades diferentes relacionados con códigos postales próximos o compartidos. Verifica que la localidad seleccionada corresponda a la dirección real del tercero.
-
-**Criterio cuando la dirección no permita decidir:** Pendiente de validación por Hacchi
+Si la dirección no permite decidir con seguridad: **Pendiente de validación por Hacchi**.
 
 ### Paso 6. Tratar una localidad inexistente
 
-- Si la localidad no existe, utiliza el procedimiento [Crear una localidad](/simgest/migracion/04-crear-localidad).
-- Si no puede crearse en ese momento, utiliza el procedimiento [Localidad Desconocida](/simgest/migracion/05-localidad-desconocida) y registra la incidencia.
+Cuando no se encuentra una coincidencia válida existen dos vías documentadas:
+
+- crear la localidad en SIMGEST;
+- utilizar de forma provisional la localidad **Desconocida**.
+
+La creación se explica en [Crear una localidad](/simgest/migracion/04-crear-localidad). El uso provisional se explica en [Utilizar la localidad Desconocida](/simgest/migracion/05-localidad-desconocida).
+
+No debe crearse una localidad duplicada sin comprobar antes país, provincia, nombre y código postal.
+
+### Paso 7. Aplicar el código a los terceros afectados
+
+Una vez resuelta una combinación, utilice el mismo código de localidad para los terceros que compartan exactamente esa ubicación de origen.
+
+**Qué debe comprobar después de la asignación**
+
+- el código postal mostrado;
+- localidad;
+- provincia o región;
+- país;
+- coherencia con la dirección del tercero.
 
 ## Resultado esperado
 
-Cada tercero tiene asignado un código de localidad confirmado o figura expresamente en la lista de incidencias con un valor provisional.
+Cada tercero dispone de un código de localidad válido de SIMGEST. Las coincidencias dudosas, las localidades creadas y los valores provisionales están documentados para poder revisarlos posteriormente.
 
 ## Comprobación final
 
-- [ ] Código postal y localidad de origen están disponibles.
-- [ ] País y provincia coinciden con la dirección.
-- [ ] Las coincidencias solo por código postal se han revisado manualmente.
-- [ ] Los casos de Mallorca, Galicia, Asturias u otras zonas ambiguas están controlados.
-- [ ] Las localidades inexistentes se han creado o registrado como provisionales.
+- [ ] La lista de combinaciones únicas está completa.
+- [ ] Las búsquedas se han realizado por código postal y nombre.
+- [ ] Se han comprobado país y provincia.
+- [ ] Las coincidencias múltiples se han revisado con la dirección.
+- [ ] No se ha aceptado automáticamente la primera localidad del código postal.
+- [ ] Las localidades inexistentes se han tratado mediante el procedimiento correspondiente.
+- [ ] Los casos dudosos están registrados.
 
 ## Errores habituales
 
-| Error | Cómo detectarlo | Actuación |
-|---|---|---|
-| Aceptar la primera coincidencia del código postal | El nombre o la provincia no coincide | Revisar la dirección completa. |
-| Perder la relación con el tercero afectado | El mapeo no indica dónde se utiliza | Añadir el código del tercero al control. |
-| Usar una localidad provisional sin incidencia | No existe seguimiento posterior | Registrar el caso antes de continuar. |
+| Error | Consecuencia | Detección | Actuación |
+|---|---|---|---|
+| Buscar solo por código postal | Puede asignarse otra entidad del mismo CP | El nombre o dirección no coinciden | Revisar todas las opciones del código. |
+| Crear una localidad que ya existe | Se duplican registros territoriales | Mismo país, provincia y CP con otra grafía | Comparar antes de crear. |
+| Ignorar país o provincia | Se selecciona una localidad homónima | La jerarquía territorial es distinta | Corregir la asignación. |
+| Marcar como definitiva una coincidencia dudosa | La incidencia desaparece del control | No existe evidencia suficiente | Registrar para revisión. |
 
 ---
 

@@ -8,83 +8,142 @@ editor: markdown
 
 ## 3. Seleccionar la forma de pago
 
+La forma de pago forma parte de las condiciones comerciales de la oferta. Debe corresponder a la condición pactada con el cliente y quedar guardada antes de generar el presupuesto en PDF o confirmar la oferta.
+
 > **Objetivo**
 >
-> Revisar y seleccionar en la oferta la forma de pago que corresponda al cliente y a la condición comercial confirmada.
+> Seleccionar y comprobar la forma de pago correcta dentro de la oferta, evitando que el documento se emita con una condición diferente a la acordada.
 
 ## Cuándo utilizar este procedimiento
 
-Utilízalo durante la creación o revisión de una Oferta/Proforma de Cliente y siempre antes de generar el PDF o confirmar el documento.
+Utilícelo al crear una oferta, al revisar una oferta existente y siempre que el cliente haya solicitado un cambio de condición antes de la emisión.
+
+No debe modificarse una forma de pago en un documento sin comprobar si el cambio afecta a documentos ya generados. El alcance de la actualización sobre pedidos o documentos posteriores es **Pendiente de validación por Hacchi**.
 
 ## Requisitos previos
 
-- Oferta correcta abierta.
-- Cliente confirmado.
-- Condición de pago pactada o validada.
-- Acceso a la pestaña **Ficha** y al bloque **Condiciones y Forma de Pago**.
+- oferta correcta abierta;
+- cliente y referencia confirmados;
+- condición pactada conocida;
+- listado de formas de pago disponible en SIMGEST;
+- autorización para modificar la oferta cuando corresponda.
+
+## Por qué debe revisarse
+
+Una oferta puede contener precios y cantidades correctos y, aun así, ser comercialmente incorrecta si muestra otra condición de pago. El usuario no debe seleccionar la primera opción del desplegable ni interpretar el código sin leer su descripción.
 
 ## Vista general
 
-Abrir oferta
+Abrir la oferta
 → localizar condiciones
-→ abrir selector
-→ elegir opción
+→ desplegar opciones
+→ comparar con lo pactado
+→ seleccionar
 → aceptar
 → guardar
-→ verificar
+→ volver a comprobar
 
 ## Procedimiento
 
 ### Paso 1. Abrir la oferta correcta
 
-Comprueba cliente, referencia y proyecto antes de modificar la forma de pago. Este control evita cambiar las condiciones de otra oferta.
+Localice la oferta por cliente, proyecto, referencia o número. Antes de modificarla, compruebe:
+
+- cliente;
+- referencia;
+- estado;
+- proyecto;
+- fecha.
+
+Este control evita cambiar la condición de otro documento similar.
 
 ### Paso 2. Localizar el bloque de condiciones
 
-En la pestaña **Ficha**, localiza el bloque **Condiciones y Forma de Pago** situado en la zona central de la oferta.
+El material visual muestra el bloque **Condiciones y Forma de Pago** en la zona central de la oferta.
+
+[![Oferta con el bloque Condiciones y Forma de Pago señalado](/assets/simgest/operativa/cap_02_forma_pago.png =70%x)](/assets/simgest/operativa/cap_02_forma_pago.png)
+
+*La captura muestra la zona desde la que se selecciona la condición aplicable a la oferta.*
+
+**Qué debe comprobar**
+
+- valor actualmente seleccionado;
+- código y descripción visibles;
+- existencia de una condición previa del cliente;
+- coherencia con la documentación comercial disponible.
 
 ### Paso 3. Abrir el selector
 
-Selecciona el campo **Forma Pago** para abrir la lista de opciones disponibles.
+Abra el desplegable o selector asociado al campo.
 
-[![Selector de forma de pago abierto dentro del bloque Condiciones y Forma de Pago](/assets/simgest/operativa/cap_02_forma_pago.png =70%x)](/assets/simgest/operativa/cap_02_forma_pago.png)
+**Qué debe hacer**
 
-*Lista de opciones utilizada para seleccionar la condición de pago de la oferta. Pulsa la imagen para abrirla a tamaño completo.*
+Revise las opciones por descripción completa. Cuando existan códigos, utilícelos como identificadores, pero no deduzca su significado sin leer el texto asociado.
 
-### Paso 4. Elegir y confirmar la opción
+**Qué no debe hacer**
 
-1. Compara la opción con la condición comercial confirmada.
-2. Selecciona la forma de pago correcta.
-3. Pulsa **Aceptar** para aplicarla.
-4. Pulsa **Cancelar** cuando la ventana se haya abierto por error o no exista información suficiente.
+- seleccionar por posición en la lista;
+- elegir una opción de nombre parecido sin comprobarla;
+- crear una nueva forma de pago desde esta pantalla si el procedimiento no está validado;
+- sustituir una condición dudosa por **Contado** sin registrar la incidencia.
 
-No selecciones una opción únicamente porque aparezca resaltada o porque se haya utilizado en otra oferta.
+### Paso 4. Comparar con la condición pactada
 
-### Paso 5. Guardar y comprobar
+La selección debe basarse en la condición confirmada con el cliente o en el dato maestro validado.
 
-Guarda la oferta y vuelve a revisar el campo. La forma de pago debe seguir mostrando el valor seleccionado.
+**Qué debe comprobar**
+
+- descripción completa;
+- posibles plazos;
+- modalidad de cobro;
+- ausencia de una condición provisional;
+- coherencia con las notas o acuerdos registrados.
+
+Cuando el material no permita determinar la opción correcta, escriba **Pendiente de validación por Hacchi** y no emita el documento.
+
+### Paso 5. Seleccionar y aceptar
+
+Seleccione la opción correcta y utilice la acción de aceptación visible en el selector.
+
+**Resultado inmediato esperado**
+
+El bloque de condiciones muestra la opción elegida y el selector queda cerrado.
+
+### Paso 6. Guardar y volver a comprobar
+
+Guarde la oferta. Después:
+
+1. vuelva a revisar el campo;
+2. confirme que el valor se mantiene;
+3. compare con la condición pactada;
+4. compruebe que no se ha modificado otra parte de la cabecera;
+5. continúe con la revisión completa de la oferta.
 
 ## Resultado esperado
 
-La oferta queda asociada a la forma de pago confirmada para ese cliente y ese documento.
+La oferta conserva la forma de pago correcta y puede pasar a la revisión previa a emisión. La selección es visible, comprensible y coherente con la condición comercial confirmada.
 
 ## Comprobación final
 
-- [ ] Oferta y cliente correctos.
-- [ ] Condición comercial confirmada.
-- [ ] Forma de pago seleccionada por significado.
-- [ ] Selección aceptada.
-- [ ] Oferta guardada.
-- [ ] Campo comprobado después de guardar.
+- [ ] La oferta correcta está abierta.
+- [ ] Cliente, referencia y proyecto están confirmados.
+- [ ] Se ha leído la descripción completa de la forma de pago.
+- [ ] La opción coincide con lo pactado.
+- [ ] La selección se ha aceptado.
+- [ ] La oferta se ha guardado.
+- [ ] El valor se mantiene después de guardar.
+- [ ] No existen dudas pendientes antes de emitir.
 
 ## Errores habituales
 
 | Error | Riesgo | Actuación |
 |---|---|---|
-| Seleccionar la primera opción visible | Aplicar una condición incorrecta | Comparar con la condición confirmada. |
-| Cambiar el campo en otra oferta | Modificar un documento ajeno | Revisar cliente, referencia y proyecto. |
-| No conocer la condición pactada | Emitir un presupuesto incorrecto | Pendiente de validación por Hacchi |
+| Seleccionar por código sin leer la descripción | Condición incorrecta | Abrir el selector y comparar. |
+| Modificar la oferta equivocada | Se altera otro presupuesto | Confirmar cliente y referencia. |
+| No guardar | El PDF puede mantener el valor anterior | Guardar y volver a comprobar. |
+| Elegir Contado como solución automática | Se oculta una falta de equivalencia | Pendiente de validación por Hacchi. |
+| Emitir con una duda abierta | Se envía una condición no confirmada | Detener la emisión. |
 
 ---
 
-[← 2. Crear una oferta o presupuesto](/simgest/operativa/02-presupuestos) · [Índice de operativa](/simgest/operativa) · [4. Revisar la oferta →](/simgest/operativa/04-revision-presupuesto)
+[← 2. Crear una oferta](/simgest/operativa/02-presupuestos) · [Índice de operativa](/simgest/operativa) · [4. Revisar la oferta →](/simgest/operativa/04-revision-presupuesto)

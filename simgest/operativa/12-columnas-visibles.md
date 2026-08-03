@@ -8,79 +8,145 @@ editor: markdown
 
 ## 12. Configurar las columnas visibles
 
+Las tablas de SIMGEST pueden contener más campos de los que aparecen inicialmente en pantalla. Antes de concluir que un dato no existe, debe comprobarse si la columna está oculta. La configuración debe utilizarse para mejorar la revisión, no para eliminar controles necesarios.
+
 > **Objetivo**
 >
-> Mostrar los campos necesarios para revisar una tabla sin interpretar como inexistente un dato que simplemente está oculto.
+> Mostrar las columnas necesarias para una tarea concreta y organizar la vista sin ocultar información crítica ni alterar de forma no controlada la configuración de otros usuarios.
 
 ## Cuándo utilizar este procedimiento
 
-Utilízalo cuando una pantalla no muestre un campo que el proceso necesita, por ejemplo precio, stock, IVA, descuento, entrega o estado.
+Utilícelo cuando:
+
+- un procedimiento menciona un campo que no aparece;
+- la tabla contiene demasiadas columnas y dificulta la revisión;
+- necesita comparar precio, stock, IVA, descuento, entrega u otro dato disponible;
+- una captura no coincide con la vista actual.
+
+No debe asumirse que la configuración es personal. El alcance de los cambios sobre otros usuarios es **Pendiente de validación por Hacchi** hasta comprobarlo.
 
 ## Requisitos previos
 
-- Pantalla y tabla correctas abiertas.
-- Lista de datos que necesitas revisar.
-- Confirmación de si la configuración es personal o compartida.
+- pantalla y tabla correctas abiertas;
+- conocimiento del dato que necesita revisar;
+- permiso para modificar la vista si corresponde;
+- posibilidad de restaurar la configuración anterior.
 
 ## Vista general
 
-Abrir tabla
-→ abrir configuración de columnas
-→ activar campos necesarios
-→ ordenar la vista
-→ comprobar datos
-→ guardar la vista solo si procede
+Identificar el dato necesario
+→ abrir el menú de columnas
+→ localizar el campo
+→ activar o desactivar
+→ revisar la tabla
+→ comprobar el alcance
+→ continuar con el proceso principal
 
 ## Procedimiento
 
-### Paso 1. Abrir el menú de columnas
+### Paso 1. Confirmar que está en la tabla correcta
 
-En la pantalla que estás consultando, abre el menú de columnas visibles o la configuración equivalente.
+Antes de modificar columnas, compruebe:
 
-[![Pantalla con la tabla de artículos y el menú de columnas visibles señalados](/assets/simgest/operativa/cap_23_columnas_visibles.png =70%x)](/assets/simgest/operativa/cap_23_columnas_visibles.png)
+- módulo;
+- documento o listado;
+- tabla superior o inferior;
+- registro seleccionado;
+- objetivo de la revisión.
 
-*Configuración utilizada para mostrar u ocultar campos de la tabla. Pulsa la imagen para abrirla a tamaño completo.*
+Una misma pantalla puede incluir varias tablas con configuraciones diferentes.
 
-### Paso 2. Activar los campos necesarios
+### Paso 2. Abrir el menú de columnas visibles
 
-Selecciona únicamente las columnas que necesitas para el control actual. Después, comprueba que aparecen en la tabla.
+[![Menú de columnas visibles con las opciones de activación señaladas](/assets/simgest/operativa/cap_23_columnas_visibles.png =70%x)](/assets/simgest/operativa/cap_23_columnas_visibles.png)
 
-### Paso 3. Reducir el ruido visual
+*La captura muestra el menú utilizado para mostrar u ocultar campos de la tabla.*
 
-Puedes ocultar columnas que no aporten información a la revisión, siempre que no sean necesarias para interpretar el documento.
+Localice la opción de configuración de columnas y abra el listado.
 
-No ocultes campos críticos solo para que la tabla ocupe menos espacio.
+### Paso 3. Activar las columnas necesarias
 
-### Paso 4. Comprobar el alcance de la configuración
+Busque el campo por su nombre visible.
 
-**Si la vista se guarda por usuario, por equipo o para todos los usuarios:** Pendiente de validación por Hacchi
+**Ejemplos mencionados en el material:**
 
-No guardes una configuración permanente si puede afectar a otros usuarios y el alcance no está confirmado.
+- precio;
+- stock;
+- IVA;
+- descuento;
+- entrega.
 
-### Paso 5. Volver al procedimiento principal
+Active únicamente las columnas necesarias para la tarea. Si el nombre no coincide exactamente con el manual, no seleccione una opción parecida sin comprenderla.
 
-Una vez visible el campo necesario, continúa con la revisión de la oferta, pedido, recepción o carga correspondiente.
+### Paso 4. Ordenar la revisión
+
+Cuando el sistema permita mover o redimensionar columnas, coloque juntas las que deban compararse.
+
+Ejemplos:
+
+- pedido, recibido y pendiente;
+- artículo, descripción y variante;
+- cantidad, precio e importe;
+- fecha prevista y estado.
+
+El modo de guardar el orden o ancho de columnas no está confirmado para todas las pantallas.
+
+### Paso 5. Reducir el ruido visual
+
+Puede ocultar columnas que no aporten información a la tarea, siempre que:
+
+- no elimine un control necesario;
+- pueda restaurarlas;
+- conozca el alcance de la configuración;
+- no afecte a otros usuarios.
+
+No oculte campos para evitar revisar una incidencia.
+
+### Paso 6. Comprobar el alcance del cambio
+
+Después de modificar la vista:
+
+1. cierre y vuelva a abrir la pantalla si el proceso lo permite;
+2. compruebe si la configuración se mantiene;
+3. revise si afecta solo al usuario o a todo el entorno;
+4. documente cualquier comportamiento compartido.
+
+Si el alcance no puede confirmarse, no guarde la vista como configuración general.
+
+### Paso 7. Volver al procedimiento principal
+
+Una vez visible el dato, retome el procedimiento que originó la consulta y realice la comprobación pendiente.
+
+La configuración de columnas no es el resultado final; es una herramienta para completar otra tarea.
+
+## Criterio de uso corporativo
+
+La configuración de columnas debe responder a una necesidad concreta de revisión. No se debe crear una vista distinta para cada usuario sin criterio común, porque después las capturas y los procedimientos pueden dejar de coincidir con la pantalla real. Cuando una columna sea imprescindible para un control habitual, conviene mantenerla visible de forma estable una vez confirmado el alcance de la configuración.
 
 ## Resultado esperado
 
-La tabla muestra los datos necesarios sin alterar el contenido de los registros.
+La tabla muestra los datos necesarios para la revisión y el usuario conoce si el cambio es temporal, personal o compartido.
 
 ## Comprobación final
 
-- [ ] Pantalla correcta.
-- [ ] Columnas necesarias visibles.
-- [ ] Ningún campo crítico oculto.
-- [ ] Datos legibles.
-- [ ] Alcance de guardado confirmado antes de persistir la vista.
+- [ ] Se modificó la tabla correcta.
+- [ ] La columna activada corresponde al dato necesario.
+- [ ] No se ocultaron controles críticos.
+- [ ] La vista sigue siendo legible.
+- [ ] Se comprobó el alcance de la configuración.
+- [ ] Se retomó el procedimiento principal.
+- [ ] Las dudas sobre persistencia o permisos están registradas.
 
 ## Errores habituales
 
-| Error | Riesgo | Actuación |
+| Error | Consecuencia | Actuación |
 |---|---|---|
-| Pensar que el dato no existe | Tomar una decisión incompleta | Revisar columnas visibles. |
-| Ocultar un campo crítico | Perder contexto | Volver a activarlo. |
-| Guardar una vista compartida sin saberlo | Afectar a otros usuarios | Pendiente de validación por Hacchi |
+| Concluir que un dato no existe | Se omite una revisión disponible | Comprobar columnas ocultas. |
+| Activar una columna de nombre parecido | Se interpreta otro dato | Confirmar la etiqueta exacta. |
+| Ocultar demasiados campos | Se pierde contexto | Restaurar la vista necesaria. |
+| Guardar una vista compartida sin saberlo | Se afecta a otros usuarios | Pendiente de validación por Hacchi. |
+| No volver al proceso principal | La tarea queda incompleta | Retomar la comprobación original. |
 
 ---
 
-[← 11. Consultar pedidos de cliente](/simgest/operativa/11-pedidos-cliente) · [Índice de operativa](/simgest/operativa) · [13. Revisar la gestión de carga →](/simgest/operativa/13-gestion-carga)
+[← 11. Consultar pedidos de cliente](/simgest/operativa/11-pedidos-cliente) · [Índice de operativa](/simgest/operativa) · [13. Revisar gestión de carga →](/simgest/operativa/13-gestion-carga)

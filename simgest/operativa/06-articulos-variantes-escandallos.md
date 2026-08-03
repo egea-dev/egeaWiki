@@ -8,112 +8,194 @@ editor: markdown
 
 ## 6. Revisar partes tapizables y variantes
 
+Las partes tapizables y las variantes describen cómo cambia un modelo según la tela, el acabado, el color, las medidas u otras opciones configurables. Una modificación incorrecta puede afectar al consumo de material, al precio o a la fabricación, por lo que esta pantalla no debe tratarse como un simple listado descriptivo.
+
 > **Objetivo**
 >
-> Comprobar la configuración de las partes tapizables y las variantes de un modelo antes de utilizarlo en presupuestos, compras o fabricación.
+> Revisar que las partes tapizables y sus variantes representan correctamente el modelo antes de utilizarlas en ofertas, pedidos, compras o producción.
 
 ## Cuándo utilizar este procedimiento
 
-Utilízalo cuando un artículo dependa de tela, material, medida, acabado, color, unidades o incrementos asociados a una variante.
+Utilícelo al revisar un artículo configurable, al preparar una referencia nueva, al investigar un precio o consumo inesperado y antes de confirmar que una variante puede utilizarse en producción.
 
-La modificación de esta configuración puede afectar a consumos, precios o fabricación. Debe realizarla personal formado.
-
-**Perfiles autorizados y permisos concretos:** Pendiente de validación por Hacchi
+No debe modificarse una parte tapizable únicamente para corregir el resultado de una oferta concreta sin entender el efecto sobre el resto de documentos. El perfil autorizado para realizar cambios estructurales es **Pendiente de validación por Hacchi**.
 
 ## Requisitos previos
 
-- Artículo o modelo identificado.
-- Parte tapizable que debe revisarse.
-- Tela o material confirmado.
-- Medidas y unidades disponibles.
-- Criterio comercial o productivo para las variantes.
+- artículo o modelo identificado;
+- ficha correcta abierta;
+- datos de tela o material;
+- medidas y unidades disponibles;
+- documentación técnica o tarifa cuando corresponda;
+- conocimiento de qué variante se está revisando;
+- posibilidad de comparar el resultado con el producto real o su ficha.
+
+## Por qué requiere una revisión específica
+
+Una parte tapizable puede incorporar datos como tela, descripción, serie, ancho y unidades. Las variantes inferiores pueden modificar metros, acabado, color o incremento de precio. Por tanto, un valor erróneo puede producir varios efectos a la vez:
+
+- consumo de material incorrecto;
+- precio distinto al esperado;
+- compra de una tela o cantidad equivocada;
+- fabricación con una configuración incompleta;
+- dificultad para identificar el producto final.
 
 ## Vista general
 
-Abrir modelo
-→ seleccionar parte tapizable
-→ revisar material y medidas
-→ revisar variantes
-→ comprobar impacto
-→ guardar solo si está confirmado
+Abrir artículo o modelo
+→ localizar partes tapizables
+→ revisar parte principal
+→ revisar tela y medidas
+→ analizar variantes
+→ comprobar efecto
+→ guardar solo si está validado
+→ volver a abrir y revisar
 
 ## Procedimiento
 
-### Paso 1. Abrir el artículo o modelo
+### Paso 1. Abrir el artículo o modelo correcto
 
-Localiza la ficha correcta por código o descripción. Comprueba que no estás trabajando sobre una referencia similar.
+Busque por código y descripción. No seleccione una referencia únicamente porque el nombre se parezca.
 
-### Paso 2. Abrir las partes tapizables o variantes
+**Qué debe comprobar**
 
-Accede a la pantalla donde aparecen la parte, la tela, la descripción, la serie, el ancho, las unidades y la tabla inferior de variantes.
+- código;
+- descripción;
+- familia;
+- modelo;
+- estado o disponibilidad cuando aparezca;
+- ausencia de otra referencia similar.
 
-[![Pantalla de partes tapizables con datos de la parte y variantes inferiores señalados](/assets/simgest/operativa/cap_05_partes_tapizables.png =70%x)](/assets/simgest/operativa/cap_05_partes_tapizables.png)
+La revisión de variantes sobre el artículo equivocado puede parecer coherente y, aun así, afectar a otro producto.
 
-*Configuración de una parte tapizable y de las variantes relacionadas con el modelo. Pulsa la imagen para abrirla a tamaño completo.*
+### Paso 2. Abrir la pantalla de partes tapizables o variantes
 
-### Paso 3. Revisar la parte principal
+[![Pantalla de partes tapizables con la parte superior y las variantes inferiores señaladas](/assets/simgest/operativa/cap_05_partes_tapizables.png =70%x)](/assets/simgest/operativa/cap_05_partes_tapizables.png)
 
-Comprueba:
+*La captura muestra la relación entre la parte principal y las variantes asociadas al modelo.*
 
-- parte tapizable;
+**Qué debe identificar**
+
+- parte o componente tapizable;
 - tela o material;
 - descripción;
 - serie;
-- ancho y alto cuando aparezcan;
+- ancho;
 - unidades;
-- otras medidas visibles.
+- tabla de variantes.
 
-### Paso 4. Revisar las variantes inferiores
+No cambie valores antes de comprender qué parte está seleccionada y qué variantes dependen de ella.
 
-Cada variante puede modificar el comportamiento del artículo. Revisa los campos visibles relacionados con:
+### Paso 3. Revisar la parte principal
 
-- metros o consumo;
+**Qué debe hacer**
+
+Compare la parte visible con la configuración esperada del modelo.
+
+**Qué debe comprobar**
+
+- nombre de la parte;
+- tela o material asociado;
+- descripción suficientemente clara;
+- serie correcta;
+- ancho;
+- alto u otras medidas visibles;
+- unidades o cantidad base.
+
+**Por qué se hace**
+
+La parte principal actúa como referencia para las variantes. Si está mal identificada, el resto de opciones pueden aplicarse a un componente incorrecto.
+
+### Paso 4. Revisar la tela o material asociado
+
+Compruebe que la tela o material corresponde al producto y a la variante seleccionada.
+
+**Controles**
+
+- referencia correcta;
+- color o acabado cuando aparezca;
+- ancho compatible;
+- unidad de consumo;
+- ausencia de una referencia de prueba;
+- coherencia con la tarifa o ficha del proveedor.
+
+Cuando el material no pueda confirmarse con las fuentes disponibles: **Pendiente de validación por Hacchi**.
+
+### Paso 5. Revisar las variantes inferiores
+
+Analice cada variante de forma individual.
+
+**Puede afectar a:**
+
+- metros de material;
 - acabado;
 - color;
-- medida;
+- medidas;
 - incremento de precio;
-- estado activo cuando aparezca.
+- unidades;
+- condiciones de fabricación.
 
-No copies una variante de otro modelo sin comprobar que material, medida y unidad coinciden.
+**Qué debe comprobar**
 
-### Paso 5. Comprobar el impacto
+1. la variante tiene un nombre identificable;
+2. el valor pertenece al modelo abierto;
+3. la unidad es coherente;
+4. el incremento o consumo está asociado a la opción correcta;
+5. no existen duplicados aparentes;
+6. no faltan variantes necesarias para el producto.
 
-Antes de guardar, determina si el cambio puede afectar:
+### Paso 6. Comprobar el impacto antes de guardar
 
-- precio de venta;
-- consumo de material;
+Antes de modificar una variante, determine qué procesos pueden utilizarla:
+
+- oferta;
+- cálculo de precio;
 - escandallo;
 - pedido a proveedor;
+- consumo de material;
 - fabricación.
 
-**Reglas exactas de recálculo automático:** Pendiente de validación por Hacchi
+El material de origen advierte que una variante mal configurada puede cambiar precio, consumo o fabricación. Por tanto, no debe guardarse una corrección sin comprobar su efecto en un ejemplo controlado.
 
-### Paso 6. Guardar y volver a abrir
+El método exacto de prueba y aprobación de variantes es **Pendiente de validación por Hacchi**.
 
-Guarda únicamente cuando todos los datos estén confirmados. Vuelve a abrir la ficha y comprueba que la variante aparece asociada al modelo correcto.
+### Paso 7. Guardar y volver a abrir
+
+Guarde únicamente cuando los datos estén confirmados.
+
+Después de guardar:
+
+1. vuelva a abrir el artículo;
+2. seleccione la misma parte;
+3. compruebe que las variantes permanecen;
+4. revise el valor modificado;
+5. confirme que no se alteraron otras líneas.
 
 ## Resultado esperado
 
-El modelo mantiene partes, materiales, medidas y variantes coherentes con el producto que se va a presupuestar o fabricar.
+Las partes tapizables y variantes describen de forma coherente el modelo y pueden utilizarse sin introducir errores conocidos de material, medida, consumo o precio.
 
 ## Comprobación final
 
-- [ ] Artículo o modelo correcto.
-- [ ] Parte tapizable correcta.
-- [ ] Tela o material confirmado.
-- [ ] Medidas y unidades revisadas.
-- [ ] Variantes completas.
-- [ ] Impacto sobre precio y consumo evaluado.
-- [ ] Cambios guardados y comprobados.
+- [ ] El artículo y el modelo son correctos.
+- [ ] La parte principal está identificada.
+- [ ] Tela, serie, ancho y unidades son coherentes.
+- [ ] Todas las variantes se han revisado individualmente.
+- [ ] No hay referencias de prueba ni duplicados evidentes.
+- [ ] Se ha comprobado el impacto antes de modificar.
+- [ ] El cambio está validado o marcado como pendiente.
+- [ ] La ficha se ha vuelto a abrir después de guardar.
 
 ## Errores habituales
 
-| Error | Riesgo | Actuación |
+| Error | Consecuencia | Actuación |
 |---|---|---|
-| Modificar un modelo parecido | Cambiar otro artículo | Verificar código y descripción. |
-| Cambiar una variante sin revisar unidades | Consumo o precio incorrectos | Comparar material, medida y unidad. |
-| No conocer el efecto del cambio | Alterar presupuesto o fabricación | Pendiente de validación por Hacchi |
+| Modificar la referencia equivocada | Otro producto queda alterado | Confirmar código y modelo antes de editar. |
+| Revisar solo el nombre de la variante | Se ignoran unidad, consumo o incremento | Comprobar todos los campos visibles. |
+| Corregir un precio desde la variante sin revisar tarifa | Se oculta el origen del error | Comparar con tarifa y ficha. |
+| Guardar una variante incompleta | Oferta o fabricación puede quedar incoherente | Detener y validar. |
+| Desconocer el alcance del cambio | Se afectan otros documentos | Pendiente de validación por Hacchi. |
 
 ---
 
-[← 5. Generar y comprobar el PDF](/simgest/operativa/05-generar-pdf) · [Índice de operativa](/simgest/operativa) · [7. Revisar ficha y escandallo →](/simgest/operativa/07-ficha-articulo-escandallo)
+[← 5. Generar el PDF](/simgest/operativa/05-generar-pdf) · [Índice de operativa](/simgest/operativa) · [7. Revisar ficha y escandallo →](/simgest/operativa/07-ficha-articulo-escandallo)

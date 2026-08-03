@@ -8,108 +8,188 @@ editor: markdown
 
 ## 6. Revisar la migración
 
+La revisión posterior confirma que los datos importados pueden utilizarse en SIMGEST y que las incidencias conocidas están controladas. El material de origen indica que la primera migración se realiza sobre la empresa de mayor volumen y que, si el resultado es válido, el mismo proceso se aplica posteriormente al resto de empresas.
+
 > **Objetivo**
 >
-> Comprobar que los terceros y sus datos principales se han trasladado correctamente antes de extender la migración o comenzar la operativa diaria.
+> Comprobar de forma estructurada la integridad de los datos migrados, corregir las incidencias prioritarias y autorizar únicamente después la continuación del proceso.
 
 ## Cuándo utilizar este procedimiento
 
-Se aplica cuando el responsable técnico comunica que la ejecución de la migración ha finalizado y señala el punto de corte a partir del cual los datos deben mantenerse en SIMGEST.
+Debe iniciarse cuando la persona responsable de ejecutar la migración comunica que el proceso ha terminado. También debe repetirse después de cada lote de correcciones y antes de utilizar los mismos scripts o criterios en otra empresa.
+
+## Punto de corte entre sistemas
+
+La notificación de finalización debe marcar el momento a partir del cual los datos migrados dejan de actualizarse en Factusol y pasan a mantenerse en SIMGEST.
+
+**Por qué es importante**
+
+Si un usuario modifica en Factusol un registro ya migrado, el cambio no aparecerá automáticamente en SIMGEST. Se crearían dos versiones distintas del mismo dato y no habría una fuente única de verdad.
+
+La hora, fecha y forma exacta de comunicar el punto de corte son **Pendiente de validación por Hacchi**.
 
 ## Requisitos previos
 
-- Confirmación de finalización de la ejecución técnica.
-- Relación de registros señalados como problemáticos.
-- Inventarios de cuentas, formas de pago y localidades.
-- Acceso de consulta a los terceros migrados.
-- Criterio de cierre del periodo de trabajo en Factusol.
+- confirmación de que la migración ha finalizado;
+- alcance del lote ejecutado;
+- versión de los archivos utilizada;
+- listado de registros importados;
+- tabla de mapeos aplicada;
+- relación de incidencias detectadas durante el proceso;
+- acceso de consulta a las fichas migradas;
+- criterio para aprobar o rechazar el lote.
 
 ## Vista general
 
-Recibir notificación
-→ revisar muestra general
-→ revisar incidencias señaladas
-→ corregir errores
-→ validar el resultado
-→ autorizar la siguiente fase
+Confirmar el alcance
+→ registrar el punto de corte
+→ revisar integridad general
+→ analizar incidencias señaladas
+→ comprobar muestras por tipo
+→ corregir
+→ repetir controles
+→ decidir continuidad
 
 ## Procedimiento
 
 ### Fase 1. Confirmar el alcance migrado
 
-La fuente indica que la migración incluye terceros, clientes, proveedores y acreedores, con una secuencia técnica que incorpora primero la información común y después los roles específicos.
+El material de origen documenta una migración que cubre terceros, bancos, clientes, proveedores y acreedores mediante scripts preparados para insertar los datos en una secuencia determinada.
 
-**Qué debe comprobar:** solicita o revisa la relación de entidades incluidas en la ejecución y el momento exacto del corte.
+**Qué debe comprobar**
+
+- empresa migrada;
+- tablas incluidas;
+- número aproximado de registros;
+- versión de los archivos;
+- mapeos utilizados;
+- fecha de ejecución;
+- incidencias generadas.
+
+No comience la validación sin saber qué contenido debía haberse importado. Un registro ausente solo puede detectarse si forma parte del alcance esperado.
 
 ### Fase 2. Aplicar el punto de corte
 
-Cuando Pedro comunique que la migración está completa, el equipo debe identificar qué datos ya forman parte de SIMGEST.
+Registre el momento desde el que los nuevos cambios deben hacerse en SIMGEST.
 
-**Regla documentada:** no modificar en Factusol los datos ya incluidos en la migración después del punto de corte comunicado.
+**Qué debe comunicar el aviso**
 
-**Procedimiento para cambios urgentes durante el corte:** Pendiente de validación por Hacchi
+- que la migración ha terminado;
+- qué datos están incluidos;
+- desde qué momento Factusol deja de actualizarse para ese alcance;
+- dónde deben registrarse las nuevas altas o cambios;
+- qué incidencias siguen pendientes.
+
+**Resultado esperado**
+
+El equipo trabaja sobre una sola fuente de datos y no genera cambios paralelos.
 
 ### Fase 3. Realizar una revisión general
 
-La fuente no plantea revisar manualmente todos los registros uno por uno. Se realiza una revisión general y se presta atención específica a los registros señalados.
+El material de origen señala que no se revisan individualmente los aproximadamente 1.500 registros. La revisión general debe combinar controles globales con muestras representativas.
 
-[![Listado general de terceros migrados con el área de registros señalada](/assets/simgest/migracion/mig_09_revision_post_migracion.png =70%x)](/assets/simgest/migracion/mig_09_revision_post_migracion.png)
+**Controles globales recomendados a partir del material disponible**
 
-*Vista utilizada para revisar el resultado general de la migración. Pulsa la imagen para abrirla a tamaño completo.*
+- comparar el número de registros por tipo;
+- comprobar que existen terceros, clientes, proveedores y acreedores;
+- buscar fichas sin cuenta contable;
+- localizar formas de pago provisionales;
+- localizar localidades **Desconocida**;
+- revisar registros sin país o provincia;
+- revisar duplicados evidentes por CIF y rol;
+- comprobar que los códigos originales se conservan.
 
-Comprueba una muestra que incluya:
+El tamaño exacto de la muestra y los criterios estadísticos de validación son **Pendiente de validación por Hacchi**.
 
-- códigos de terceros;
-- cliente o proveedor asociado;
-- NIF o CIF;
-- razón social;
-- cuenta contable;
-- forma de pago;
-- dirección y localidad;
-- notas propias de cada rol.
+[![Listado de revisión posterior con registros migrados y zonas de control señaladas](/assets/simgest/migracion/mig_09_revision_post_migracion.png =70%x)](/assets/simgest/migracion/mig_09_revision_post_migracion.png)
+
+*La captura representa la revisión general de los registros importados y la localización de incidencias.*
 
 ### Fase 4. Revisar las incidencias prioritarias
 
-Da prioridad a:
+La revisión debe centrarse especialmente en los registros señalados durante la migración:
 
 - localidades no identificadas;
-- localidades asignadas por coincidencia parcial;
-- valores Desconocida;
-- cuentas que no coincidan con Factusol;
+- coincidencias dudosas por código postal;
+- cuentas contables incorrectas;
+- códigos modificados;
 - formas de pago provisionales;
-- terceros con el mismo CIF y varios roles.
+- terceros con varios roles;
+- fichas con datos incompletos.
+
+**Qué debe hacer**
+
+Abra la ficha, compárela con el archivo de origen y documente la decisión. No corrija varios campos a la vez sin dejar constancia, porque después será difícil saber qué cambio resolvió la incidencia.
 
 ### Fase 5. Corregir y volver a comprobar
 
-Después de corregir un dato, vuelve a abrir el registro y compara el resultado con la fuente de origen. No cierres una incidencia únicamente porque se haya guardado un cambio.
+Cada corrección debe seguir este ciclo:
+
+1. identificar el dato incorrecto;
+2. localizar el valor de origen;
+3. aplicar la corrección en SIMGEST;
+4. guardar;
+5. volver a abrir la ficha;
+6. comprobar el resultado;
+7. actualizar el estado de la incidencia.
+
+**Qué no debe hacerse**
+
+- cerrar la incidencia antes de revisar la ficha;
+- cambiar códigos o cuentas para que “encajen” sin respaldo;
+- corregir en Factusol después del punto de corte y asumir que llegará a SIMGEST;
+- reutilizar una localidad dudosa en otros registros.
 
 ### Fase 6. Validar la siguiente migración
 
-La fuente plantea utilizar la primera empresa migrada como validación antes de aplicar el mismo proceso al resto.
+El material de origen indica que, si la migración inicial es correcta, se continúa con otras empresas utilizando el mismo proceso y scripts.
 
-**Responsable que autoriza el paso a la siguiente empresa:** Pendiente de validación por Hacchi
+Antes de continuar debe comprobarse:
+
+- que los errores detectados se han corregido en el criterio o en el script, no solo en las fichas finales;
+- que los mapeos están actualizados;
+- que las incidencias repetibles tienen una solución definida;
+- que la siguiente empresa dispone de archivos actualizados;
+- que la aprobación está documentada.
+
+La autorización final para continuar con otras empresas es **Pendiente de validación por Hacchi**.
+
+### Fase 7. Establecer la operativa futura
+
+Una vez completada la migración, las nuevas altas y modificaciones deben realizarse directamente en SIMGEST. El material de origen indica que el equipo pasará a:
+
+- dar de alta nuevos terceros;
+- configurar sus fichas según el tipo;
+- alimentar la base con nuevos registros.
+
+Antes de iniciar esa operativa, los usuarios deben conocer los procedimientos de alta y los criterios de datos maestros. Los detalles no incluidos en los materiales actuales permanecen pendientes de validación.
 
 ## Resultado esperado
 
-Los registros revisados mantienen sus códigos y datos esenciales, las incidencias conocidas están corregidas o documentadas y existe una decisión explícita sobre la continuación del proceso.
+El lote migrado dispone de una revisión documentada, las incidencias prioritarias están resueltas o controladas y existe una decisión explícita sobre si puede utilizarse como base para la operativa y para migraciones posteriores.
 
 ## Comprobación final
 
-- [ ] Se conoce el alcance y el punto de corte.
-- [ ] Se ha realizado una revisión general.
-- [ ] Los registros señalados se han comprobado individualmente.
-- [ ] Las correcciones se han validado después de guardar.
-- [ ] Los valores provisionales siguen registrados si no están resueltos.
-- [ ] Existe autorización para continuar con la siguiente fase.
+- [ ] Se conoce el alcance exacto del lote.
+- [ ] Se ha registrado la versión de los archivos.
+- [ ] El punto de corte ha sido comunicado.
+- [ ] Se han realizado controles globales.
+- [ ] Se han revisado muestras por tipo de registro.
+- [ ] Las incidencias prioritarias están documentadas.
+- [ ] Cada corrección se ha comprobado después de guardar.
+- [ ] Los errores repetibles se han corregido en el proceso.
+- [ ] La continuidad con otras empresas tiene validación expresa.
 
 ## Errores habituales
 
 | Error | Riesgo | Actuación |
 |---|---|---|
-| Seguir modificando Factusol tras el corte | Divergencia entre sistemas | Detener el cambio y comunicar la incidencia. |
-| Revisar solo registros aleatorios | Omitir los casos ya señalados | Empezar por la lista de incidencias. |
-| Cerrar una incidencia sin comprobar el resultado | Mantener datos incorrectos | Reabrir la ficha y comparar con el origen. |
+| Revisar solo algunas fichas fáciles | Las incidencias críticas quedan ocultas | Incluir registros marcados y muestras por tipo. |
+| Continuar editando Factusol | Aparecen versiones divergentes | Aplicar y comunicar el punto de corte. |
+| Corregir la ficha pero no el criterio | El error se repite en la siguiente empresa | Actualizar mapeo o script. |
+| Aprobar sin registrar pendientes | Se confunden incidencias con datos válidos | Mantener una lista de riesgos abierta. |
+| Migrar otra empresa sin aprobación | Se replica un proceso no validado | Pendiente de validación por Hacchi. |
 
 ---
 
-[← 5. Utilizar la localidad Desconocida](/simgest/migracion/05-localidad-desconocida) · [Índice de migración](/simgest/migracion) · [7. Controles y advertencias →](/simgest/migracion/07-notas-advertencias)
+[← 5. Utilizar Desconocida](/simgest/migracion/05-localidad-desconocida) · [Índice de migración](/simgest/migracion) · [7. Controles y advertencias →](/simgest/migracion/07-notas-advertencias)

@@ -70,3 +70,4 @@ Antes de utilizar esta sección, la migración inicial debe haber sido revisada 
 - [Consulta de terceros, direcciones y documentación](/simgest/operativa/gestion-terceros-clientes-proveedores)
 - [Consulta de artículos y ofertas](/simgest/operativa/configuracion-articulos-y-ofertas)
 - [Crear un presupuesto en SIMGEST](/simgest/operativa/presupuestos)
+- [Tesorería y contabilidad](/simgest/operativa/tesoreria-contabilidad)
